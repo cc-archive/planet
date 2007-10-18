@@ -1,0 +1,27 @@
+# NOTE:
+## This is a config SNIPPET - it gets appended to the affiliate and people
+## configs.
+
+[Planet]
+name = Creative Commons Planet: Us, jurisdictions, and people
+link = http://planet.creativecommons.org/
+owner_name = Asheesh Laroia
+owner_email = asheesh@creativecommons.org
+
+cache_directory = /web/planet.creativecommons.org/cache/
+feed_timeout = 20
+
+output_theme = cc 
+output_dir = /web/planet.creativecommons.org/www/
+items_per_page = 60
+
+[DEFAULT]
+# the "face"s are what, for affiliate countries' flags?
+facewidth = 65
+faceheight = 85
+
+## Let's get some blogz
+
+[http://creativecommons.org/feed/]
+name = Creative Commons
+

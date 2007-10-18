@@ -1,0 +1,114 @@
+[Planet]
+name = CC Affiliate blogs
+link = http://planet.creativecommons.org/jurisdictions/
+owner_name = Asheesh Laroia
+owner_email = asheesh@creativecommons.org
+
+cache_directory = /web/planet.creativecommons.org/cache/
+feed_timeout = 20
+
+output_theme = cc 
+output_dir = /web/planet.creativecommons.org/www/jurisdictions/
+items_per_page = 60
+
+[DEFAULT]
+# the "face"s are what, for affiliate countries' flags?
+facewidth = 65
+faceheight = 85
+
+## Let's get some blogz
+
+[http://creativecommons.org.au/node/feed]
+name = Australia
+country_code = au
+
+# http://www.creativecommons.at/ = Austria, but no feed?
+
+# http://www.creativecommons.org.br/ = Brazil, but no feed?
+
+# http://cc.isoc.bg/ = Bulgaria, but no feed?
+
+[http://creativecommons.ca/blog/feed/]
+name = Canada
+country_code = ca
+
+[http://creativecommons.cl/feed/]
+name = Chile
+country_code = cl
+
+[http://cn.creativecommons.org/index.php/feed/]
+name = China Mainland
+country_code = cn
+
+[http://creativecommons.poligran.edu.co/index.php?option=com_rss&feed=ATOM0.3&no_html=1]
+name = Colombia
+country_code = co
+
+# http://creativecommons.fi/ajankohtaista/ = finland but no feed?
+
+[http://fr.creativecommons.org/weblog/atom.php]
+name = France
+country_code = fr
+
+# http://de.creativecommons.org/ = Germany but no feed?
+
+[http://creativecommons.org.il/blog/wp-rss.php]
+name = Israel
+country_code = il
+
+# http://cc-india.org/index.php?q=node/27 = India but no feed?
+
+[http://www.creativecommons.it/node/feed]
+name = Italy
+country_code = it
+
+[http://www.creativecommons.jp/news/feeds/news/index.xml]
+name = Japan
+country_code = jp
+
+[http://creativecommons.org.mx/feed/]
+name = Mexico
+country_code = mx
+
+[http://www.creativecommons.or.kr/blog/index.xml]
+name = Korea
+country_code = kr
+
+[http://creativecommons.nl/feed/]
+name = Netherlands
+country_code = nl
+
+[http://pe.creativecommons.org/index.php/feed/]
+name = Peru
+country_code = pe
+
+# http://pt.creativecommons.org/ is dot PT but no feed?
+
+# http://creativecommons.si/ is SI but no feed?
+
+[http://za.creativecommons.org/feed/atom/]
+name = South Africa
+country_code = za
+
+[http://creativecommons.pl/feed/atom/]
+name = Poland
+country_code = pl
+
+[http://es.creativecommons.org/blog/index.php/feed/atom/]
+name = Spain
+country_code = es
+
+[http://creativecommons.org.tw/node/feed]
+name = Taiwan
+country_code = tw
+
+[http://www.creativecommons.ch/weblog/feed/atom/]
+name = Switzerland
+country_code = ch
+
+# http://www.creativecommons.org.uk/blog/ is UK but no feed?
+
+# Alex: Catalan stuff
+# [http://cat.creativecommons.org/blog/wp-rss.php]
+# name = Catalan
+# country_code = cat
