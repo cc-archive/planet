@@ -1,5 +1,5 @@
 [Planet]
-name = CC Affiliate blogs
+name = CC jurisdiction project blogs
 link = http://planet.creativecommons.org/jurisdictions/
 owner_name = Asheesh Laroia
 owner_email = asheesh@creativecommons.org
@@ -19,8 +19,9 @@ faceheight = 85
 ## Let's get some blogz
 
 [http://creativecommons.org.au/node/feed]
-name = Australia
+name = CC Australia
 country_code = au
+default_license = <a about="http://creativecommons.org.au" rel="license" href="http://creativecommons.org/licenses/by-sa/2.1/au/">Licensed under Attribution-ShareAlike 2.1 Australia</a>
 
 # http://www.creativecommons.at/ = Austria, but no feed?
 
@@ -29,86 +30,103 @@ country_code = au
 # http://cc.isoc.bg/ = Bulgaria, but no feed?
 
 [http://creativecommons.ca/blog/feed/]
-name = Canada
+name = CC Canada
 country_code = ca
+default_license = <a about="http://creativecommons.ca" rel="license" href="http://creativecommons.org/licenses/by/2.5/ca/">Licensed under Attribution 2.5 Canada</a>
 
 [http://creativecommons.cl/feed/]
-name = Chile
+name = CC Chile
 country_code = cl
+default_license = <a about="http://creativecommons.cl" rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/cl/">Licensed under Attribution Non-commercial ShareAlike 2.0 Chile</a>
 
 [http://cn.creativecommons.org/index.php/feed/]
-name = China Mainland
+name = CC China Mainland
 country_code = cn
+default_license = <a about="http://cn.creativecommons.org" rel="license" href="http://creativecommons.org/licenses/by/2.5/cn/">Licensed under Attribution 2.5 China<a>
 
 [http://creativecommons.poligran.edu.co/index.php?option=com_rss&feed=ATOM0.3&no_html=1]
-name = Colombia
+name = CC Colombia
 country_code = co
+default_license = <a about="http://creativecommons.poligran.edu.co" rel="license" href="http://creativecommons.org/licenses/by-sa/2.5/co/">Licensed under Attribution ShareAlike 2.5 Colombia</a>
 
 # http://creativecommons.fi/ajankohtaista/ = finland but no feed?
 
 [http://fr.creativecommons.org/weblog/atom.php]
-name = France
+name = CC France
 country_code = fr
+default_license = <a about="http://fr.creativecommons.org" rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/fr/">Licensed under Attribution ShareAlike 2.0 France</a>
 
 # http://de.creativecommons.org/ = Germany but no feed?
 
 [http://creativecommons.org.il/blog/wp-rss.php]
-name = Israel
+name = CC Israel
 country_code = il
+default_license = <a about="http://creativecommons.org.il" rel="license" href="http://creativecommons.org/licenses/by-sa/2.5/il/">Licensed under Attribution ShareAlike 2.5 Israel</a>
 
 # http://cc-india.org/index.php?q=node/27 = India but no feed?
 
 [http://www.creativecommons.it/node/feed]
-name = Italy
+name = CC Italy
 country_code = it
+default_license = <a about="http://www.creativecommons.it" rel="license" href="http://creativecommons.org/licenses/by-sa/2.5/it/">Licensed under Attribution 2.5 Italy</a>
 
 [http://www.creativecommons.jp/news/feeds/news/index.xml]
-name = Japan
+name = CC Japan
 country_code = jp
-
-[http://creativecommons.org.mx/feed/]
-name = Mexico
-country_code = mx
+default_license = <a about="http://www.creativecommons.jp" rel="license" href="http://creativecommons.org/licenses/by/2.1/jp/">Licensed under Attribution 2.1 Japan</a>
 
 [http://www.creativecommons.or.kr/blog/index.xml]
-name = Korea
+name = CC Korea
 country_code = kr
+default_license = <a about="http://www.creativecommons.or.kr" rel="license" href="http://creativecommons.org/licenses/by/2.0/kr/">Licensed under Attribution 2.0 Korea</a>
+
+[http://creativecommons.org.mx/feed/]
+name = CC Mexico
+country_code = mx
+default_license = <a about="http://creativecommons.org.mx" rel="license" href="http://creativecommons.org/licenses/by/2.5/mx/">Licensed under Attribution 2.5 Mexico</a>
 
 [http://creativecommons.nl/feed/]
-name = Netherlands
+name = CC Netherlands
 country_code = nl
+default_license = <a about="http://creativecommons.nl" rel="license" href="http://creativecommons.org/licenses/by/3.0/nl/">Licensed under Attribution 3.0 Netherlands</a>
 
 [http://pe.creativecommons.org/index.php/feed/]
-name = Peru
+name = CC Peru
 country_code = pe
+default_license = <a about="http://pe.creativecommons.org" rel="license" href="http://creativecommons.org/licenses/by/2.5/">Licensed under Attribution 2.5 Unported</a>
 
 # http://pt.creativecommons.org/ is dot PT but no feed?
 
 # http://creativecommons.si/ is SI but no feed?
 
-[http://za.creativecommons.org/feed/atom/]
-name = South Africa
-country_code = za
-
 [http://creativecommons.pl/feed/atom/]
-name = Poland
+name = CC Poland
 country_code = pl
+default_license = <a about="http://creativecommons.pl" rel="license" href="http://creativecommons.org/licenses/by/2.5/pl/">Licensed under Attribution 2.5 Poland</a>
+
+[http://za.creativecommons.org/feed/atom/]
+name = CC South Africa
+country_code = za
+default_license = <a about="http://za.creativecommons.org" rel="license" href="http://creativecommons.org/licenses/by/2.5/">Licensed under Attribution 2.5 Unported</a>
 
 [http://es.creativecommons.org/blog/index.php/feed/atom/]
-name = Spain
+name = CC Spain
 country_code = es
-
-[http://creativecommons.org.tw/node/feed]
-name = Taiwan
-country_code = tw
+default_license = <a about="http://es.creativecommons.org" rel="license" href="http://creativecommons.org/licenses/by/2.1/es/">Licensed under Attribution 2.1 Spain</a>
 
 [http://www.creativecommons.ch/weblog/feed/atom/]
-name = Switzerland
+name = CC Switzerland
 country_code = ch
+default_license = <a about="http://www.creativecommons.ch" rel="license" href="http://creativecommons.org/licenses/by/2.5/ch/">Licensed under Attribution 2.5 Switzerland</a>
+
+[http://creativecommons.org.tw/node/feed]
+name = CC Taiwan
+country_code = tw
+default_license = <a about="http://creativecommons.org/tw/" rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/tw/">Licensed under Attribution ShareAlike 2.0 Taiwan</a>
 
 # http://www.creativecommons.org.uk/blog/ is UK but no feed?
 
 # Alex: Catalan stuff
 # [http://cat.creativecommons.org/blog/wp-rss.php]
-# name = Catalan
+# name = CC Catalan
 # country_code = cat

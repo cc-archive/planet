@@ -19,5 +19,23 @@ faceheight = 85
 
 ## Let's get some blogz
 
-[http://rejon.org/feed/]
-name = Jon Phillips
+[http://lessig.org/blog/atom.xml]
+name = Lawrence Lessig
+default_license = <a about="http://lessig.org" rel="license" href="http://creativecommons.org/licenses/by/3.0/us/">Licensed under Attribution 3.0 United States</a>
+
+[http://joi.ito.com/atom.xml]
+name = Joi Ito
+default_license = <a about="http://joi.ito.com" rel="license" href="http://creativecommons.org/licenses/by/2.5/">Licensed under Attribution 2.5</a>
+
+[http://gondwanaland.com/mlog/category/creative-commons/feed/]
+name = Mike Linksvayer
+default_license = <a about="http://gondwanaland.com/mlog/" rel="license" href="http://creativecommons.org/licenses/publicdomain/">Dedicated to the Public Domain</a>
+
+[http://ccelliott.blogspot.com/feeds/posts/default]
+name = Elliott Bledsoe
+default_license = <a about="http://ccelliott.blogspot.com" rel="license" href="http://creativecommons.org/licenses/by/2.5/au/">Licensed under Attribution 2.5 Australia</a>
+
+[http://www.karisma.org.co/carobotero/?feed=atom]
+name = Carolina Botero
+default_license = <a about="http://ccelliott.blogspot.com" rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/co/">Licensed under Attribution-NonCommercial-ShareAlike 2.5 Colombia</a>
+

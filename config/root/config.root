@@ -24,4 +24,8 @@ faceheight = 85
 
 [http://creativecommons.org/feed/]
 name = Creative Commons
+default_license = <a about="http://creativecommons.org" rel="license" href="http://creativecommons.org/licenses/by/3.0/">Licensed under Attribution 3.0 Unported</a>
 
+[http://sciencecommons.org/feed/]
+name = Science Commons
+default_license = <a about="http://sciencecommons.org" rel="license" href="http://creativecommons.org/licenses/by/3.0/">Licensed under Attribution 3.0 Unported</a>
