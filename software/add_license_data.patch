@@ -1,0 +1,129 @@
+--- planet/shell/tmpl.py		2007-11-01 17:06:35.000000000 -0700
++++ planet/shell/tmpl.py-new	2007-11-06 12:18:56.000000000 -0800
+@@ -2,6 +2,8 @@
+ import sgmllib, time, os, sys, new, urlparse, re
+ from planet import config, feedparser
+ import htmltmpl
++import urllib
++from xml.dom import minidom
+ 
+ voids=feedparser._BaseHTMLProcessor.elements_no_end_tag
+ empty=re.compile(r"<((%s)[^>]*)></\2>" % '|'.join(voids))
+@@ -120,12 +122,18 @@
+     ['published', PlanetDate, 'published_parsed'],
+     ['published_822', Rfc822, 'published_parsed'],
+     ['published_iso', Rfc3399, 'published_parsed'],
++    ['license', String, 'source', 'links', {'rel': 'license'}, 'href']
+ ]
+ 
+ # Add additional rules for source information
+ for rule in Base:
+     Items.append(['channel_'+rule[0], rule[1], 'source'] + rule[2:])
+ 
++# Setup a temporary cache for CC license URI -> human-readable name lookups to
++# minimize network requests and parsing, etc.  For every lookup we'll add an
++# entry to this dict
++cc_name_map = {}
++
+ def tmpl_mapper(source, rules):
+     "Apply specified rules to the source, and return a template dictionary"
+     output = {}
+@@ -141,6 +149,15 @@
+                     elif node.get('type','')=='application/xhtml+xml':
+                         node['value'] = empty.sub(r"<\1 />", node['value'])
+                 node = node[path]
++                      
++            # This is a special-case elif needed to grab license info from the
++            # feed data.  Normally node will be a simple list or dict, but in
++            # the case of license information, node is a list of lists, so we
++            # need to look inside the first item, which is where the license
++            # data seems to always be.
++            elif isinstance(path, str) and isinstance(node, list) and \
++                    path in node[0]:
++                node = node[0][path]
+             elif isinstance(path, int):
+                 node = node[path]
+             elif isinstance(path, dict):
+@@ -155,8 +172,61 @@
+             else:
+                 break
+         else:
+-            if node: output[rule[0]] = rule[1](node)
+-        
++            # If this node contains license information, indicated by rule[0]
++            # being 'license' (from lists Base and Items), then convert the URL
++            # into a complete hyperlink that can inserted directly into a
++            # template.
++            #
++            # If the license happens to be a CC license, then jump through a
++            # few hoops to get the proper name of the license.
++            if node:
++                if rule[0] == 'license':
++                    # Grab the URL that this license applies to
++                    blog_src = source.link 
++                    lic_txt = 'License information'
++                    lic_str = '(<a about="' + blog_src + '"' \
++                              'rel="license" href="%s"' \
++                              'title="License information"' \
++                              'style="font-size: x-small;">%s</a>)'
++                    # if creativecommons.org is the domain of the URI, then
++                    # we'll take it to be a CC license.
++                    if re.match(r'^http:\/\/creativecommons\.org', node):
++                        # it would be nice to have the value of cc_api set in
++                        # some config file and remove it from here.
++                        cc_api = 'http://api.creativecommons.org/rest/dev/' \
++                                 'details?license-uri='
++
++                        # First check to see if the URI has already been mapped
++                        # to a human-readable name.  If so, use the cached
++                        # copy, and if not, go look it up
++                        if node in cc_name_map:
++                            lic_txt = cc_name_map[node]
++                        else:
++                            try:
++                                # Try to fetch some data about this CC license
++                                cc_data = urllib.urlopen(cc_api + node)
++                            except IOError:
++                                pass
++                            else:
++                                # Parse data returned from cc_api and extract
++                                # the name of the license.  Later on, more info
++                                # could be extracted from this.
++                                xmldoc = minidom.parse(cc_data)
++                                lic_txt = 'Licensed under ' + \
++                                    xmldoc.getElementsByTagName(
++                                        'license-name')[0].childNodes[0].toxml()
++                                # Now cache the URI to name mapping in
++                                # cc_name_map so that we don't have to fetch it
++                                # again
++                                cc_name_map[node] = lic_txt
++
++                    lic_a =  lic_str % (node, lic_txt)
++                    # Drop an item into output named 'license' that will later
++                    # be available in the template
++                    output['license'] = str(lic_a)
++                else:
++                    output[rule[0]] = rule[1](node)
++    
+     # copy over all planet namespaced elements from parent source
+     for name,value in source.items():
+         if name.startswith('planet_'):
+
+
+
+--- themes/classic_fancy/index.html.tmpl		2007-11-06 10:56:51.000000000 -0800
++++ themes/classic_fancy/index.html.tmpl-new	2007-11-06 15:25:40.000000000 -0800
+@@ -60,6 +60,13 @@
+ <div class="entrygroup" id="<TMPL_VAR id>"<TMPL_IF channel_language> lang="<TMPL_VAR channel_language>"</TMPL_IF>>
+ <TMPL_IF title>
+ <h4<TMPL_IF title_language> lang="<TMPL_VAR title_language>"</TMPL_IF>><a href="<TMPL_VAR link ESCAPE="HTML">"><TMPL_VAR title></a></h4>
++
++<TMPL_IF license>
++&nbsp;<TMPL_VAR license>
++<TMPL_ELSE>
++&nbsp;<TMPL_VAR channel_default_license>
++</TMPL_IF>
++
+ </TMPL_IF>
+ <div class="entry">
+ <div class="content"<TMPL_IF content_language> lang="<TMPL_VAR content_language>"</TMPL_IF>>
