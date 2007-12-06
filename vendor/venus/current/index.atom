@@ -1,0 +1,592 @@
+<?xml version='1.0' encoding='utf-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom'>
+  <title>venus</title>
+  <id>tag:intertwingly.net,2006-08-16:code/venus</id>
+  <link href='http://intertwingly.net/code/venus/'/>
+  <link rel='self' type='application/atom+xml' href='/code/venus/index.atom'/>
+  <updated>2007-08-19T01:37:40Z</updated>
+
+  <entry>
+    <author>
+      <name>Jacques Distler</name>
+    </author>
+    <title>Revision 79: Tweak to Musings Templates for License Info</title>
+    <link href='http://intertwingly.net/code/venus/#79'/>
+    <id>tag:distler@golem.ph.utexas.edu,2007-11-11:22:58:04-o7gt71javl9yoykf</id>
+    <updated>2007-11-11T22:58:04Z</updated>
+    <content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+    <p><br/>
+Following the lead of Sam Ruby:<br/>
+<br/>
+   http://intertwingly.net/blog/2007/11/11/Making-Rights-Declarations-Easier-To-Find</p>
+    <dl>
+      <dt>Modified:</dt><dd><ul>
+        <li><a href='http://intertwingly.net/code/venus/themes/musings/default.css'>themes/musings/default.css</a></li>
+        <li><a href='http://intertwingly.net/code/venus/themes/musings/index.html.xslt'>themes/musings/index.html.xslt</a></li>
+      </ul></dd>
+    </dl>
+    </div></content>
+  </entry>
+
+  <entry>
+    <author>
+      <name>Jacques Distler</name>
+    </author>
+    <title>Revision 78: Sync with trunk.</title>
+    <link href='http://intertwingly.net/code/venus/#78'/>
+    <id>tag:distler@golem.ph.utexas.edu,2007-11-11:21:04:56-oscv98rqkzm6y794</id>
+    <updated>2007-11-11T21:04:56Z</updated>
+    <content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+    <dl>
+      <dt>Added:</dt><dd><ul>
+        <li><a href='http://intertwingly.net/code/venus/filters/minhead.py'>filters/minhead.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/filters/xhtml2html.plugin'>filters/xhtml2html.plugin</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/csv_config.py'>planet/csv_config.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/'>planet/vendor/</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/'>planet/vendor/html5lib/</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/__init__.py'>planet/vendor/html5lib/__init__.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/constants.py'>planet/vendor/html5lib/constants.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/filters/'>planet/vendor/html5lib/filters/</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/filters/__init__.py'>planet/vendor/html5lib/filters/__init__.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/filters/_base.py'>planet/vendor/html5lib/filters/_base.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/filters/inject_meta_charset.py'>planet/vendor/html5lib/filters/inject_meta_charset.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/filters/lint.py'>planet/vendor/html5lib/filters/lint.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/filters/optionaltags.py'>planet/vendor/html5lib/filters/optionaltags.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/filters/whitespace.py'>planet/vendor/html5lib/filters/whitespace.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/html5parser.py'>planet/vendor/html5lib/html5parser.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/inputstream.py'>planet/vendor/html5lib/inputstream.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/liberalxmlparser.py'>planet/vendor/html5lib/liberalxmlparser.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/sanitizer.py'>planet/vendor/html5lib/sanitizer.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/serializer/'>planet/vendor/html5lib/serializer/</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/serializer/__init__.py'>planet/vendor/html5lib/serializer/__init__.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/serializer/htmlserializer.py'>planet/vendor/html5lib/serializer/htmlserializer.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/serializer/xhtmlserializer.py'>planet/vendor/html5lib/serializer/xhtmlserializer.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/tokenizer.py'>planet/vendor/html5lib/tokenizer.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/treebuilders/'>planet/vendor/html5lib/treebuilders/</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/treebuilders/__init__.py'>planet/vendor/html5lib/treebuilders/__init__.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/treebuilders/_base.py'>planet/vendor/html5lib/treebuilders/_base.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/treebuilders/dom.py'>planet/vendor/html5lib/treebuilders/dom.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/treebuilders/etree.py'>planet/vendor/html5lib/treebuilders/etree.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/treebuilders/simpletree.py'>planet/vendor/html5lib/treebuilders/simpletree.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/treebuilders/soup.py'>planet/vendor/html5lib/treebuilders/soup.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/treewalkers/'>planet/vendor/html5lib/treewalkers/</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/treewalkers/__init__.py'>planet/vendor/html5lib/treewalkers/__init__.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/treewalkers/_base.py'>planet/vendor/html5lib/treewalkers/_base.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/treewalkers/dom.py'>planet/vendor/html5lib/treewalkers/dom.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/treewalkers/etree.py'>planet/vendor/html5lib/treewalkers/etree.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/treewalkers/genshistream.py'>planet/vendor/html5lib/treewalkers/genshistream.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/treewalkers/pulldom.py'>planet/vendor/html5lib/treewalkers/pulldom.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/treewalkers/simpletree.py'>planet/vendor/html5lib/treewalkers/simpletree.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/treewalkers/soup.py'>planet/vendor/html5lib/treewalkers/soup.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/html5lib/utils.py'>planet/vendor/html5lib/utils.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/config/basic.csv'>tests/data/config/basic.csv</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/config/rlist-config.ini'>tests/data/config/rlist-config.ini</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/config/rlist-csv.ini'>tests/data/config/rlist-csv.ini</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/config/subconfig.ini'>tests/data/config/subconfig.ini</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/filter/minhead.ini'>tests/data/filter/minhead.ini</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/filter/minhead.xml'>tests/data/filter/minhead.xml</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/filter/tmpl/content_xhtml2.xml'>tests/data/filter/tmpl/content_xhtml2.xml</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/reconstitute/author_noname.xml'>tests/data/reconstitute/author_noname.xml</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/reconstitute/category_blank_term.xml'>tests/data/reconstitute/category_blank_term.xml</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/reconstitute/empty_title.xml'>tests/data/reconstitute/empty_title.xml</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/reconstitute/missing_title.xml'>tests/data/reconstitute/missing_title.xml</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/spider/testfeed4.atom'>tests/data/spider/testfeed4.atom</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/test_config_csv.py'>tests/test_config_csv.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/test_subconfig.py'>tests/test_subconfig.py</a></li>
+      </ul></dd>
+      <dt>Removed:</dt><dd><ul>
+        <li>filters/xhtml2html.py</li>
+        <li>planet/html5lib/</li>
+        <li>planet/html5lib/__init__.py</li>
+        <li>planet/html5lib/constants.py</li>
+        <li>planet/html5lib/html5parser.py</li>
+        <li>planet/html5lib/inputstream.py</li>
+        <li>planet/html5lib/liberalxmlparser.py</li>
+        <li>planet/html5lib/tokenizer.py</li>
+        <li>planet/html5lib/treebuilders/</li>
+        <li>planet/html5lib/treebuilders/__init__.py</li>
+        <li>planet/html5lib/treebuilders/_base.py</li>
+        <li>planet/html5lib/treebuilders/dom.py</li>
+        <li>planet/html5lib/treebuilders/etree.py</li>
+        <li>planet/html5lib/treebuilders/etreefull.py</li>
+        <li>planet/html5lib/treebuilders/simpletree.py</li>
+        <li>planet/html5lib/utils.py</li>
+      </ul></dd>
+      <dt>Renamed:</dt><dd><ul>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/compat_logging/'>planet/compat_logging/</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/feedparser.py'>planet/feedparser.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/htmltmpl.py'>planet/htmltmpl.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/httplib2/'>planet/httplib2/</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/portalocker.py'>planet/portalocker.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/vendor/timeoutsocket.py'>planet/timeoutsocket.py</a></li>
+      </ul></dd>
+      <dt>Modified:</dt><dd><ul>
+        <li><a href='http://intertwingly.net/code/venus/README'>README</a></li>
+        <li><a href='http://intertwingly.net/code/venus/docs/config.html'>docs/config.html</a></li>
+        <li><a href='http://intertwingly.net/code/venus/docs/filters.html'>docs/filters.html</a></li>
+        <li><a href='http://intertwingly.net/code/venus/docs/normalization.html'>docs/normalization.html</a></li>
+        <li><a href='http://intertwingly.net/code/venus/examples/opml-top100.ini'>examples/opml-top100.ini</a></li>
+        <li><a href='http://intertwingly.net/code/venus/filters/excerpt.py'>filters/excerpt.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/filters/html2xhtml.plugin'>filters/html2xhtml.plugin</a></li>
+        <li><a href='http://intertwingly.net/code/venus/filters/mememe.plugin'>filters/mememe.plugin</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/__init__.py'>planet/__init__.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/config.py'>planet/config.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/expunge.py'>planet/expunge.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/foaf.py'>planet/foaf.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/idindex.py'>planet/idindex.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/reconstitute.py'>planet/reconstitute.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/shell/__init__.py'>planet/shell/__init__.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/shell/dj.py'>planet/shell/dj.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/shell/tmpl.py'>planet/shell/tmpl.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/shell/xslt.py'>planet/shell/xslt.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/spider.py'>planet/spider.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/splice.py'>planet/splice.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/apply/config-html.ini'>tests/data/apply/config-html.ini</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/filter/django/test.xml'>tests/data/filter/django/test.xml</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/filter/excerpt-lorem-ipsum.ini'>tests/data/filter/excerpt-lorem-ipsum.ini</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/reconstitute/category_label.xml'>tests/data/reconstitute/category_label.xml</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/reconstitute/category_scheme.xml'>tests/data/reconstitute/category_scheme.xml</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/reconstitute.py'>tests/reconstitute.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/test_apply.py'>tests/test_apply.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/test_expunge.py'>tests/test_expunge.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/test_filter_django.py'>tests/test_filter_django.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/test_filter_genshi.py'>tests/test_filter_genshi.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/test_filters.py'>tests/test_filters.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/test_idindex.py'>tests/test_idindex.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/test_scrub.py'>tests/test_scrub.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/test_spider.py'>tests/test_spider.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/themes/asf/default.css'>themes/asf/default.css</a></li>
+        <li><a href='http://intertwingly.net/code/venus/themes/asf/index.html.xslt'>themes/asf/index.html.xslt</a></li>
+        <li><a href='http://intertwingly.net/code/venus/themes/common/opml.xml.xslt'>themes/common/opml.xml.xslt</a></li>
+      </ul></dd>
+    </dl>
+    </div></content>
+  </entry>
+
+  <entry>
+    <author>
+      <name>Jacques Distler</name>
+    </author>
+    <title>Revision 77: Update from Sam Ruby.</title>
+    <link href='http://intertwingly.net/code/venus/#77'/>
+    <id>tag:distler@golem.ph.utexas.edu,2007-05-01:15:07:44-yhdokxiym3b966qf</id>
+    <updated>2007-05-01T15:07:44Z</updated>
+    <content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+    <dl>
+      <dt>Added:</dt><dd><ul>
+        <li><a href='http://intertwingly.net/code/venus/docs/etiquette.html'>docs/etiquette.html</a></li>
+        <li><a href='http://intertwingly.net/code/venus/filters/addsearch.genshi'>filters/addsearch.genshi</a></li>
+        <li><a href='http://intertwingly.net/code/venus/filters/addsearch.xslt'>filters/addsearch.xslt</a></li>
+        <li><a href='http://intertwingly.net/code/venus/filters/delDupName/'>filters/delDupName/</a></li>
+        <li><a href='http://intertwingly.net/code/venus/filters/delDupName/byline_author.xslt'>filters/delDupName/byline_author.xslt</a></li>
+        <li><a href='http://intertwingly.net/code/venus/filters/delDupName/p_by_name.xslt'>filters/delDupName/p_by_name.xslt</a></li>
+        <li><a href='http://intertwingly.net/code/venus/filters/delDupName/p_from.xslt'>filters/delDupName/p_from.xslt</a></li>
+        <li><a href='http://intertwingly.net/code/venus/filters/html2xhtml.plugin'>filters/html2xhtml.plugin</a></li>
+        <li><a href='http://intertwingly.net/code/venus/filters/mememe.plugin'>filters/mememe.plugin</a></li>
+        <li><a href='http://intertwingly.net/code/venus/filters/xhtml2html.py'>filters/xhtml2html.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/shell/_genshi.py'>planet/shell/_genshi.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/shell/plugin.py'>planet/shell/plugin.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/apply/config-filter.ini'>tests/data/apply/config-filter.ini</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/apply/config-genshi.ini'>tests/data/apply/config-genshi.ini</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/apply/config-html.ini'>tests/data/apply/config-html.ini</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/apply/config-mememe.ini'>tests/data/apply/config-mememe.ini</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/apply/rebase.py'>tests/data/apply/rebase.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/filter/index.html'>tests/data/filter/index.html</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/filter/regexp-sifter2.ini'>tests/data/filter/regexp-sifter2.ini</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/filter/tmpl/new_channel.xml'>tests/data/filter/tmpl/new_channel.xml</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/filter/tmpl/new_channel_date.xml'>tests/data/filter/tmpl/new_channel_date.xml</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/filter/tmpl/new_date.xml'>tests/data/filter/tmpl/new_date.xml</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/reconstitute/cc_license.xml'>tests/data/reconstitute/cc_license.xml</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/reconstitute/creativeCommons_license.xml'>tests/data/reconstitute/creativeCommons_license.xml</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/test_filter_genshi.py'>tests/test_filter_genshi.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/themes/common/images/tcosm11.gif'>themes/common/images/tcosm11.gif</a></li>
+        <li><a href='http://intertwingly.net/code/venus/themes/genshi_fancy/'>themes/genshi_fancy/</a></li>
+        <li><a href='http://intertwingly.net/code/venus/themes/genshi_fancy/config.ini'>themes/genshi_fancy/config.ini</a></li>
+        <li><a href='http://intertwingly.net/code/venus/themes/genshi_fancy/index.html.genshi'>themes/genshi_fancy/index.html.genshi</a></li>
+        <li><a href='http://intertwingly.net/code/venus/themes/genshi_fancy/planet.css'>themes/genshi_fancy/planet.css</a></li>
+      </ul></dd>
+      <dt>Modified:</dt><dd><ul>
+        <li><a href='http://intertwingly.net/code/venus/.bzrignore'>.bzrignore</a></li>
+        <li><a href='http://intertwingly.net/code/venus/THANKS'>THANKS</a></li>
+        <li><a href='http://intertwingly.net/code/venus/docs/config.html'>docs/config.html</a></li>
+        <li><a href='http://intertwingly.net/code/venus/docs/filters.html'>docs/filters.html</a></li>
+        <li><a href='http://intertwingly.net/code/venus/docs/index.html'>docs/index.html</a></li>
+        <li><a href='http://intertwingly.net/code/venus/docs/templates.html'>docs/templates.html</a></li>
+        <li><a href='http://intertwingly.net/code/venus/examples/opml-top100.ini'>examples/opml-top100.ini</a></li>
+        <li><a href='http://intertwingly.net/code/venus/filters/coral_cdn_filter.py'>filters/coral_cdn_filter.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/config.py'>planet/config.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/feedparser.py'>planet/feedparser.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/html5parser.py'>planet/html5lib/html5parser.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/inputstream.py'>planet/html5lib/inputstream.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/tokenizer.py'>planet/html5lib/tokenizer.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/treebuilders/_base.py'>planet/html5lib/treebuilders/_base.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/treebuilders/dom.py'>planet/html5lib/treebuilders/dom.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/treebuilders/etreefull.py'>planet/html5lib/treebuilders/etreefull.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/treebuilders/simpletree.py'>planet/html5lib/treebuilders/simpletree.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/shell/__init__.py'>planet/shell/__init__.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/shell/tmpl.py'>planet/shell/tmpl.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/spider.py'>planet/spider.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/splice.py'>planet/splice.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/runtests.py'>runtests.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/filter/coral_cdn.xml'>tests/data/filter/coral_cdn.xml</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/test_apply.py'>tests/test_apply.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/test_filter_xslt.py'>tests/test_filter_xslt.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/test_filters.py'>tests/test_filters.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/themes/asf/default.css'>themes/asf/default.css</a></li>
+        <li><a href='http://intertwingly.net/code/venus/themes/asf/index.html.xslt'>themes/asf/index.html.xslt</a></li>
+        <li><a href='http://intertwingly.net/code/venus/themes/asf/personalize.js'>themes/asf/personalize.js</a></li>
+        <li><a href='http://intertwingly.net/code/venus/themes/common/atom.xml.xslt'>themes/common/atom.xml.xslt</a></li>
+      </ul></dd>
+    </dl>
+    </div></content>
+  </entry>
+
+  <entry>
+    <author>
+      <name>Jacques Distler</name>
+    </author>
+    <title>Revision 76: Latest from Sam Ruby.</title>
+    <link href='http://intertwingly.net/code/venus/#76'/>
+    <id>tag:distler@golem.ph.utexas.edu,2007-03-25:03:11:54-ywlmcimhawezfunl</id>
+    <updated>2007-03-25T03:11:54Z</updated>
+    <content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+    <dl>
+      <dt>Modified:</dt><dd><ul>
+        <li><a href='http://intertwingly.net/code/venus/filters/detitle.xslt'>filters/detitle.xslt</a></li>
+      </ul></dd>
+    </dl>
+    </div></content>
+  </entry>
+
+  <entry>
+    <author>
+      <name>Jacques Distler</name>
+    </author>
+    <title>Revision 75: Tweak to CSS accommodations.</title>
+    <link href='http://intertwingly.net/code/venus/#75'/>
+    <id>tag:distler@golem.ph.utexas.edu,2007-03-17:05:49:17-26klom6ozkenwpri</id>
+    <updated>2007-03-17T05:49:17Z</updated>
+    <content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+    <dl>
+      <dt>Modified:</dt><dd><ul>
+        <li><a href='http://intertwingly.net/code/venus/themes/musings/default.css'>themes/musings/default.css</a></li>
+      </ul></dd>
+    </dl>
+    </div></content>
+  </entry>
+
+  <entry>
+    <author>
+      <name>Jacques Distler</name>
+    </author>
+    <title>Revision 74: Mega merge from Sam.</title>
+    <link href='http://intertwingly.net/code/venus/#74'/>
+    <id>tag:distler@golem.ph.utexas.edu,2007-03-17:05:45:49-knpwnxvu0jqjqad3</id>
+    <updated>2007-03-17T05:45:49Z</updated>
+    <content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+    <dl>
+      <dt>Added:</dt><dd><ul>
+        <li><a href='http://intertwingly.net/code/venus/docs/contributing.html'>docs/contributing.html</a></li>
+        <li><a href='http://intertwingly.net/code/venus/expunge.py'>expunge.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/filters/detitle.xslt'>filters/detitle.xslt</a></li>
+        <li><a href='http://intertwingly.net/code/venus/filters/h1title.xslt'>filters/h1title.xslt</a></li>
+        <li><a href='http://intertwingly.net/code/venus/filters/regexp_sifter.py'>filters/regexp_sifter.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/expunge.py'>planet/expunge.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/shell/dj.py'>planet/shell/dj.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/expunge/'>tests/data/expunge/</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/expunge/config.ini'>tests/data/expunge/config.ini</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/expunge/test1.entry'>tests/data/expunge/test1.entry</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/expunge/test2.entry'>tests/data/expunge/test2.entry</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/expunge/test3a.entry'>tests/data/expunge/test3a.entry</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/expunge/test3b.entry'>tests/data/expunge/test3b.entry</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/expunge/test3c.entry'>tests/data/expunge/test3c.entry</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/expunge/test4a.entry'>tests/data/expunge/test4a.entry</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/expunge/test4b.entry'>tests/data/expunge/test4b.entry</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/expunge/test4c.entry'>tests/data/expunge/test4c.entry</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/expunge/test5.entry'>tests/data/expunge/test5.entry</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/expunge/testfeed1.atom'>tests/data/expunge/testfeed1.atom</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/expunge/testfeed2.atom'>tests/data/expunge/testfeed2.atom</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/expunge/testfeed3.atom'>tests/data/expunge/testfeed3.atom</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/expunge/testfeed4.atom'>tests/data/expunge/testfeed4.atom</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/filter/django/'>tests/data/filter/django/</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/filter/django/config.html.dj'>tests/data/filter/django/config.html.dj</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/filter/django/test.ini'>tests/data/filter/django/test.ini</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/filter/django/test.xml'>tests/data/filter/django/test.xml</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/filter/django/title.html.dj'>tests/data/filter/django/title.html.dj</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/filter/regexp-sifter.ini'>tests/data/filter/regexp-sifter.ini</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/reconstitute/stack_overflow.xml'>tests/data/reconstitute/stack_overflow.xml</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/test_docs.py'>tests/test_docs.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/test_expunge.py'>tests/test_expunge.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/test_filter_django.py'>tests/test_filter_django.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/themes/django/'>themes/django/</a></li>
+        <li><a href='http://intertwingly.net/code/venus/themes/django/bland.css'>themes/django/bland.css</a></li>
+        <li><a href='http://intertwingly.net/code/venus/themes/django/config.ini'>themes/django/config.ini</a></li>
+        <li><a href='http://intertwingly.net/code/venus/themes/django/index.html.dj'>themes/django/index.html.dj</a></li>
+      </ul></dd>
+      <dt>Modified:</dt><dd><ul>
+        <li><a href='http://intertwingly.net/code/venus/THANKS'>THANKS</a></li>
+        <li><a href='http://intertwingly.net/code/venus/TODO'>TODO</a></li>
+        <li><a href='http://intertwingly.net/code/venus/docs/config.html'>docs/config.html</a></li>
+        <li><a href='http://intertwingly.net/code/venus/docs/filters.html'>docs/filters.html</a></li>
+        <li><a href='http://intertwingly.net/code/venus/docs/index.html'>docs/index.html</a></li>
+        <li><a href='http://intertwingly.net/code/venus/docs/installation.html'>docs/installation.html</a></li>
+        <li><a href='http://intertwingly.net/code/venus/docs/templates.html'>docs/templates.html</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet.py'>planet.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/config.py'>planet/config.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/__init__.py'>planet/html5lib/__init__.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/constants.py'>planet/html5lib/constants.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/html5parser.py'>planet/html5lib/html5parser.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/inputstream.py'>planet/html5lib/inputstream.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/liberalxmlparser.py'>planet/html5lib/liberalxmlparser.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/treebuilders/_base.py'>planet/html5lib/treebuilders/_base.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/treebuilders/etreefull.py'>planet/html5lib/treebuilders/etreefull.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/reconstitute.py'>planet/reconstitute.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/scrub.py'>planet/scrub.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/spider.py'>planet/spider.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/splice.py'>planet/splice.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/test_filters.py'>tests/test_filters.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/test_spider.py'>tests/test_spider.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/test_splice.py'>tests/test_splice.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/themes/asf/default.css'>themes/asf/default.css</a></li>
+        <li><a href='http://intertwingly.net/code/venus/themes/asf/index.html.xslt'>themes/asf/index.html.xslt</a></li>
+        <li><a href='http://intertwingly.net/code/venus/themes/asf/personalize.js'>themes/asf/personalize.js</a></li>
+        <li><a href='http://intertwingly.net/code/venus/themes/common/atom.xml.xslt'>themes/common/atom.xml.xslt</a></li>
+      </ul></dd>
+    </dl>
+    </div></content>
+  </entry>
+
+  <entry>
+    <author>
+      <name>Jacques Distler</name>
+    </author>
+    <title>Revision 73: Latest from Sam.</title>
+    <link href='http://intertwingly.net/code/venus/#73'/>
+    <id>tag:distler@golem.ph.utexas.edu,2007-02-05:21:15:04-jzbgayjahaxjq8im</id>
+    <updated>2007-02-05T21:15:04Z</updated>
+    <content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+    <dl>
+      <dt>Added:</dt><dd><ul>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/treebuilders/etreefull.py'>planet/html5lib/treebuilders/etreefull.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/httplib2/iri2uri.py'>planet/httplib2/iri2uri.py</a></li>
+      </ul></dd>
+      <dt>Modified:</dt><dd><ul>
+        <li><a href='http://intertwingly.net/code/venus/docs/normalization.html'>docs/normalization.html</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/__init__.py'>planet/__init__.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/config.py'>planet/config.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/feedparser.py'>planet/feedparser.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/html5parser.py'>planet/html5lib/html5parser.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/liberalxmlparser.py'>planet/html5lib/liberalxmlparser.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/treebuilders/dom.py'>planet/html5lib/treebuilders/dom.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/treebuilders/etree.py'>planet/html5lib/treebuilders/etree.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/httplib2/__init__.py'>planet/httplib2/__init__.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/scrub.py'>planet/scrub.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/spider.py'>planet/spider.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/test_reconstitute.py'>tests/test_reconstitute.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/test_scrub.py'>tests/test_scrub.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/themes/common/validate.html.xslt'>themes/common/validate.html.xslt</a></li>
+      </ul></dd>
+    </dl>
+    </div></content>
+  </entry>
+
+  <entry>
+    <author>
+      <name>Jacques Distler</name>
+    </author>
+    <title>Revision 72:  More from Sam Ruby.</title>
+    <link href='http://intertwingly.net/code/venus/#72'/>
+    <id>tag:distler@golem.ph.utexas.edu,2007-01-20:19:34:12-3626yoj5uq7qtkji</id>
+    <updated>2007-01-20T19:34:12Z</updated>
+    <content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+    <dl>
+      <dt>Modified:</dt><dd><ul>
+        <li><a href='http://intertwingly.net/code/venus/planet/feedparser.py'>planet/feedparser.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/html5parser.py'>planet/html5lib/html5parser.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/liberalxmlparser.py'>planet/html5lib/liberalxmlparser.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/tokenizer.py'>planet/html5lib/tokenizer.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/treebuilders/__init__.py'>planet/html5lib/treebuilders/__init__.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/treebuilders/_base.py'>planet/html5lib/treebuilders/_base.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/treebuilders/dom.py'>planet/html5lib/treebuilders/dom.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/treebuilders/simpletree.py'>planet/html5lib/treebuilders/simpletree.py</a></li>
+      </ul></dd>
+    </dl>
+    </div></content>
+  </entry>
+
+  <entry>
+    <author>
+      <name>Jacques Distler</name>
+    </author>
+    <title>Revision 71: Boatload of changes from Sam. Most especially, switch from BeautifulSoup to html5lib.</title>
+    <link href='http://intertwingly.net/code/venus/#71'/>
+    <id>tag:distler@golem.ph.utexas.edu,2007-01-14:05:09:26-2vx8ivykt3j3wjhj</id>
+    <updated>2007-01-14T05:09:26Z</updated>
+    <content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+    <dl>
+      <dt>Added:</dt><dd><ul>
+        <li><a href='http://intertwingly.net/code/venus/filters/stripAd/google_ad_map.sed'>filters/stripAd/google_ad_map.sed</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/'>planet/html5lib/</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/__init__.py'>planet/html5lib/__init__.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/constants.py'>planet/html5lib/constants.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/html5parser.py'>planet/html5lib/html5parser.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/inputstream.py'>planet/html5lib/inputstream.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/liberalxmlparser.py'>planet/html5lib/liberalxmlparser.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/tokenizer.py'>planet/html5lib/tokenizer.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/treebuilders/'>planet/html5lib/treebuilders/</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/treebuilders/__init__.py'>planet/html5lib/treebuilders/__init__.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/treebuilders/_base.py'>planet/html5lib/treebuilders/_base.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/treebuilders/dom.py'>planet/html5lib/treebuilders/dom.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/treebuilders/etree.py'>planet/html5lib/treebuilders/etree.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/treebuilders/simpletree.py'>planet/html5lib/treebuilders/simpletree.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/html5lib/utils.py'>planet/html5lib/utils.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/httplib2/'>planet/httplib2/</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/httplib2/__init__.py'>planet/httplib2/__init__.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/scrub.py'>planet/scrub.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/reconstitute/planet_name.xml'>tests/data/reconstitute/planet_name.xml</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/reconstitute/planet_name_source.xml'>tests/data/reconstitute/planet_name_source.xml</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/reconstitute/source_planet_id.xml'>tests/data/reconstitute/source_planet_id.xml</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/spider/threaded.ini'>tests/data/spider/threaded.ini</a></li>
+      </ul></dd>
+      <dt>Removed:</dt><dd><ul>
+        <li>planet/BeautifulSoup.py</li>
+      </ul></dd>
+      <dt>Modified:</dt><dd><ul>
+        <li><a href='http://intertwingly.net/code/venus/THANKS'>THANKS</a></li>
+        <li><a href='http://intertwingly.net/code/venus/docs/config.html'>docs/config.html</a></li>
+        <li><a href='http://intertwingly.net/code/venus/docs/docs.js'>docs/docs.js</a></li>
+        <li><a href='http://intertwingly.net/code/venus/docs/index.html'>docs/index.html</a></li>
+        <li><a href='http://intertwingly.net/code/venus/docs/installation.html'>docs/installation.html</a></li>
+        <li><a href='http://intertwingly.net/code/venus/docs/normalization.html'>docs/normalization.html</a></li>
+        <li><a href='http://intertwingly.net/code/venus/docs/venus.svg'>docs/venus.svg</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet.py'>planet.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/__init__.py'>planet/__init__.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/config.py'>planet/config.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/feedparser.py'>planet/feedparser.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/reconstitute.py'>planet/reconstitute.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/spider.py'>planet/spider.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/splice.py'>planet/splice.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/config/basic.ini'>tests/data/config/basic.ini</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/reconstitute/content_illegal_char.xml'>tests/data/reconstitute/content_illegal_char.xml</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/test_config.py'>tests/test_config.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/test_scrub.py'>tests/test_scrub.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/test_spider.py'>tests/test_spider.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/themes/asf/default.css'>themes/asf/default.css</a></li>
+        <li><a href='http://intertwingly.net/code/venus/themes/asf/index.html.xslt'>themes/asf/index.html.xslt</a></li>
+        <li><a href='http://intertwingly.net/code/venus/themes/asf/personalize.js'>themes/asf/personalize.js</a></li>
+        <li><a href='http://intertwingly.net/code/venus/themes/common/validate.html.xslt'>themes/common/validate.html.xslt</a></li>
+      </ul></dd>
+    </dl>
+    </div></content>
+  </entry>
+
+  <entry>
+    <author>
+      <name>Jacques Distler</name>
+    </author>
+    <title>Revision 70: Misc changes from Sam.</title>
+    <link href='http://intertwingly.net/code/venus/#70'/>
+    <id>tag:distler@golem.ph.utexas.edu,2006-11-12:23:45:55-bd71478923797321</id>
+    <updated>2006-11-12T23:45:55Z</updated>
+    <content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>
+    <dl>
+      <dt>Added:</dt><dd><ul>
+        <li><a href='http://intertwingly.net/code/venus/docs/config.html'>docs/config.html</a></li>
+        <li><a href='http://intertwingly.net/code/venus/docs/docs.css'>docs/docs.css</a></li>
+        <li><a href='http://intertwingly.net/code/venus/docs/docs.js'>docs/docs.js</a></li>
+        <li><a href='http://intertwingly.net/code/venus/docs/filters.html'>docs/filters.html</a></li>
+        <li><a href='http://intertwingly.net/code/venus/docs/img/'>docs/img/</a></li>
+        <li><a href='http://intertwingly.net/code/venus/docs/img/shadowAlpha.png'>docs/img/shadowAlpha.png</a></li>
+        <li><a href='http://intertwingly.net/code/venus/docs/index.html'>docs/index.html</a></li>
+        <li><a href='http://intertwingly.net/code/venus/docs/installation.html'>docs/installation.html</a></li>
+        <li><a href='http://intertwingly.net/code/venus/docs/migration.html'>docs/migration.html</a></li>
+        <li><a href='http://intertwingly.net/code/venus/docs/normalization.html'>docs/normalization.html</a></li>
+        <li><a href='http://intertwingly.net/code/venus/docs/templates.html'>docs/templates.html</a></li>
+        <li><a href='http://intertwingly.net/code/venus/examples/filters/'>examples/filters/</a></li>
+        <li><a href='http://intertwingly.net/code/venus/examples/filters/categories/'>examples/filters/categories/</a></li>
+        <li><a href='http://intertwingly.net/code/venus/examples/filters/categories/categories.xslt'>examples/filters/categories/categories.xslt</a></li>
+        <li><a href='http://intertwingly.net/code/venus/examples/filters/guess-language/'>examples/filters/guess-language/</a></li>
+        <li><a href='http://intertwingly.net/code/venus/examples/filters/guess-language/README'>examples/filters/guess-language/README</a></li>
+        <li><a href='http://intertwingly.net/code/venus/examples/filters/guess-language/en.data'>examples/filters/guess-language/en.data</a></li>
+        <li><a href='http://intertwingly.net/code/venus/examples/filters/guess-language/fr.data'>examples/filters/guess-language/fr.data</a></li>
+        <li><a href='http://intertwingly.net/code/venus/examples/filters/guess-language/guess-language.py'>examples/filters/guess-language/guess-language.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/examples/filters/guess-language/learn-language.py'>examples/filters/guess-language/learn-language.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/examples/filters/guess-language/trigram.py'>examples/filters/guess-language/trigram.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/idindex.py'>planet/idindex.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/filter/excerpt-images2.ini'>tests/data/filter/excerpt-images2.ini</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/filter/tmpl/enclosure_href.xml'>tests/data/filter/tmpl/enclosure_href.xml</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/filter/tmpl/enclosure_length.xml'>tests/data/filter/tmpl/enclosure_length.xml</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/filter/tmpl/enclosure_type.xml'>tests/data/filter/tmpl/enclosure_type.xml</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/filter/translate.ini'>tests/data/filter/translate.ini</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/filter/translate.xslt'>tests/data/filter/translate.xslt</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/filter/xpath-sifter2.ini'>tests/data/filter/xpath-sifter2.ini</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/reconstitute.xslt'>tests/data/reconstitute.xslt</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/reconstitute/enclosure.xml'>tests/data/reconstitute/enclosure.xml</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/reconstitute/feedburner_origlink.xml'>tests/data/reconstitute/feedburner_origlink.xml</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/reconstitute/link_length.xml'>tests/data/reconstitute/link_length.xml</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/reconstitute/missing_item_pubDate.xml'>tests/data/reconstitute/missing_item_pubDate.xml</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/reconstitute/rss_image.xml'>tests/data/reconstitute/rss_image.xml</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/reconstitute/rss_lang.xml'>tests/data/reconstitute/rss_lang.xml</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/reconstitute.py'>tests/reconstitute.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/test_filter_xslt.py'>tests/test_filter_xslt.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/test_idindex.py'>tests/test_idindex.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/themes/common/validate.html.xslt'>themes/common/validate.html.xslt</a></li>
+      </ul></dd>
+      <dt>Removed:</dt><dd><ul>
+        <li>INSTALL</li>
+      </ul></dd>
+      <dt>Renamed:</dt><dd><ul>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/reconstitute/rss_source.xml'>tests/data/reconstitute/rsssource.xml</a></li>
+      </ul></dd>
+      <dt>Modified:</dt><dd><ul>
+        <li><a href='http://intertwingly.net/code/venus/.bzrignore'>.bzrignore</a></li>
+        <li><a href='http://intertwingly.net/code/venus/README'>README</a></li>
+        <li><a href='http://intertwingly.net/code/venus/THANKS'>THANKS</a></li>
+        <li><a href='http://intertwingly.net/code/venus/TODO'>TODO</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet.py'>planet.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/__init__.py'>planet/__init__.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/compat_logging/__init__.py'>planet/compat_logging/__init__.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/config.py'>planet/config.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/feedparser.py'>planet/feedparser.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/opml.py'>planet/opml.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/reconstitute.py'>planet/reconstitute.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/shell/__init__.py'>planet/shell/__init__.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/shell/tmpl.py'>planet/shell/tmpl.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/shell/xslt.py'>planet/shell/xslt.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/spider.py'>planet/spider.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/planet/splice.py'>planet/splice.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/runtests.py'>runtests.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/capture.py'>tests/capture.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/apply/feed.xml'>tests/data/apply/feed.xml</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/config/opml.xml'>tests/data/config/opml.xml</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/splice/cache/example.com,3'>tests/data/splice/cache/example.com,3</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/splice/cache/example.com,4'>tests/data/splice/cache/example.com,4</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/splice/cache/planet.intertwingly.net,2006,testfeed1,1'>tests/data/splice/cache/planet.intertwingly.net,2006,testfeed1,1</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/splice/cache/planet.intertwingly.net,2006,testfeed1,2'>tests/data/splice/cache/planet.intertwingly.net,2006,testfeed1,2</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/splice/cache/planet.intertwingly.net,2006,testfeed1,3'>tests/data/splice/cache/planet.intertwingly.net,2006,testfeed1,3</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/splice/cache/planet.intertwingly.net,2006,testfeed1,4'>tests/data/splice/cache/planet.intertwingly.net,2006,testfeed1,4</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/splice/cache/planet.intertwingly.net,2006,testfeed2,1'>tests/data/splice/cache/planet.intertwingly.net,2006,testfeed2,1</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/splice/cache/planet.intertwingly.net,2006,testfeed2,2'>tests/data/splice/cache/planet.intertwingly.net,2006,testfeed2,2</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/splice/cache/planet.intertwingly.net,2006,testfeed2,3'>tests/data/splice/cache/planet.intertwingly.net,2006,testfeed2,3</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/splice/cache/planet.intertwingly.net,2006,testfeed2,4'>tests/data/splice/cache/planet.intertwingly.net,2006,testfeed2,4</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/splice/cache/planet.intertwingly.net,2006,testfeed3,1'>tests/data/splice/cache/planet.intertwingly.net,2006,testfeed3,1</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/splice/cache/planet.intertwingly.net,2006,testfeed3,2'>tests/data/splice/cache/planet.intertwingly.net,2006,testfeed3,2</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/splice/cache/sources/tests,data,spider,testfeed0.atom'>tests/data/splice/cache/sources/tests,data,spider,testfeed0.atom</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/splice/cache/sources/tests,data,spider,testfeed1b.atom'>tests/data/splice/cache/sources/tests,data,spider,testfeed1b.atom</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/splice/cache/sources/tests,data,spider,testfeed2.atom'>tests/data/splice/cache/sources/tests,data,spider,testfeed2.atom</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/data/splice/cache/sources/tests,data,spider,testfeed3.rss'>tests/data/splice/cache/sources/tests,data,spider,testfeed3.rss</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/test_filters.py'>tests/test_filters.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/test_opml.py'>tests/test_opml.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/test_scrub.py'>tests/test_scrub.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/test_spider.py'>tests/test_spider.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/tests/test_themes.py'>tests/test_themes.py</a></li>
+        <li><a href='http://intertwingly.net/code/venus/themes/asf/config.ini'>themes/asf/config.ini</a></li>
+        <li><a href='http://intertwingly.net/code/venus/themes/asf/index.html.xslt'>themes/asf/index.html.xslt</a></li>
+        <li><a href='http://intertwingly.net/code/venus/themes/common/atom.xml.xslt'>themes/common/atom.xml.xslt</a></li>
+        <li><a href='http://intertwingly.net/code/venus/themes/common/rss20.xml.tmpl'>themes/common/rss20.xml.tmpl</a></li>
+        <li><a href='http://intertwingly.net/code/venus/themes/mobile/config.ini'>themes/mobile/config.ini</a></li>
+      </ul></dd>
+    </dl>
+    </div></content>
+  </entry>
+</feed>
