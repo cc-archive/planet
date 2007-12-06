@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns="http://purl.org/rss/1.0/"
+>
+<channel rdf:about="http://localhost/cc/planet/www/people/">
+	<title>CC People blogs</title>
+	<link>http://localhost/cc/planet/www/people/</link>
+	<description>CC People blogs - http://localhost/cc/planet/www/people/</description>
+
+	<items>
+		<rdf:Seq>
+		</rdf:Seq>
+	</items>
+</channel>
+
+
+</rdf:RDF>

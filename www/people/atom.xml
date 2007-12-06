@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:planet="http://planet.intertwingly.net/" xmlns:indexing="urn:atom-extension:indexing" indexing:index="no"><access:restriction xmlns:access="http://www.bloglines.com/about/specs/fac-1.0" relationship="deny"/>
+  <title>CC People blogs</title>
+  <updated>2007-10-19T23:06:00Z</updated>
+  <generator uri="http://intertwingly.net/code/venus/">Venus</generator>
+  <author>
+    <name>Asheesh Laroia</name>
+    <email>asheesh@creativecommons.org</email>
+  </author>
+  <id>http://localhost/cc/planet/www/people/atom.xml</id>
+  <link href="http://localhost/cc/planet/www/people/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="http://localhost/cc/planet/www/people/" rel="alternate"/>
+</feed>
