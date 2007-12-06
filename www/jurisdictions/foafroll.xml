@@ -18,12 +18,220 @@
     </foaf:member>
     <foaf:member>
       <foaf:Agent>
-        <foaf:name>CC Techblog</foaf:name>
+        <foaf:name>CC Israel</foaf:name>
         <foaf:weblog>
-          <foaf:Document rdf:about="http://techblog.creativecommons.org">
-            <dc:title>TechBlog</dc:title>
+          <foaf:Document rdf:about="http://creativecommons.org.il/blog">
+            <dc:title>Creative Commons Israel</dc:title>
             <rdfs:seeAlso>
-              <rss:channel rdf:about="http://techblog.creativecommons.org/feed/atom/"/>
+              <rss:channel rdf:about="http://creativecommons.org.il/blog/wp-rss.php"/>
+            </rdfs:seeAlso>
+          </foaf:Document>
+        </foaf:weblog>
+      </foaf:Agent>
+    </foaf:member>
+    <foaf:member>
+      <foaf:Agent>
+        <foaf:name>CC Netherlands</foaf:name>
+        <foaf:weblog>
+          <foaf:Document rdf:about="http://creativecommons.nl">
+            <dc:title>Creative Commons Nederland</dc:title>
+            <rdfs:seeAlso>
+              <rss:channel rdf:about="http://creativecommons.nl/feed/"/>
+            </rdfs:seeAlso>
+          </foaf:Document>
+        </foaf:weblog>
+      </foaf:Agent>
+    </foaf:member>
+    <foaf:member>
+      <foaf:Agent>
+        <foaf:name>CC Switzerland</foaf:name>
+        <foaf:weblog>
+          <foaf:Document rdf:about="http://www.creativecommons.ch/weblog">
+            <dc:title>Creative Commons Switzerland Weblog</dc:title>
+            <rdfs:seeAlso>
+              <rss:channel rdf:about="http://www.creativecommons.ch/weblog/feed/atom/"/>
+            </rdfs:seeAlso>
+          </foaf:Document>
+        </foaf:weblog>
+      </foaf:Agent>
+    </foaf:member>
+    <foaf:member>
+      <foaf:Agent>
+        <foaf:name>CC Canada</foaf:name>
+        <foaf:weblog>
+          <foaf:Document rdf:about="http://www.creativecommons.ca/blog">
+            <dc:title>Creative Commons Canada</dc:title>
+            <rdfs:seeAlso>
+              <rss:channel rdf:about="http://creativecommons.ca/blog/feed/"/>
+            </rdfs:seeAlso>
+          </foaf:Document>
+        </foaf:weblog>
+      </foaf:Agent>
+    </foaf:member>
+    <foaf:member>
+      <foaf:Agent>
+        <foaf:name>CC Japan</foaf:name>
+        <foaf:weblog>
+          <foaf:Document rdf:about="http://www.creativecommons.jp/news/">
+            <dc:title>news</dc:title>
+            <rdfs:seeAlso>
+              <rss:channel rdf:about="http://www.creativecommons.jp/news/feeds/news/index.xml"/>
+            </rdfs:seeAlso>
+          </foaf:Document>
+        </foaf:weblog>
+      </foaf:Agent>
+    </foaf:member>
+    <foaf:member>
+      <foaf:Agent>
+        <foaf:name>CC Korea</foaf:name>
+        <foaf:weblog>
+          <foaf:Document rdf:about="">
+            <dc:title/>
+            <rdfs:seeAlso>
+              <rss:channel rdf:about=""/>
+            </rdfs:seeAlso>
+          </foaf:Document>
+        </foaf:weblog>
+      </foaf:Agent>
+    </foaf:member>
+    <foaf:member>
+      <foaf:Agent>
+        <foaf:name>CC Italy</foaf:name>
+        <foaf:weblog>
+          <foaf:Document rdf:about="http://www.creativecommons.it">
+            <dc:title>CreativeCommons.it - Creative Commons, un copyright  flessibile per opere creative</dc:title>
+            <rdfs:seeAlso>
+              <rss:channel rdf:about="http://www.creativecommons.it/node/feed"/>
+            </rdfs:seeAlso>
+          </foaf:Document>
+        </foaf:weblog>
+      </foaf:Agent>
+    </foaf:member>
+    <foaf:member>
+      <foaf:Agent>
+        <foaf:name>CC China Mainland</foaf:name>
+        <foaf:weblog>
+          <foaf:Document rdf:about="http://cn.creativecommons.org">
+            <dc:title>知识共享@中国大陆</dc:title>
+            <rdfs:seeAlso>
+              <rss:channel rdf:about="http://cn.creativecommons.org/index.php/feed/"/>
+            </rdfs:seeAlso>
+          </foaf:Document>
+        </foaf:weblog>
+      </foaf:Agent>
+    </foaf:member>
+    <foaf:member>
+      <foaf:Agent>
+        <foaf:name>CC Colombia</foaf:name>
+        <foaf:weblog>
+          <foaf:Document rdf:about="http://creativecommons.poligran.edu.co">
+            <dc:title>Joomla! powered Site</dc:title>
+            <rdfs:seeAlso>
+              <rss:channel rdf:about="http://creativecommons.poligran.edu.co/index.php?option=com_rss&amp;feed=ATOM0.3&amp;no_html=1"/>
+            </rdfs:seeAlso>
+          </foaf:Document>
+        </foaf:weblog>
+      </foaf:Agent>
+    </foaf:member>
+    <foaf:member>
+      <foaf:Agent>
+        <foaf:name>CC Mexico</foaf:name>
+        <foaf:weblog>
+          <foaf:Document rdf:about="http://creativecommons.org.mx">
+            <dc:title>Creative Commons México</dc:title>
+            <rdfs:seeAlso>
+              <rss:channel rdf:about="http://creativecommons.org.mx/feed/"/>
+            </rdfs:seeAlso>
+          </foaf:Document>
+        </foaf:weblog>
+      </foaf:Agent>
+    </foaf:member>
+    <foaf:member>
+      <foaf:Agent>
+        <foaf:name>CC France</foaf:name>
+        <foaf:weblog>
+          <foaf:Document rdf:about="http://fr.creativecommons.org/weblog">
+            <dc:title>Creative Commons France</dc:title>
+            <rdfs:seeAlso>
+              <rss:channel rdf:about="http://fr.creativecommons.org/weblog/atom.php"/>
+            </rdfs:seeAlso>
+          </foaf:Document>
+        </foaf:weblog>
+      </foaf:Agent>
+    </foaf:member>
+    <foaf:member>
+      <foaf:Agent>
+        <foaf:name>CC Taiwan</foaf:name>
+        <foaf:weblog>
+          <foaf:Document rdf:about="http://creativecommons.org.tw">
+            <dc:title>創用 CC  ─  Creative Commons Taiwan - 用善意換取善意</dc:title>
+            <rdfs:seeAlso>
+              <rss:channel rdf:about="http://creativecommons.org.tw/node/feed"/>
+            </rdfs:seeAlso>
+          </foaf:Document>
+        </foaf:weblog>
+      </foaf:Agent>
+    </foaf:member>
+    <foaf:member>
+      <foaf:Agent>
+        <foaf:name>CC Peru</foaf:name>
+        <foaf:weblog>
+          <foaf:Document rdf:about="http://pe.creativecommons.org">
+            <dc:title>Creative Commons Perú</dc:title>
+            <rdfs:seeAlso>
+              <rss:channel rdf:about="http://pe.creativecommons.org/index.php/feed/"/>
+            </rdfs:seeAlso>
+          </foaf:Document>
+        </foaf:weblog>
+      </foaf:Agent>
+    </foaf:member>
+    <foaf:member>
+      <foaf:Agent>
+        <foaf:name>CC Spain</foaf:name>
+        <foaf:weblog>
+          <foaf:Document rdf:about="http://es.creativecommons.org/blog">
+            <dc:title>Bitácora de CC España</dc:title>
+            <rdfs:seeAlso>
+              <rss:channel rdf:about="http://es.creativecommons.org/blog/index.php/feed/atom/"/>
+            </rdfs:seeAlso>
+          </foaf:Document>
+        </foaf:weblog>
+      </foaf:Agent>
+    </foaf:member>
+    <foaf:member>
+      <foaf:Agent>
+        <foaf:name>CC Chile</foaf:name>
+        <foaf:weblog>
+          <foaf:Document rdf:about="http://www.creativecommons.cl">
+            <dc:title>Creative Commons Chile</dc:title>
+            <rdfs:seeAlso>
+              <rss:channel rdf:about="http://creativecommons.cl/feed/"/>
+            </rdfs:seeAlso>
+          </foaf:Document>
+        </foaf:weblog>
+      </foaf:Agent>
+    </foaf:member>
+    <foaf:member>
+      <foaf:Agent>
+        <foaf:name>CC Poland</foaf:name>
+        <foaf:weblog>
+          <foaf:Document rdf:about="http://creativecommons.pl">
+            <dc:title>Creative Commons Polska</dc:title>
+            <rdfs:seeAlso>
+              <rss:channel rdf:about="http://creativecommons.pl/feed/atom/"/>
+            </rdfs:seeAlso>
+          </foaf:Document>
+        </foaf:weblog>
+      </foaf:Agent>
+    </foaf:member>
+    <foaf:member>
+      <foaf:Agent>
+        <foaf:name>CC South Africa</foaf:name>
+        <foaf:weblog>
+          <foaf:Document rdf:about="http://za.creativecommons.org">
+            <dc:title>Creative Commons South Africa</dc:title>
+            <rdfs:seeAlso>
+              <rss:channel rdf:about="http://za.creativecommons.org/feed/atom/"/>
             </rdfs:seeAlso>
           </foaf:Document>
         </foaf:weblog>

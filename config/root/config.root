@@ -15,7 +15,7 @@ output_theme = cc
 output_dir = /web/planet.creativecommons.org/www/
 items_per_page = 60
 
-[index.php.tmpl]
+[index.html.tmpl]
 filters = cc_license.plugin
 
 [DEFAULT]

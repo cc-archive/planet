@@ -3,5 +3,70 @@
   <foaf:Group>
     <foaf:name>Asheesh Laroia</foaf:name>
     <foaf:homepage/>
+    <foaf:member>
+      <foaf:Agent>
+        <foaf:name>Joi Ito</foaf:name>
+        <foaf:weblog>
+          <foaf:Document rdf:about="http://joi.ito.com/">
+            <dc:title>Joi Ito's Web</dc:title>
+            <rdfs:seeAlso>
+              <rss:channel rdf:about="http://joi.ito.com/atom.xml"/>
+            </rdfs:seeAlso>
+          </foaf:Document>
+        </foaf:weblog>
+      </foaf:Agent>
+    </foaf:member>
+    <foaf:member>
+      <foaf:Agent>
+        <foaf:name>Carolina Botero</foaf:name>
+        <foaf:weblog>
+          <foaf:Document rdf:about="http://www.karisma.org.co/carobotero">
+            <dc:title>carobotero-co</dc:title>
+            <rdfs:seeAlso>
+              <rss:channel rdf:about="http://feeds.feedburner.com/carobotero"/>
+            </rdfs:seeAlso>
+          </foaf:Document>
+        </foaf:weblog>
+      </foaf:Agent>
+    </foaf:member>
+    <foaf:member>
+      <foaf:Agent>
+        <foaf:name>Elliott Bledsoe</foaf:name>
+        <foaf:weblog>
+          <foaf:Document rdf:about="http://ccelliott.blogspot.com/">
+            <dc:title>cc through the looking glass</dc:title>
+            <rdfs:seeAlso>
+              <rss:channel rdf:about="http://ccelliott.blogspot.com/feeds/posts/default"/>
+            </rdfs:seeAlso>
+          </foaf:Document>
+        </foaf:weblog>
+      </foaf:Agent>
+    </foaf:member>
+    <foaf:member>
+      <foaf:Agent>
+        <foaf:name>Mike Linksvayer</foaf:name>
+        <foaf:weblog>
+          <foaf:Document rdf:about="http://gondwanaland.com/mlog">
+            <dc:title>Mike Linksvayer » Creative Commons</dc:title>
+            <rdfs:seeAlso>
+              <rss:channel rdf:about="http://gondwanaland.com/mlog/category/creative-commons/feed/"/>
+            </rdfs:seeAlso>
+          </foaf:Document>
+        </foaf:weblog>
+      </foaf:Agent>
+    </foaf:member>
+    <foaf:member>
+      <foaf:Agent>
+        <foaf:name>Lawrence Lessig</foaf:name>
+        <foaf:weblog>
+          <foaf:Document rdf:about="http://lessig.org/blog/">
+            <dc:title>Lessig Blog</dc:title>
+            <rdfs:seeAlso>
+              <rss:channel rdf:about="http://lessig.org/blog/atom.xml"/>
+            </rdfs:seeAlso>
+          </foaf:Document>
+        </foaf:weblog>
+      </foaf:Agent>
+    </foaf:member>
   </foaf:Group>
 </rdf:RDF>

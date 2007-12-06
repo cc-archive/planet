@@ -75,7 +75,12 @@ name = CC Japan
 country_code = jp
 default_license = http://creativecommons.org/licenses/by/2.1/jp/
 
-[http://www.creativecommons.or.kr/blog/index.xml]
+
+#[http://www.creativecommons.or.kr/blog/index.xml]
+# It appears that the URL for the Korea blog feed has changed to the following.
+# I'm leaving the old one commented out above this comment for the sake of
+# documentation.  Nathan Kinkade 2007-12-06
+[http://feeds.feedburner.com/CCKorea]
 name = CC Korea
 country_code = kr
 default_license = http://creativecommons.org/licenses/by/2.0/kr/

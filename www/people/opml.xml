@@ -2,9 +2,15 @@
 <opml version="1.1">
   <head>
     <title>CC People blogs</title>
-    <dateModified>Fri, 19 Oct 2007 23:04:29 GMT</dateModified>
+    <dateModified>Thu, 06 Dec 2007 18:43:15 GMT</dateModified>
     <ownerName>Asheesh Laroia</ownerName>
     <ownerEmail>asheesh@creativecommons.org</ownerEmail>
   </head>
-  <body/>
+  <body>
+    <outline type="rss" text="Joi Ito" title="Joi Ito's Web" xmlUrl="http://joi.ito.com/atom.xml"/>
+    <outline type="rss" text="Carolina Botero" title="carobotero-co" xmlUrl="http://feeds.feedburner.com/carobotero"/>
+    <outline type="rss" text="Elliott Bledsoe" title="cc through the looking glass" xmlUrl="http://ccelliott.blogspot.com/feeds/posts/default"/>
+    <outline type="rss" text="Mike Linksvayer" title="Mike Linksvayer &#xBB; Creative Commons" xmlUrl="http://gondwanaland.com/mlog/category/creative-commons/feed/"/>
+    <outline type="rss" text="Lawrence Lessig" title="Lessig Blog" xmlUrl="http://lessig.org/blog/atom.xml"/>
+  </body>
 </opml>
