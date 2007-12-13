@@ -18,6 +18,7 @@ If the license is not a CC license, then the plugin will ignore the anchor tag.
 """
 
 import sys
+import os
 import re
 import pickle
 import urllib
@@ -68,7 +69,7 @@ def main():
     """Main function for parsing the HTML document."""
     # Locate the cache directory and look for the file where a serialized list
     # of URI->description mappings may or may not exist
-    planet_cache_dir= config.cache_directory()
+    planet_cache_dir= planet.config.cache_directory()
     cc_cache_path = os.path.join(planet_cache_dir, 'creativecommons')
     log.debug('CC cache directory is ' + cc_cache_path)
     if not os.path.exists(cc_cache_path):
@@ -124,6 +125,8 @@ def main():
                         BeautifulSoup.NavigableString(lic_text))
                     # Re-set the value of this mapping, just in case it changed
                     license_maps[anchor['href']] = lic_text
+		else:
+			log.debug('Ignoring non-CC license URL: ', anchor['href'])
 
     # Output the perhaps updated version of the HTML doc
     log.debug('Writing document to STDOUT.')

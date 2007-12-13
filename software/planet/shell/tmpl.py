@@ -175,8 +175,7 @@ def tmpl_mapper(source, rules):
             if node:
                 if rule[0] == 'license' or rule[0] == 'default_license':
                     output[rule[0]] = '<a about="%s" rel="license" \
-                        href="%s" title="License information" \
-                        style="font-size: x-small;">License</a>' \
+                        href="%s" title="License information">License</a>' \
                         % (source.link, node)
                 else:
                     output[rule[0]] = rule[1](node)
