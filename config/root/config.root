@@ -8,11 +8,11 @@ link = http://planet.creativecommons.org/
 owner_name = Asheesh Laroia
 owner_email = asheesh@creativecommons.org
 
-cache_directory = /web/planet.creativecommons.org/cache/
+cache_directory = /var/www/cc/planet/cache/
 feed_timeout = 20
 
 output_theme = cc 
-output_dir = /web/planet.creativecommons.org/www/
+output_dir = /var/www/cc/planet/www/
 items_per_page = 60
 
 [index.html.tmpl]
@@ -25,10 +25,14 @@ faceheight = 85
 
 ## Let's get some blogz
 
-[http://creativecommons.org/feed/]
-name = Creative Commons
-default_license = http://creativecommons.org/licenses/by/3.0/
+#[http://creativecommons.org/feed/]
+#name = Creative Commons
+#default_license = http://creativecommons.org/licenses/by/3.0/
 
-[http://sciencecommons.org/feed/]
-name = Science Commons
+#[http://sciencecommons.org/feed/]
+#name = Science Commons
+#default_license = http://creativecommons.org/licenses/by/3.0/
+
+[tests/data/spider/testfeed2.atom]
+name = two
 default_license = http://creativecommons.org/licenses/by/3.0/

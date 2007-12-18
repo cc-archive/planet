@@ -2,35 +2,11 @@
 <opml version="1.1">
   <head>
     <title>Creative Commons Planet: Us, jurisdictions, and people</title>
-    <dateModified>Thu, 06 Dec 2007 18:44:00 GMT</dateModified>
+    <dateModified>Tue, 11 Dec 2007 19:05:06 GMT</dateModified>
     <ownerName>Asheesh Laroia</ownerName>
     <ownerEmail>asheesh@creativecommons.org</ownerEmail>
   </head>
   <body>
-    <outline type="rss" text="Joi Ito" title="Joi Ito's Web" xmlUrl="http://joi.ito.com/atom.xml"/>
-    <outline type="rss" text="CC Mexico" title="Creative Commons M&#xE9;xico" xmlUrl="http://creativecommons.org.mx/feed/"/>
-    <outline type="rss" text="CC France" title="Creative Commons France" xmlUrl="http://fr.creativecommons.org/weblog/atom.php"/>
-    <outline type="rss" text="CC Peru" title="Creative Commons Per&#xFA;" xmlUrl="http://pe.creativecommons.org/index.php/feed/"/>
-    <outline type="rss" text="Mike Linksvayer" title="Mike Linksvayer &#xBB; Creative Commons" xmlUrl="http://gondwanaland.com/mlog/category/creative-commons/feed/"/>
-    <outline type="rss" text="CC Switzerland" title="Creative Commons Switzerland Weblog" xmlUrl="http://www.creativecommons.ch/weblog/feed/atom/"/>
-    <outline type="rss" text="CC Israel" title="Creative Commons Israel" xmlUrl="http://creativecommons.org.il/blog/wp-rss.php"/>
-    <outline type="rss" text="Carolina Botero" title="carobotero-co" xmlUrl="http://feeds.feedburner.com/carobotero"/>
-    <outline type="rss" text="CC China Mainland" title="&#x77E5;&#x8BC6;&#x5171;&#x4EAB;@&#x4E2D;&#x56FD;&#x5927;&#x9646;" xmlUrl="http://cn.creativecommons.org/index.php/feed/"/>
-    <outline type="rss" text="Lawrence Lessig" title="Lessig Blog" xmlUrl="http://lessig.org/blog/atom.xml"/>
-    <outline type="rss" text="CC Spain" title="Bit&#xE1;cora de CC Espa&#xF1;a" xmlUrl="http://es.creativecommons.org/blog/index.php/feed/atom/"/>
-    <outline type="rss" text="CC Chile" title="Creative Commons Chile" xmlUrl="http://creativecommons.cl/feed/"/>
-    <outline type="rss" text="CC Taiwan" title="&#x5275;&#x7528; CC &#xA0;&#x2500;&#xA0; Creative Commons Taiwan - &#x7528;&#x5584;&#x610F;&#x63DB;&#x53D6;&#x5584;&#x610F;" xmlUrl="http://creativecommons.org.tw/node/feed"/>
-    <outline type="rss" text="CC Netherlands" title="Creative Commons Nederland" xmlUrl="http://creativecommons.nl/feed/"/>
-    <outline type="rss" text="CC Canada" title="Creative Commons Canada" xmlUrl="http://creativecommons.ca/blog/feed/"/>
-    <outline type="rss" text="CC Japan" title="news" xmlUrl="http://www.creativecommons.jp/news/feeds/news/index.xml"/>
-    <outline type="rss" text="CC Korea" title="" xmlUrl=""/>
-    <outline type="rss" text="CC Australia" title="Creative Commons Australia -" xmlUrl="http://creativecommons.org.au/node/feed"/>
-    <outline type="rss" text="Science Commons" title="Science Commons" xmlUrl="http://sciencecommons.org/feed/"/>
-    <outline type="rss" text="CC Poland" title="Creative Commons Polska" xmlUrl="http://creativecommons.pl/feed/atom/"/>
-    <outline type="rss" text="Elliott Bledsoe" title="cc through the looking glass" xmlUrl="http://ccelliott.blogspot.com/feeds/posts/default"/>
-    <outline type="rss" text="CC Italy" title="CreativeCommons.it - Creative Commons, un copyright  flessibile per opere creative" xmlUrl="http://www.creativecommons.it/node/feed"/>
-    <outline type="rss" text="CC Colombia" title="Joomla! powered Site" xmlUrl="http://creativecommons.poligran.edu.co/index.php?option=com_rss&amp;feed=ATOM0.3&amp;no_html=1"/>
-    <outline type="rss" text="Creative Commons" title="Creative Commons" xmlUrl="http://creativecommons.org/feed/"/>
-    <outline type="rss" text="CC South Africa" title="Creative Commons South Africa" xmlUrl="http://za.creativecommons.org/feed/atom/"/>
+    <outline type="rss" text="two" title="Sam Ruby" xmlUrl="http://intertwingly.net/code/venus/tests/data/spider/testfeed2.atom"/>
   </body>
 </opml>
