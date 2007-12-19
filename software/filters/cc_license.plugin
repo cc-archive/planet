@@ -1,69 +1,63 @@
 #!/usr/bin/env python
 
-"""Planet Venus plugin to lookup and add extended Creative Commons license
-information to an HTML document.
+"""This plugin can be used to lookup and add extended license information to an
+HTML document.
 
-This script/plugin will accept an (X)HTML document as input via STDIN and will
-search for any RDFa marked-up anchor tags that specify license information -
-indicated by the attribute rel="license".  It will then attempt to apply an
-appropriate name to the license based on the URL (href attribute).  For example:
+It accepts an (X)HTML document as input via STDIN and will search for any RDFa
+marked-up anchor tags that specify license information - indicated by the
+attribute rel="license".  It will then attempt to apply an appropriate name to
+the license based on the URL (href attribute).  For example:
 
 The URL http://creativecommons.org/licenses/by-sa/3.0/ indicates a Creative
 Commons "Attribution-ShareAlike 3.0 Unported" license.  This may not be readily
 apparently to everyone based solely on the URL, so this plugin will lookup the
 approriate name and then insert it as the text of the anchor tag.
 
-If the license is not a CC license, then the plugin will ignore the anchor tag.
-
+This plugin will work for any license URL that specifies something like:
+<link rel="alternate" type="application/rdf+xml" href="rdf"/> somewhere at the
+other end of the license URI.  It will then fetch rdf+xml document and parse
+it, looking for an appropriate title.
 """
 
 import sys
 import os
-import re
 import pickle
-import urllib
+import urllib2
+import urlparse
 from xml.dom import minidom
 import BeautifulSoup
+import rdfadict
 import planet
-
-# URI for the CC API to which we'll append each license URI in order to get
-# back specific data regarding the license.  For more information see:
-# http://api.creativecommons.org/docs/
-cc_api = 'http://api.creativecommons.org/rest/dev/details?license-uri='
 
 # Instantiate the planet logging object
 log = planet.logger
 
+# Set default license text.  That is, if this plugin fails to find a suitable
+# name in the license URL -> license name map cache, or can't find it on the
+# Internet, then it will insert this name
+default_text = "License"
 
-def get_cc_license_text(href):
-    """Try to fetch data about the passed CC license URL. It uses the CC API."""
-    log.debug('Entered function get_cc_license_text()')
+def get_license_text(license_url):
+    """Try to fetch license name associcated with the passed URL."""
+    log.debug('Entered function get_license_text()')
     try:
-        # Try to fetch some data about this CC license
-        log.debug('Trying to fetch URL ' + cc_api + href)
-        data = urllib.urlopen(cc_api + href)
+        # Try to fetch some data about this license
+        log.debug('Trying to fetch URL ' + license_url)
+        lic_triples = rdfadict.RdfaParser().parseurl(license_url)
     except IOError:
-        # If we can't get ahold of cc_api, then abandon this process
-        log.debug('Encountered an IOError while trying to fetch URL.')
+        # If we can't get fetch the document then abandon this process
+        log.debug('Encountered an IOError while trying to fetch RDFa data')
         return None
     else:
-        # Parse data returned from cc_api and extract the name of the license.
-        # A number of data elements are returned, but at the moment we are only
-        # concerned with 'license-name'.  More info could be extracted from this
-        # if desired.
-        xmldoc = minidom.parse(data)
-        try:
-            log.debug('Trying to parse XML retuned from the the CC Web API.')
-            text = xmldoc.getElementsByTagName("license-name")[0] \
-                .childNodes[0].toxml()
-        except IndexError:
-            # If the data isn't what we expected then abandon this process
-            log.debug('Encountered an IndexError while trying to to extract \
-                license-name.')
-            return None
-        else:
+        ns_title = 'http://purl.org/dc/elements/1.1/title'
+        if ns_title in lic_triples[license_url]:
+            text = lic_triples[license_url][ns_title][0]
             log.debug('Found license name ' + text)
             return text
+        else:
+            # Return something generic if no real license text is found
+            log.debug('License name NOT found.')
+            return None
 
 def main():
     """Main function for parsing the HTML document."""
@@ -101,32 +95,30 @@ def main():
     # lookup more specific data about the license that should be used to
     # describe the license.
     for anchor in anchors:
-        # If the href URL begins with http://creativecommons.org then we'll take
-        # this to be a Creative Commons license
         log.debug('Iterating through found license-related anchor tags.')
     
-        if re.match(r'^http:\/\/creativecommons\.org', anchor['href']):
-            # First check to see if the URI has already been mapped to a
-            # human-readable name.  If so, use the cached copy, if not, look it
-            # up
-            if anchor['href'] in license_maps:
-                log.debug('URL found in cache file. Using cached license-name.')
-                lic_text = license_maps[anchor['href']]
-                anchor.contents[0].replaceWith(
-                    BeautifulSoup.NavigableString(lic_text))
+        # First check to see if the URI has already been mapped to a
+        # human-readable name.  If so, use the cached copy, if not, look it
+        # up
+        if anchor['href'] in license_maps:
+            log.debug('URL found in cache file. Using cached license-name.')
+            lic_text = license_maps[anchor['href']]
+            anchor.contents[0].replaceWith(
+                BeautifulSoup.NavigableString(lic_text))
+        else:
+            # Try to fetch the license text from the CC API
+            log.debug('URL NOT found in cache file. Will attempt lookup.')
+            lic_text =  get_license_text(anchor['href'])
+            if lic_text:
+                log.debug('License-name lookup succeded. Caching result.')
+                # Re-set the value of this mapping, just in case it changed
+                license_maps[anchor['href']] = lic_text
             else:
-                # Try to fetch the license text from the CC API
-                log.debug('URL NOT found in cache file. Will attempt lookup.')
-                lic_text =  get_cc_license_text(anchor['href'])
-                if lic_text:
-                    log.debug('License-name lookup succeded. Caching result.')
-                    # Change the license verbiage
-                    anchor.contents[0].replaceWith(
-                        BeautifulSoup.NavigableString(lic_text))
-                    # Re-set the value of this mapping, just in case it changed
-                    license_maps[anchor['href']] = lic_text
-		else:
-			log.debug('Ignoring non-CC license URL: ', anchor['href'])
+                lic_text = default_text
+
+            # Change the text of the license anchor tag
+            anchor.contents[0].replaceWith(
+                BeautifulSoup.NavigableString(lic_text))
 
     # Output the perhaps updated version of the HTML doc
     log.debug('Writing document to STDOUT.')

@@ -1,14 +1,17 @@
 [Planet]
 name = CC jurisdiction project blogs
-link = http://planet.creativecommons.org/jurisdictions/
+#link = http://planet.creativecommons.org/jurisdictions/
+link = http://localhost/cc/planet/www/jurisdictions/
 owner_name = Asheesh Laroia
 owner_email = asheesh@creativecommons.org
 
-cache_directory = /web/planet.creativecommons.org/cache/
+#cache_directory = /web/planet.creativecommons.org/cache/
+cache_directory = /var/www/cc/planet/cache/
 feed_timeout = 20
 
 output_theme = cc 
-output_dir = /web/planet.creativecommons.org/www/jurisdictions/
+#output_dir = /web/planet.creativecommons.org/www/jurisdictions/
+output_dir = /var/www/cc/planet/www/jurisdictions/
 items_per_page = 60
 
 [DEFAULT]

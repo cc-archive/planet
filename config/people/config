@@ -1,14 +1,17 @@
 [Planet]
 name = CC People blogs
-link = http://planet.creativecommons.org/people/
+#link = http://planet.creativecommons.org/people/
+link = http://localhost/cc/planet/www/people/
 owner_name = Asheesh Laroia
 owner_email = asheesh@creativecommons.org
 
-cache_directory = /web/planet.creativecommons.org/cache/
+#cache_directory = /web/planet.creativecommons.org/cache/
+cache_directory = /var/www/cc/planet/cache/
 feed_timeout = 20
 
 output_theme = cc 
-output_dir = /web/planet.creativecommons.org/www/people/
+#output_dir = /web/planet.creativecommons.org/www/people/
+output_dir = /var/www/cc/planet/people/
 items_per_page = 60
 
 [DEFAULT]

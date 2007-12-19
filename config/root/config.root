@@ -4,7 +4,8 @@
 
 [Planet]
 name = Creative Commons Planet: Us, jurisdictions, and people
-link = http://planet.creativecommons.org/
+#link = http://planet.creativecommons.org/
+link = http://localhost/cc/planet/www/
 owner_name = Asheesh Laroia
 owner_email = asheesh@creativecommons.org
 
@@ -25,14 +26,10 @@ faceheight = 85
 
 ## Let's get some blogz
 
-#[http://creativecommons.org/feed/]
-#name = Creative Commons
-#default_license = http://creativecommons.org/licenses/by/3.0/
+[http://creativecommons.org/feed/]
+name = Creative Commons
+default_license = http://creativecommons.org/licenses/by/3.0/
 
 #[http://sciencecommons.org/feed/]
 #name = Science Commons
 #default_license = http://creativecommons.org/licenses/by/3.0/
-
-[tests/data/spider/testfeed2.atom]
-name = two
-default_license = http://creativecommons.org/licenses/by/3.0/
