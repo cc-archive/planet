@@ -17,7 +17,7 @@ output_dir = /var/www/cc/planet/www/
 items_per_page = 60
 
 [index.html.tmpl]
-filters = cc_license.plugin
+filters = get_license_name.plugin
 
 [DEFAULT]
 # the "face"s are what, for affiliate countries' flags?
@@ -30,6 +30,6 @@ faceheight = 85
 name = Creative Commons
 default_license = http://creativecommons.org/licenses/by/3.0/
 
-#[http://sciencecommons.org/feed/]
-#name = Science Commons
-#default_license = http://creativecommons.org/licenses/by/3.0/
+[http://sciencecommons.org/feed/]
+name = Science Commons
+default_license = http://creativecommons.org/licenses/by/3.0/

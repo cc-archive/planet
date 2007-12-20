@@ -14,6 +14,9 @@ output_theme = cc
 output_dir = /var/www/cc/planet/people/
 items_per_page = 60
 
+[index.html.tmpl]
+filters = get_license_name.plugin
+
 [DEFAULT]
 # the "face"s are what, for people's friendly smiles?
 # I doubt we'll have that!
