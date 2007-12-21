@@ -8,8 +8,18 @@ workdir = 'tests/work/get_license_name'
 spider_workdir = 'tests/work/spider/cache'
 configfile = 'tests/data/config/get_license_name.ini'
 
+# Check to see if BeautifulSoup can be imported, as the plugin requires it.
+def check_for_beautifulsoup():
+    try:
+        import BeautifulSoup
+    except ImportError:
+        return None
+    else:
+        return "BeatifulSoup is installed."
+
 
 class GetLicenseNameTest(unittest.TestCase):
+
     def setUp(self):
         config.load(configfile)
 
@@ -24,8 +34,18 @@ class GetLicenseNameTest(unittest.TestCase):
             self.tearDown()
             os.makedirs(workdir)
 
+
     def tearDown(self):
         shutil.rmtree(os.path.split(workdir)[0])
+
+
+    # Because the plugin requires BeautifulSoup, check to make sure that it is
+    # installed.
+    def test_has_beautifulsoup(self):
+        error_msg = 'No BeautifulSoup for you! The module BeautifulSoup' + \
+            'must be installed to use the get_license_name.plugin.'
+        self.failUnless(check_for_beautifulsoup(), error_msg)
+
 
     # This test uses one of the static test feeds that came with the default
     # install of Planet Venus.  It has two main purposes.  One is to test

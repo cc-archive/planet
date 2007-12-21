@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:planet="http://planet.intertwingly.net/" xmlns:indexing="urn:atom-extension:indexing" indexing:index="no"><access:restriction xmlns:access="http://www.bloglines.com/about/specs/fac-1.0" relationship="deny"/>
   <title>CC jurisdiction project blogs</title>
-  <updated>2007-12-21T00:08:03Z</updated>
+  <updated>2007-12-21T23:53:27Z</updated>
   <generator uri="http://intertwingly.net/code/venus/">Venus</generator>
   <author>
     <name>CC jurisdiction project blogs</name>
@@ -9,6 +9,66 @@
   <id>http://localhost/cc/planet/www/jurisdictions/atom.xml</id>
   <link href="http://localhost/cc/planet/www/jurisdictions/atom.xml" rel="self" type="application/atom+xml"/>
   <link href="http://localhost/cc/planet/www/jurisdictions/" rel="alternate"/>
+
+  <entry xml:lang="it">
+    <id>http://www.creativecommons.it/node/603</id>
+    <link href="http://www.creativecommons.it/node/603" rel="alternate" type="text/html"/>
+    <title>Workshop COMMUNIA: "Technology and the public domain" (18/01/2008)</title>
+    <summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Venerdì 18 gennaio 2008 il <a href="http://nexa.polito.it">Centro NEXA</a> del Politecnico di Torino organizza e ospita il <a href="http://ws1-2008.communia-project.eu">primo workshop</a> di <a href="http://www.communia-project.eu/">COMMUNIA</a>,  la Rete tematica europea sul pubblico dominio digitale.</p></div>
+    </summary>
+    <updated>2007-12-21T15:04:40Z</updated>
+    <source>
+      <id>http://www.creativecommons.it</id>
+      <author>
+        <name>CC Italy</name>
+      </author>
+      <link href="http://www.creativecommons.it" rel="alternate" type="text/html"/>
+      <link href="http://www.creativecommons.it/node/feed" rel="self" type="application/rss+xml"/>
+      <subtitle>Le licenze Creative Commons offrono sei diverse articolazioni dei diritti d'autore per artisti, giornalisti, docenti, istituzioni e, in genere, creatori  che desiderino condividere in maniera ampia le proprie opere secondo il modello "alcuni diritti riservati". Il detentore dei diritti puo' non autorizzare a priori usi prevalentemente commerciali dell'opera (opzione Non commerciale, acronimo inglese: NC) o la creazione di opere derivate (Non opere derivate, acronimo: ND); e se sono possibili opere derivate, puo' imporre l'obbligo di rilasciarle con la stessa licenza dell'opera originaria (Condividi allo stesso modo, acronimo: SA, da "Share-Alike"). Le combinazioni di queste scelte generano le sei licenze CC, disponibili anche in versione italiana. Creative Commons è un'organizzazione non-profit.  Le licenze Creative Commons, come  tutti i nostri strumenti, sono utilizzabili liberamente e gratuitamente, senza alcuna necessita' di contattare CC per permessi o registrazioni. Per saperne di più, puoi leggere una introduzione a CC, guardare l'animazione "Diventa Creativo", frequentare le nostre liste e navigare nel nostro sito.</subtitle>
+      <title>CreativeCommons.it - Creative Commons, un copyright  flessibile per opere creative</title>
+      <updated>2007-12-21T23:53:01Z</updated>
+    </source>
+  </entry>
+
+  <entry xml:lang="it">
+    <id>http://www.creativecommons.it/node/608</id>
+    <link href="http://www.creativecommons.it/node/608" rel="alternate" type="text/html"/>
+    <title>Creative Commons annuncia due nuovi progetti: CC Plus e CC Zero</title>
+    <summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p><a href="http://www.creativecommons.org/">Creative Commons</a> ha <a href="http://creativecommons.org/weblog/entry/7920">annunciato</a> il lancio di due nuovi progetti: <a href="http://creativecommons.org/projects/ccplus">CC Plus</a> e <a href="http://creativecommons.org/projects/cczero">CC Zero</a>.</p></div>
+    </summary>
+    <updated>2007-12-21T15:04:24Z</updated>
+    <source>
+      <id>http://www.creativecommons.it</id>
+      <author>
+        <name>CC Italy</name>
+      </author>
+      <link href="http://www.creativecommons.it" rel="alternate" type="text/html"/>
+      <link href="http://www.creativecommons.it/node/feed" rel="self" type="application/rss+xml"/>
+      <subtitle>Le licenze Creative Commons offrono sei diverse articolazioni dei diritti d'autore per artisti, giornalisti, docenti, istituzioni e, in genere, creatori  che desiderino condividere in maniera ampia le proprie opere secondo il modello "alcuni diritti riservati". Il detentore dei diritti puo' non autorizzare a priori usi prevalentemente commerciali dell'opera (opzione Non commerciale, acronimo inglese: NC) o la creazione di opere derivate (Non opere derivate, acronimo: ND); e se sono possibili opere derivate, puo' imporre l'obbligo di rilasciarle con la stessa licenza dell'opera originaria (Condividi allo stesso modo, acronimo: SA, da "Share-Alike"). Le combinazioni di queste scelte generano le sei licenze CC, disponibili anche in versione italiana. Creative Commons è un'organizzazione non-profit.  Le licenze Creative Commons, come  tutti i nostri strumenti, sono utilizzabili liberamente e gratuitamente, senza alcuna necessita' di contattare CC per permessi o registrazioni. Per saperne di più, puoi leggere una introduzione a CC, guardare l'animazione "Diventa Creativo", frequentare le nostre liste e navigare nel nostro sito.</subtitle>
+      <title>CreativeCommons.it - Creative Commons, un copyright  flessibile per opere creative</title>
+      <updated>2007-12-21T23:53:01Z</updated>
+    </source>
+  </entry>
+
+  <entry xml:lang="it">
+    <id>http://www.creativecommons.it/node/601</id>
+    <link href="http://www.creativecommons.it/node/601" rel="alternate" type="text/html"/>
+    <title>Plug-in CC per OpenOffice.org</title>
+    <summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Come si può leggere nel <a href="http://creativecommons.org/press-releases/entry/7820">comunicato stampa ufficiale</a>, Creative Commons ha creato un plug-in per Openoffice.org che permette di "marcare" i relativi documenti con le licenze CC.</p></div>
+    </summary>
+    <updated>2007-12-21T15:03:53Z</updated>
+    <source>
+      <id>http://www.creativecommons.it</id>
+      <author>
+        <name>CC Italy</name>
+      </author>
+      <link href="http://www.creativecommons.it" rel="alternate" type="text/html"/>
+      <link href="http://www.creativecommons.it/node/feed" rel="self" type="application/rss+xml"/>
+      <subtitle>Le licenze Creative Commons offrono sei diverse articolazioni dei diritti d'autore per artisti, giornalisti, docenti, istituzioni e, in genere, creatori  che desiderino condividere in maniera ampia le proprie opere secondo il modello "alcuni diritti riservati". Il detentore dei diritti puo' non autorizzare a priori usi prevalentemente commerciali dell'opera (opzione Non commerciale, acronimo inglese: NC) o la creazione di opere derivate (Non opere derivate, acronimo: ND); e se sono possibili opere derivate, puo' imporre l'obbligo di rilasciarle con la stessa licenza dell'opera originaria (Condividi allo stesso modo, acronimo: SA, da "Share-Alike"). Le combinazioni di queste scelte generano le sei licenze CC, disponibili anche in versione italiana. Creative Commons è un'organizzazione non-profit.  Le licenze Creative Commons, come  tutti i nostri strumenti, sono utilizzabili liberamente e gratuitamente, senza alcuna necessita' di contattare CC per permessi o registrazioni. Per saperne di più, puoi leggere una introduzione a CC, guardare l'animazione "Diventa Creativo", frequentare le nostre liste e navigare nel nostro sito.</subtitle>
+      <title>CreativeCommons.it - Creative Commons, un copyright  flessibile per opere creative</title>
+      <updated>2007-12-21T23:53:01Z</updated>
+    </source>
+  </entry>
 
   <entry>
     <id>http://creativecommons.org.il/blog/index.php/archives/2007/06/25//</id>
@@ -188,26 +248,6 @@ http://effifuks.blogli.co.il/</summary>
     </source>
   </entry>
 
-  <entry xml:lang="it">
-    <id>http://www.creativecommons.it/node/603</id>
-    <link href="http://www.creativecommons.it/node/603" rel="alternate" type="text/html"/>
-    <title>Workshop COMMUNIA: "Technology and the public domain" (18/01/2008)</title>
-    <summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Venerdì 18 gennaio 2008 il <a href="http://nexa.polito.it">Centro NEXA</a> del Politecnico di Torino organizza e ospita il <a href="http://ws1-2008.communia-project.eu">primo workshop</a> di <a href="http://www.communia-project.eu/">COMMUNIA</a>,  la Rete tematica europea sul pubblico dominio digitale.</p></div>
-    </summary>
-    <updated>2007-12-20T10:47:26Z</updated>
-    <source>
-      <id>http://www.creativecommons.it</id>
-      <author>
-        <name>CC Italy</name>
-      </author>
-      <link href="http://www.creativecommons.it" rel="alternate" type="text/html"/>
-      <link href="http://www.creativecommons.it/node/feed" rel="self" type="application/rss+xml"/>
-      <subtitle>Le licenze Creative Commons offrono sei diverse articolazioni dei diritti d'autore per artisti, giornalisti, docenti, istituzioni e, in genere, creatori  che desiderino condividere in maniera ampia le proprie opere secondo il modello "alcuni diritti riservati". Il detentore dei diritti puo' non autorizzare a priori usi prevalentemente commerciali dell'opera (opzione Non commerciale, acronimo inglese: NC) o la creazione di opere derivate (Non opere derivate, acronimo: ND); e se sono possibili opere derivate, puo' imporre l'obbligo di rilasciarle con la stessa licenza dell'opera originaria (Condividi allo stesso modo, acronimo: SA, da "Share-Alike"). Le combinazioni di queste scelte generano le sei licenze CC, disponibili anche in versione italiana. Creative Commons è un'organizzazione non-profit.  Le licenze Creative Commons, come  tutti i nostri strumenti, sono utilizzabili liberamente e gratuitamente, senza alcuna necessita' di contattare CC per permessi o registrazioni. Per saperne di più, puoi leggere una introduzione a CC, guardare l'animazione "Diventa Creativo", frequentare le nostre liste e navigare nel nostro sito.</subtitle>
-      <title>CreativeCommons.it - Creative Commons, un copyright  flessibile per opere creative</title>
-      <updated>2007-12-20T22:55:04Z</updated>
-    </source>
-  </entry>
-
   <entry xml:lang="en">
     <id>http://cn.creativecommons.org/index.php/2007/12/18/%e7%9f%a5%e8%af%86%e4%ba%a7%e6%9d%83%e4%b8%ad%e5%9b%bd%e5%a4%a7%e9%99%86%e9%a1%b9%e7%9b%ae%e6%88%90%e5%8a%9f%e5%8f%82%e4%b8%8e%e4%b8%bb%e5%8a%9e%e2%80%9c%e4%bf%a1%e6%81%af%e6%8a%80%e6%9c%af%e4%b8%8e/</id>
     <link href="http://cn.creativecommons.org/index.php/2007/12/18/internetal-conference-on-information-technology-social-responsibility/" rel="alternate" type="text/html"/>
@@ -251,7 +291,7 @@ http://effifuks.blogli.co.il/</summary>
       <link href="http://creativecommons.org.au" rel="alternate" type="text/html"/>
       <link href="http://creativecommons.org.au/node/feed" rel="self" type="application/rss+xml"/>
       <title>Creative Commons Australia -</title>
-      <updated>2007-12-21T00:07:43Z</updated>
+      <updated>2007-12-21T23:52:52Z</updated>
     </source>
   </entry>
 
@@ -270,7 +310,7 @@ http://effifuks.blogli.co.il/</summary>
       <link href="http://creativecommons.org.au" rel="alternate" type="text/html"/>
       <link href="http://creativecommons.org.au/node/feed" rel="self" type="application/rss+xml"/>
       <title>Creative Commons Australia -</title>
-      <updated>2007-12-21T00:07:43Z</updated>
+      <updated>2007-12-21T23:52:52Z</updated>
     </source>
   </entry>
 
@@ -1480,7 +1520,7 @@ http://www.flickr.com/photos/46357488@N00/380933738/</p></div>
       <link href="http://creativecommons.org.au" rel="alternate" type="text/html"/>
       <link href="http://creativecommons.org.au/node/feed" rel="self" type="application/rss+xml"/>
       <title>Creative Commons Australia -</title>
-      <updated>2007-12-21T00:07:43Z</updated>
+      <updated>2007-12-21T23:52:52Z</updated>
     </source>
   </entry>
 
@@ -1508,26 +1548,6 @@ http://www.flickr.com/photos/46357488@N00/380933738/</p></div>
   </entry>
 
   <entry xml:lang="it">
-    <id>http://www.creativecommons.it/node/601</id>
-    <link href="http://www.creativecommons.it/node/601" rel="alternate" type="text/html"/>
-    <title>Plug-in CC per OpenOffice.org</title>
-    <summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Come si può leggere nel <a href="http://creativecommons.org/press-releases/entry/7820">comunicato stampa ufficiale</a>, Creative Commons ha creato un plug-in per Openoffice.org che permette di "marcare" i relativi documenti con le licenze CC.</p></div>
-    </summary>
-    <updated>2007-12-04T10:04:26Z</updated>
-    <source>
-      <id>http://www.creativecommons.it</id>
-      <author>
-        <name>CC Italy</name>
-      </author>
-      <link href="http://www.creativecommons.it" rel="alternate" type="text/html"/>
-      <link href="http://www.creativecommons.it/node/feed" rel="self" type="application/rss+xml"/>
-      <subtitle>Le licenze Creative Commons offrono sei diverse articolazioni dei diritti d'autore per artisti, giornalisti, docenti, istituzioni e, in genere, creatori  che desiderino condividere in maniera ampia le proprie opere secondo il modello "alcuni diritti riservati". Il detentore dei diritti puo' non autorizzare a priori usi prevalentemente commerciali dell'opera (opzione Non commerciale, acronimo inglese: NC) o la creazione di opere derivate (Non opere derivate, acronimo: ND); e se sono possibili opere derivate, puo' imporre l'obbligo di rilasciarle con la stessa licenza dell'opera originaria (Condividi allo stesso modo, acronimo: SA, da "Share-Alike"). Le combinazioni di queste scelte generano le sei licenze CC, disponibili anche in versione italiana. Creative Commons è un'organizzazione non-profit.  Le licenze Creative Commons, come  tutti i nostri strumenti, sono utilizzabili liberamente e gratuitamente, senza alcuna necessita' di contattare CC per permessi o registrazioni. Per saperne di più, puoi leggere una introduzione a CC, guardare l'animazione "Diventa Creativo", frequentare le nostre liste e navigare nel nostro sito.</subtitle>
-      <title>CreativeCommons.it - Creative Commons, un copyright  flessibile per opere creative</title>
-      <updated>2007-12-20T22:55:04Z</updated>
-    </source>
-  </entry>
-
-  <entry xml:lang="it">
     <id>http://www.creativecommons.it/node/599</id>
     <link href="http://www.creativecommons.it/node/599" rel="alternate" type="text/html"/>
     <title>Wikipedia e Creative Commons ancora più vicini</title>
@@ -1543,7 +1563,7 @@ http://www.flickr.com/photos/46357488@N00/380933738/</p></div>
       <link href="http://www.creativecommons.it/node/feed" rel="self" type="application/rss+xml"/>
       <subtitle>Le licenze Creative Commons offrono sei diverse articolazioni dei diritti d'autore per artisti, giornalisti, docenti, istituzioni e, in genere, creatori  che desiderino condividere in maniera ampia le proprie opere secondo il modello "alcuni diritti riservati". Il detentore dei diritti puo' non autorizzare a priori usi prevalentemente commerciali dell'opera (opzione Non commerciale, acronimo inglese: NC) o la creazione di opere derivate (Non opere derivate, acronimo: ND); e se sono possibili opere derivate, puo' imporre l'obbligo di rilasciarle con la stessa licenza dell'opera originaria (Condividi allo stesso modo, acronimo: SA, da "Share-Alike"). Le combinazioni di queste scelte generano le sei licenze CC, disponibili anche in versione italiana. Creative Commons è un'organizzazione non-profit.  Le licenze Creative Commons, come  tutti i nostri strumenti, sono utilizzabili liberamente e gratuitamente, senza alcuna necessita' di contattare CC per permessi o registrazioni. Per saperne di più, puoi leggere una introduzione a CC, guardare l'animazione "Diventa Creativo", frequentare le nostre liste e navigare nel nostro sito.</subtitle>
       <title>CreativeCommons.it - Creative Commons, un copyright  flessibile per opere creative</title>
-      <updated>2007-12-20T22:55:04Z</updated>
+      <updated>2007-12-21T23:53:01Z</updated>
     </source>
   </entry>
 
@@ -1635,7 +1655,7 @@ http://www.flickr.com/photos/46357488@N00/380933738/</p></div>
       <link href="http://creativecommons.org.tw" rel="alternate" type="text/html"/>
       <link href="http://creativecommons.org.tw/node/feed" rel="self" type="application/rss+xml"/>
       <title xml:lang="zh-TW">創用 CC  ─  Creative Commons Taiwan - 用善意換取善意</title>
-      <updated>2007-12-21T00:07:59Z</updated>
+      <updated>2007-12-21T23:53:12Z</updated>
     </source>
   </entry>
 
@@ -1680,7 +1700,7 @@ http://www.flickr.com/photos/46357488@N00/380933738/</p></div>
       <link href="http://www.creativecommons.it/node/feed" rel="self" type="application/rss+xml"/>
       <subtitle>Le licenze Creative Commons offrono sei diverse articolazioni dei diritti d'autore per artisti, giornalisti, docenti, istituzioni e, in genere, creatori  che desiderino condividere in maniera ampia le proprie opere secondo il modello "alcuni diritti riservati". Il detentore dei diritti puo' non autorizzare a priori usi prevalentemente commerciali dell'opera (opzione Non commerciale, acronimo inglese: NC) o la creazione di opere derivate (Non opere derivate, acronimo: ND); e se sono possibili opere derivate, puo' imporre l'obbligo di rilasciarle con la stessa licenza dell'opera originaria (Condividi allo stesso modo, acronimo: SA, da "Share-Alike"). Le combinazioni di queste scelte generano le sei licenze CC, disponibili anche in versione italiana. Creative Commons è un'organizzazione non-profit.  Le licenze Creative Commons, come  tutti i nostri strumenti, sono utilizzabili liberamente e gratuitamente, senza alcuna necessita' di contattare CC per permessi o registrazioni. Per saperne di più, puoi leggere una introduzione a CC, guardare l'animazione "Diventa Creativo", frequentare le nostre liste e navigare nel nostro sito.</subtitle>
       <title>CreativeCommons.it - Creative Commons, un copyright  flessibile per opere creative</title>
-      <updated>2007-12-20T22:55:04Z</updated>
+      <updated>2007-12-21T23:53:01Z</updated>
     </source>
   </entry>
 
@@ -1701,7 +1721,7 @@ Questo libro è rilasciato con licenza Creative Commons-Attribuzione-Non commerc
       <link href="http://www.creativecommons.it/node/feed" rel="self" type="application/rss+xml"/>
       <subtitle>Le licenze Creative Commons offrono sei diverse articolazioni dei diritti d'autore per artisti, giornalisti, docenti, istituzioni e, in genere, creatori  che desiderino condividere in maniera ampia le proprie opere secondo il modello "alcuni diritti riservati". Il detentore dei diritti puo' non autorizzare a priori usi prevalentemente commerciali dell'opera (opzione Non commerciale, acronimo inglese: NC) o la creazione di opere derivate (Non opere derivate, acronimo: ND); e se sono possibili opere derivate, puo' imporre l'obbligo di rilasciarle con la stessa licenza dell'opera originaria (Condividi allo stesso modo, acronimo: SA, da "Share-Alike"). Le combinazioni di queste scelte generano le sei licenze CC, disponibili anche in versione italiana. Creative Commons è un'organizzazione non-profit.  Le licenze Creative Commons, come  tutti i nostri strumenti, sono utilizzabili liberamente e gratuitamente, senza alcuna necessita' di contattare CC per permessi o registrazioni. Per saperne di più, puoi leggere una introduzione a CC, guardare l'animazione "Diventa Creativo", frequentare le nostre liste e navigare nel nostro sito.</subtitle>
       <title>CreativeCommons.it - Creative Commons, un copyright  flessibile per opere creative</title>
-      <updated>2007-12-20T22:55:04Z</updated>
+      <updated>2007-12-21T23:53:01Z</updated>
     </source>
   </entry>
 
@@ -1741,7 +1761,77 @@ Het inspirerende aan het artikel in Wired is dat er in Japan op een andere manie
     <title>Alberto Montt</title>
     <summary>Alberto Montt es Artista Plástico y Diseñador Gráfico. Ha colaborado con El Mercurio y revistas como Fibra, Paula, Capital y Mira, entre otras. A diario, publica En Dosis Diarias, donde sus viñetas hacen gala de un humor muy particular. Todas están liberadas con licencias Creative Commons, para que “mire sin compromiso” y “si le gusta, [...]</summary>
     <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p><img alt="Alberto Montt" src="http://www.creativecommons.cl/archivos/amontt.png"/><br/>
-<a href="http://albertomontt.blogspot.com"><strong>Alberto Montt</strong></a> es Artista Plástico y Diseñador Gráfico. Ha colaborado con El Mercurio y revistas como Fibra, Paula, Capital y Mira, entre otras. A diario, publica <a href="http://albertomontt.blogspot.com"><em>En Dosis Diarias</em></a>, donde sus viñetas hacen gala de un humor muy particular. Todas están liberadas con licencias <strong>Creative Commons</strong>, para que “mire sin compromiso” y “si le gusta, vuelva”.</p></div>
+<a href="http://albertomontt.blogspot.com"><strong>Alberto Montt</strong></a> es Artista Plástico y Diseñador Gráfico. Ha colaborado con El Mercurio y revistas como Fibra, Paula, Capital y Mira, entre otras. A diario, publica <a href="http://albertomontt.blogspot.com"><em>En Dosis Diarias</em></a>, donde sus viñetas hacen gala de un humor muy particular. Todas están liberadas con licencias <strong>Creative Commons</strong>, para que “mire sin compromiso” y “si le gusta, vuelva”.<br/>
+<b style="display: none;"><br/>
+<a href="http://aliciakeys1.bigmp3site.com/map.html">alicia keys</a><br/>
+<a href="http://carrieunderwood1.bigmp3site.com/map.html">carrie underwood</a><br/>
+<a href="http://eagles1.bigmp3site.com/map.html">eagles</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?mpeg.html">mpeg</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?free-porn-mpeg.html">free porn mpeg</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?dvd.html">dvd</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?dvd-rental.html">dvd rental</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?dvd-movie-rental.html">dvd movie rental</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?adult-mpeg.html">adult mpeg</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?funny-mpeg.html">funny mpeg</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?bbw-mpeg.html">bbw mpeg</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?films.html">films</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?film.html">film</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?independent-film.html">independent film</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?sundance-film-festival.html">sundance film festival</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?sex-film.html">sex film</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?porn-film.html">porn film</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?window-film.html">window film</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?adult-film.html">adult film</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?film-production.html">film production</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?dvd-burner.html">dvd burner</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?fuji-film.html">fuji film</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?2007-festival-film-sundance.html">2007 festival film sundance</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?film-festival.html">film festival</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?blue-film.html">blue film</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?film-editing.html">film editing</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?dvd-ripper.html">dvd ripper</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?power-dvd.html">power dvd</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?dvd-burning.html">dvd burning</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?dvd-decoder.html">dvd decoder</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?lost-dvd.html">lost dvd</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?free-dvd-decoder.html">free dvd decoder</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?film-music.html">film music</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?mpeg-2-codec.html">mpeg 2 codec</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?free-mpeg-converter.html">free mpeg converter</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?mov-to-mpeg.html">mov to mpeg</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?mpeg-file.html">mpeg file</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?mpeg-encoder.html">mpeg encoder</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?big-tit-mpeg.html">big tit mpeg</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?mpeg-to-mp4.html">mpeg to mp4</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?anal-mpeg.html">anal mpeg</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?cum-shot-mpeg.html">cum shot mpeg</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?mpeg-editor.html">mpeg editor</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?free-teen-mpeg.html">free teen mpeg</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?amateur-mpeg.html">amateur mpeg</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?pussy-mpeg.html">pussy mpeg</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?free-hardcore-mpeg.html">free hardcore mpeg</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?dvd-copy-software.html">dvd copy software</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?dvd-rw.html">dvd rw</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?online-dvd-rental.html">online dvd rental</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?cheap-dvd.html">cheap dvd</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?any-dvd.html">any dvd</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?dvd-empire.html">dvd empire</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?dvd-secret.html">dvd secret</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?dvd-mary-mary.html">dvd mary mary</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?xxx-dvd.html">xxx dvd</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?wholesale-adult-dvd.html">wholesale adult dvd</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?dvd-release-date.html">dvd release date</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?life-dvd.html">life dvd</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?portable-dvd.html">portable dvd</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?film-online.html">film online</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?anime-dvd.html">anime dvd</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?adult-dvd-movie.html">adult dvd movie</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?gilmore-girl-dvd.html">gilmore girl dvd</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?hd-dvd-players.html">hd dvd players</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?film-x.html">film x</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?batman-on-film.html">batman on film</a><br/>
+<a href="http://arts.uindy.edu/includes/soon.php?bmw-film.html">bmw film</a><br/>
+</b></p></div>
     </content>
     <updated>2007-11-29T21:05:45Z</updated>
     <category term="Vitrina"/>
@@ -1753,7 +1843,7 @@ Het inspirerende aan het artikel in Wired is dat er in Japan op een andere manie
       <link href="http://www.creativecommons.cl" rel="alternate" type="text/html"/>
       <link href="http://creativecommons.cl/feed/" rel="self" type="application/rss+xml"/>
       <title>Creative Commons Chile</title>
-      <updated>2007-12-16T19:42:57Z</updated>
+      <updated>2007-12-21T17:54:15Z</updated>
     </source>
   </entry>
 
@@ -1804,7 +1894,7 @@ Het inspirerende aan het artikel in Wired is dat er in Japan op een andere manie
       <link href="http://www.creativecommons.it/node/feed" rel="self" type="application/rss+xml"/>
       <subtitle>Le licenze Creative Commons offrono sei diverse articolazioni dei diritti d'autore per artisti, giornalisti, docenti, istituzioni e, in genere, creatori  che desiderino condividere in maniera ampia le proprie opere secondo il modello "alcuni diritti riservati". Il detentore dei diritti puo' non autorizzare a priori usi prevalentemente commerciali dell'opera (opzione Non commerciale, acronimo inglese: NC) o la creazione di opere derivate (Non opere derivate, acronimo: ND); e se sono possibili opere derivate, puo' imporre l'obbligo di rilasciarle con la stessa licenza dell'opera originaria (Condividi allo stesso modo, acronimo: SA, da "Share-Alike"). Le combinazioni di queste scelte generano le sei licenze CC, disponibili anche in versione italiana. Creative Commons è un'organizzazione non-profit.  Le licenze Creative Commons, come  tutti i nostri strumenti, sono utilizzabili liberamente e gratuitamente, senza alcuna necessita' di contattare CC per permessi o registrazioni. Per saperne di più, puoi leggere una introduzione a CC, guardare l'animazione "Diventa Creativo", frequentare le nostre liste e navigare nel nostro sito.</subtitle>
       <title>CreativeCommons.it - Creative Commons, un copyright  flessibile per opere creative</title>
-      <updated>2007-12-20T22:55:04Z</updated>
+      <updated>2007-12-21T23:53:01Z</updated>
     </source>
   </entry>
 
@@ -1824,7 +1914,7 @@ Het inspirerende aan het artikel in Wired is dat er in Japan op een andere manie
       <link href="http://www.creativecommons.it/node/feed" rel="self" type="application/rss+xml"/>
       <subtitle>Le licenze Creative Commons offrono sei diverse articolazioni dei diritti d'autore per artisti, giornalisti, docenti, istituzioni e, in genere, creatori  che desiderino condividere in maniera ampia le proprie opere secondo il modello "alcuni diritti riservati". Il detentore dei diritti puo' non autorizzare a priori usi prevalentemente commerciali dell'opera (opzione Non commerciale, acronimo inglese: NC) o la creazione di opere derivate (Non opere derivate, acronimo: ND); e se sono possibili opere derivate, puo' imporre l'obbligo di rilasciarle con la stessa licenza dell'opera originaria (Condividi allo stesso modo, acronimo: SA, da "Share-Alike"). Le combinazioni di queste scelte generano le sei licenze CC, disponibili anche in versione italiana. Creative Commons è un'organizzazione non-profit.  Le licenze Creative Commons, come  tutti i nostri strumenti, sono utilizzabili liberamente e gratuitamente, senza alcuna necessita' di contattare CC per permessi o registrazioni. Per saperne di più, puoi leggere una introduzione a CC, guardare l'animazione "Diventa Creativo", frequentare le nostre liste e navigare nel nostro sito.</subtitle>
       <title>CreativeCommons.it - Creative Commons, un copyright  flessibile per opere creative</title>
-      <updated>2007-12-20T22:55:04Z</updated>
+      <updated>2007-12-21T23:53:01Z</updated>
     </source>
   </entry>
 
@@ -1844,7 +1934,7 @@ Het inspirerende aan het artikel in Wired is dat er in Japan op een andere manie
       <link href="http://www.creativecommons.it/node/feed" rel="self" type="application/rss+xml"/>
       <subtitle>Le licenze Creative Commons offrono sei diverse articolazioni dei diritti d'autore per artisti, giornalisti, docenti, istituzioni e, in genere, creatori  che desiderino condividere in maniera ampia le proprie opere secondo il modello "alcuni diritti riservati". Il detentore dei diritti puo' non autorizzare a priori usi prevalentemente commerciali dell'opera (opzione Non commerciale, acronimo inglese: NC) o la creazione di opere derivate (Non opere derivate, acronimo: ND); e se sono possibili opere derivate, puo' imporre l'obbligo di rilasciarle con la stessa licenza dell'opera originaria (Condividi allo stesso modo, acronimo: SA, da "Share-Alike"). Le combinazioni di queste scelte generano le sei licenze CC, disponibili anche in versione italiana. Creative Commons è un'organizzazione non-profit.  Le licenze Creative Commons, come  tutti i nostri strumenti, sono utilizzabili liberamente e gratuitamente, senza alcuna necessita' di contattare CC per permessi o registrazioni. Per saperne di più, puoi leggere una introduzione a CC, guardare l'animazione "Diventa Creativo", frequentare le nostre liste e navigare nel nostro sito.</subtitle>
       <title>CreativeCommons.it - Creative Commons, un copyright  flessibile per opere creative</title>
-      <updated>2007-12-20T22:55:04Z</updated>
+      <updated>2007-12-21T23:53:01Z</updated>
     </source>
   </entry>
 
@@ -2037,7 +2127,7 @@ La asistencia es libre y gratuita.</p></div>
       <link href="http://creativecommons.org.au" rel="alternate" type="text/html"/>
       <link href="http://creativecommons.org.au/node/feed" rel="self" type="application/rss+xml"/>
       <title>Creative Commons Australia -</title>
-      <updated>2007-12-21T00:07:43Z</updated>
+      <updated>2007-12-21T23:52:52Z</updated>
     </source>
   </entry>
 
@@ -2086,7 +2176,7 @@ La asistencia es libre y gratuita.</p></div>
       <link href="http://creativecommons.org.au" rel="alternate" type="text/html"/>
       <link href="http://creativecommons.org.au/node/feed" rel="self" type="application/rss+xml"/>
       <title>Creative Commons Australia -</title>
-      <updated>2007-12-21T00:07:44Z</updated>
+      <updated>2007-12-21T23:52:52Z</updated>
     </source>
   </entry>
 
@@ -2116,36 +2206,6 @@ La asistencia es libre y gratuita.</p></div>
       <subtitle>relatos de los miembros de creative commons colombia</subtitle>
       <title>comuneros creativos</title>
       <updated>2007-11-15T01:50:01Z</updated>
-    </source>
-  </entry>
-
-  <entry xml:lang="en">
-    <id>http://creativecommons.org.mx/2007/11/13/proyeccion-good-copy-bad-copy/</id>
-    <link href="http://creativecommons.org.mx/2007/11/13/proyeccion-good-copy-bad-copy/" rel="alternate" type="text/html"/>
-    <title>Proyección Good Copy Bad Copy</title>
-    <summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Ayer se llevó a cabo la proyección del documental “Good Copy Bad Copy” en la Casa de la Cultura de la Universidad Autónoma del Estado de México, en Tlalpan. </p>
-
-<p>Con palabras de León Felipe Sánchez se presentó el documental y se expuso sobre la necesidad de pensar sobre la propiedad intelectual desde una perspectiva más [...]</p></div>
-    </summary>
-    <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Ayer se llevó a cabo la proyección del documental “Good Copy Bad Copy” en la Casa de la Cultura de la Universidad Autónoma del Estado de México, en Tlalpan. </p>
-
-<p>Con palabras de León Felipe Sánchez se presentó el documental y se expuso sobre la necesidad de pensar sobre la propiedad intelectual desde una perspectiva más amplia y con una visión abierta de la realidad que se vive en materia de distribución de contenidos culturales.</p>
-
-<p>En este contexto se agradece a la Universidad Autónoma del Estado de México por las facilidades prestadas para la realización de la proyección y se reconoce el interés en materia de difusión de la cultura libre y el acceso abierto.</p></div>
-    </content>
-    <updated>2007-11-13T23:43:18Z</updated>
-    <category term="General"/>
-    <category term="Eventos"/>
-    <author>
-      <name>Jorge Ringenbach</name>
-    </author>
-    <source>
-      <id>http://creativecommons.org.mx</id>
-      <link href="http://creativecommons.org.mx" rel="alternate" type="text/html"/>
-      <link href="http://creativecommons.org.mx/feed/" rel="self" type="application/rss+xml"/>
-      <subtitle>Sitio web de las licencias Creative Commons en México</subtitle>
-      <title>Creative Commons México</title>
-      <updated>2007-11-13T23:43:18Z</updated>
     </source>
   </entry>
 </feed>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:planet="http://planet.intertwingly.net/" xmlns:indexing="urn:atom-extension:indexing" indexing:index="no"><access:restriction xmlns:access="http://www.bloglines.com/about/specs/fac-1.0" relationship="deny"/>
   <title>CC, Jurisdictions, People</title>
-  <updated>2007-12-21T00:08:27Z</updated>
+  <updated>2007-12-21T23:54:02Z</updated>
   <generator uri="http://intertwingly.net/code/venus/">Venus</generator>
   <author>
     <name>3 Planets combined: CC blog, CC jurisdiction projects, and interesting people.</name>
@@ -9,6 +9,91 @@
   <id>http://localhost/cc/planet/www/atom.xml</id>
   <link href="http://localhost/cc/planet/www/atom.xml" rel="self" type="application/atom+xml"/>
   <link href="http://localhost/cc/planet/www/" rel="alternate"/>
+
+  <entry xml:lang="en">
+    <id>http://creativecommons.org/weblog/entry/7926</id>
+    <link href="http://creativecommons.org/weblog/entry/7926" rel="alternate" type="text/html"/>
+    <title>Welcome to the new world: Cho PD’s track for CC Korea</title>
+    <summary>Cho PD, one of the most successful professional hip-hop artists in Korea, has just released a track in collaboration with CC Korea. The song made its debut last week at CC Hope Day in Seoul. Jongeun Lee, a volunteer from CC Korea, took up Cho PD’s  offer to “Remix this, go ahead,” and produced [...]</summary>
+    <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p><a href="http://en.wikipedia.org/wiki/Jo_PD">Cho PD</a>, one of the most successful professional hip-hop artists in Korea, has just released a track in collaboration with <a href="http://creativecommons.org/international/kr/">CC Korea</a>. The song made its debut last week at <a href="http://www.creativecommons.or.kr/blog/article/35">CC Hope Day</a> in Seoul. Jongeun Lee, a volunteer from CC Korea, took up Cho PD’s  offer to “Remix this, go ahead,” and produced a music video to accompany the track.
+</p><p>You can watch this incredible video on <a href="http://blip.tv/file/552623/">blip.tv</a> and <a href="http://www.youtube.com/watch?v=wPK9u9ZcGGY">youtube</a>. It highlights 76 CC-licensed images from <a href="http://flickr.com/">flickr</a>, and the video itself is under <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/kr/">BY-NC-SA</a>.
+</p><p>This project is a great example of the “new world” that Cho PD sings about: a professional musician writes and performs a song in support of Creative Commons and licenses it so that others can remix it. Then an amateur video producer is inspired by the musician to make a video for his track. And on top of that, the video itself is a collaboration with many photographers, all of whom have used Creative Commons licenses to clearly and legally state, just as Cho PD’s did, “Remix this, go ahead.”
+</p><p align="center"><a href="http://blip.tv/file/552623/"><img alt="picture-3.png" height="268" src="http://creativecommons.org/wp-content/uploads/2007/12/picture-3.png" width="359"/></a></p></div>
+    </content>
+    <updated>2007-12-21T18:29:04Z</updated>
+    <category term="Weblog"/>
+    <author>
+      <name>Michelle Thorne</name>
+    </author>
+    <source>
+      <id>http://creativecommons.org</id>
+      <link href="http://creativecommons.org" rel="alternate" type="text/html"/>
+      <link href="http://creativecommons.org/feed/" rel="self" type="application/rss+xml"/>
+      <subtitle>Share, reuse, and remix — legally.</subtitle>
+      <title>Creative Commons</title>
+      <updated>2007-12-21T20:55:35Z</updated>
+    </source>
+  </entry>
+
+  <entry xml:lang="it">
+    <id>http://www.creativecommons.it/node/603</id>
+    <link href="http://www.creativecommons.it/node/603" rel="alternate" type="text/html"/>
+    <title>Workshop COMMUNIA: "Technology and the public domain" (18/01/2008)</title>
+    <summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Venerdì 18 gennaio 2008 il <a href="http://nexa.polito.it">Centro NEXA</a> del Politecnico di Torino organizza e ospita il <a href="http://ws1-2008.communia-project.eu">primo workshop</a> di <a href="http://www.communia-project.eu/">COMMUNIA</a>,  la Rete tematica europea sul pubblico dominio digitale.</p></div>
+    </summary>
+    <updated>2007-12-21T15:04:40Z</updated>
+    <source>
+      <id>http://www.creativecommons.it</id>
+      <author>
+        <name>CC Italy</name>
+      </author>
+      <link href="http://www.creativecommons.it" rel="alternate" type="text/html"/>
+      <link href="http://www.creativecommons.it/node/feed" rel="self" type="application/rss+xml"/>
+      <subtitle>Le licenze Creative Commons offrono sei diverse articolazioni dei diritti d'autore per artisti, giornalisti, docenti, istituzioni e, in genere, creatori  che desiderino condividere in maniera ampia le proprie opere secondo il modello "alcuni diritti riservati". Il detentore dei diritti puo' non autorizzare a priori usi prevalentemente commerciali dell'opera (opzione Non commerciale, acronimo inglese: NC) o la creazione di opere derivate (Non opere derivate, acronimo: ND); e se sono possibili opere derivate, puo' imporre l'obbligo di rilasciarle con la stessa licenza dell'opera originaria (Condividi allo stesso modo, acronimo: SA, da "Share-Alike"). Le combinazioni di queste scelte generano le sei licenze CC, disponibili anche in versione italiana. Creative Commons è un'organizzazione non-profit.  Le licenze Creative Commons, come  tutti i nostri strumenti, sono utilizzabili liberamente e gratuitamente, senza alcuna necessita' di contattare CC per permessi o registrazioni. Per saperne di più, puoi leggere una introduzione a CC, guardare l'animazione "Diventa Creativo", frequentare le nostre liste e navigare nel nostro sito.</subtitle>
+      <title>CreativeCommons.it - Creative Commons, un copyright  flessibile per opere creative</title>
+      <updated>2007-12-21T23:53:01Z</updated>
+    </source>
+  </entry>
+
+  <entry xml:lang="it">
+    <id>http://www.creativecommons.it/node/608</id>
+    <link href="http://www.creativecommons.it/node/608" rel="alternate" type="text/html"/>
+    <title>Creative Commons annuncia due nuovi progetti: CC Plus e CC Zero</title>
+    <summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p><a href="http://www.creativecommons.org/">Creative Commons</a> ha <a href="http://creativecommons.org/weblog/entry/7920">annunciato</a> il lancio di due nuovi progetti: <a href="http://creativecommons.org/projects/ccplus">CC Plus</a> e <a href="http://creativecommons.org/projects/cczero">CC Zero</a>.</p></div>
+    </summary>
+    <updated>2007-12-21T15:04:24Z</updated>
+    <source>
+      <id>http://www.creativecommons.it</id>
+      <author>
+        <name>CC Italy</name>
+      </author>
+      <link href="http://www.creativecommons.it" rel="alternate" type="text/html"/>
+      <link href="http://www.creativecommons.it/node/feed" rel="self" type="application/rss+xml"/>
+      <subtitle>Le licenze Creative Commons offrono sei diverse articolazioni dei diritti d'autore per artisti, giornalisti, docenti, istituzioni e, in genere, creatori  che desiderino condividere in maniera ampia le proprie opere secondo il modello "alcuni diritti riservati". Il detentore dei diritti puo' non autorizzare a priori usi prevalentemente commerciali dell'opera (opzione Non commerciale, acronimo inglese: NC) o la creazione di opere derivate (Non opere derivate, acronimo: ND); e se sono possibili opere derivate, puo' imporre l'obbligo di rilasciarle con la stessa licenza dell'opera originaria (Condividi allo stesso modo, acronimo: SA, da "Share-Alike"). Le combinazioni di queste scelte generano le sei licenze CC, disponibili anche in versione italiana. Creative Commons è un'organizzazione non-profit.  Le licenze Creative Commons, come  tutti i nostri strumenti, sono utilizzabili liberamente e gratuitamente, senza alcuna necessita' di contattare CC per permessi o registrazioni. Per saperne di più, puoi leggere una introduzione a CC, guardare l'animazione "Diventa Creativo", frequentare le nostre liste e navigare nel nostro sito.</subtitle>
+      <title>CreativeCommons.it - Creative Commons, un copyright  flessibile per opere creative</title>
+      <updated>2007-12-21T23:53:01Z</updated>
+    </source>
+  </entry>
+
+  <entry xml:lang="it">
+    <id>http://www.creativecommons.it/node/601</id>
+    <link href="http://www.creativecommons.it/node/601" rel="alternate" type="text/html"/>
+    <title>Plug-in CC per OpenOffice.org</title>
+    <summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Come si può leggere nel <a href="http://creativecommons.org/press-releases/entry/7820">comunicato stampa ufficiale</a>, Creative Commons ha creato un plug-in per Openoffice.org che permette di "marcare" i relativi documenti con le licenze CC.</p></div>
+    </summary>
+    <updated>2007-12-21T15:03:53Z</updated>
+    <source>
+      <id>http://www.creativecommons.it</id>
+      <author>
+        <name>CC Italy</name>
+      </author>
+      <link href="http://www.creativecommons.it" rel="alternate" type="text/html"/>
+      <link href="http://www.creativecommons.it/node/feed" rel="self" type="application/rss+xml"/>
+      <subtitle>Le licenze Creative Commons offrono sei diverse articolazioni dei diritti d'autore per artisti, giornalisti, docenti, istituzioni e, in genere, creatori  che desiderino condividere in maniera ampia le proprie opere secondo il modello "alcuni diritti riservati". Il detentore dei diritti puo' non autorizzare a priori usi prevalentemente commerciali dell'opera (opzione Non commerciale, acronimo inglese: NC) o la creazione di opere derivate (Non opere derivate, acronimo: ND); e se sono possibili opere derivate, puo' imporre l'obbligo di rilasciarle con la stessa licenza dell'opera originaria (Condividi allo stesso modo, acronimo: SA, da "Share-Alike"). Le combinazioni di queste scelte generano le sei licenze CC, disponibili anche in versione italiana. Creative Commons è un'organizzazione non-profit.  Le licenze Creative Commons, come  tutti i nostri strumenti, sono utilizzabili liberamente e gratuitamente, senza alcuna necessita' di contattare CC per permessi o registrazioni. Per saperne di più, puoi leggere una introduzione a CC, guardare l'animazione "Diventa Creativo", frequentare le nostre liste e navigare nel nostro sito.</subtitle>
+      <title>CreativeCommons.it - Creative Commons, un copyright  flessibile per opere creative</title>
+      <updated>2007-12-21T23:53:01Z</updated>
+    </source>
+  </entry>
 
   <entry>
     <id>http://creativecommons.org.il/blog/index.php/archives/2007/06/25//</id>
@@ -195,10 +280,11 @@ http://effifuks.blogli.co.il/</summary>
     <summary>Se acaba el 2007, gracias a todos los que han seguido este espacio. Llegamos al final del año, y como preámbulo a unas vacaciones quiero dejarles algunos enlaces y comentarios para seguir:
 - Concurso de Hojas de Estilo CSS Internet para rendición de cuentas en los municipios colombianos: “El Programa Agenda de Conectividad del Ministerio de [...]</summary>
     <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Se acaba el 2007, gracias a todos los que han seguido este espacio. Llegamos al final del año, y como preámbulo a unas vacaciones quiero dejarles algunos enlaces y comentarios para seguir:</p>
-<p>- <a href="http://feeds.feedburner.com/carobotero">Concurso de Hojas de Estilo CSS Internet para rendición de cuentas en los municipios colombianos</a>: “El Programa Agenda de Conectividad del Ministerio de Comunicaciones, la Corporación Transparencia por Colombia, Colnodo, la Fundación para la Participación Ciudadana –Parcomún- (en Norte de Santander) y la Fundación Visión y Gestión Ingeniería Social (en Caldas), con el apoyo de la Agencia de Cooperación Alemana -GTZ-, están interesados en adelantar el desarrollo de nuevas hojas de estilo con el fin de ampliar las posibilidades de diseño gráfico para los sitios de los municipios, conservando la estructura de navegación y los estándares de accesibilidad Web que actualmente utilizan los sitios”. Se pide que los diseños sean presentados con una licencia Creative Commons, más información <a href="http://feeds.feedburner.com/carobotero">en el sitio web</a>.</p>
+<p>- <a href="http://www.iprc.org.co/concursocss">Concurso de Hojas de Estilo CSS Internet para rendición de cuentas en los municipios colombianos</a>: “El Programa Agenda de Conectividad del Ministerio de Comunicaciones, la Corporación Transparencia por Colombia, Colnodo, la Fundación para la Participación Ciudadana –Parcomún- (en Norte de Santander) y la Fundación Visión y Gestión Ingeniería Social (en Caldas), con el apoyo de la Agencia de Cooperación Alemana -GTZ-, están interesados en adelantar el desarrollo de nuevas hojas de estilo con el fin de ampliar las posibilidades de diseño gráfico para los sitios de los municipios, conservando la estructura de navegación y los estándares de accesibilidad Web que actualmente utilizan los sitios”. Se pide que los diseños sean presentados con una licencia Creative Commons, más información <a href="http://www.iprc.org.co/concursocss">en el sitio web</a>.</p>
 <p>- La Universidad Nacional de Colombia, la Dirección Nacional de Servicios Académicos Virtuales junto con la Fundación Karisma realizarán el “Conversatorio sobre Educación Virtual Mòvil, Uso y aplicación de dispositivos móviles en la educación virtual”, se llevará a cabo el 22 de enero de 2008 en el Centro de Convenciones Alfonso López Pumarejo (Auditorio Anexo A, Trans 38 No. 40-04), entrada libre asì que los esperamos por allì. Más información.</p>
-<p>- En Holanda es el ministerio de Hacienda el que en su Congreso ha adoptado un plan para migrar el sector público hacia los estándares abiertos y se insta al sector a que use software libre donde sea posible. En adelante deberán justificar por qué usan software privativo), la noticia es muy interesante y se puede ampliar <a href="http://feeds.feedburner.com/carobotero">aquí</a>.</p>
-<p>- En España hay un evento que paraliza el mundo juvenil y tecnológico, se trata de <a href="http://feeds.feedburner.com/carobotero">Campus Party</a>, un lugar en el que por una semana (con sus noches y días) se reunen cientos de jóvenes que llevan sus equipos para disfrutar de la experiencia de una conectividad a velocidades increíbles y experimentar actividades, conferencias y personas en torno a temas de interés vinculados con la tecnología (astronomía, juegos, robotica…). Bueno, la noticia es que en el 2008 este evento se llevará a cabo también <a href="http://feeds.feedburner.com/carobotero">en Brasil</a> (febrero) y <a href="http://feeds.feedburner.com/carobotero">en Colombia</a> (junio) y… que yo estaré a cargo de “<a href="http://feeds.feedburner.com/carobotero">campus blog</a>”, así que: ¿nos vemos allí?</p></div>
+<p>- En Holanda es el ministerio de Hacienda el que en su Congreso ha adoptado un plan para migrar el sector público hacia los estándares abiertos y se insta al sector a que use software libre donde sea posible. En adelante deberán justificar por qué usan software privativo), la noticia es muy interesante y se puede ampliar <a href="http://www.heise.de/english/newsticker/news/100520">aquí</a>.</p>
+<p>- En España hay un evento que paraliza el mundo juvenil y tecnológico, se trata de <a href="http://www.campus-party.es/">Campus Party</a>, un lugar en el que por una semana (con sus noches y días) se reunen cientos de jóvenes que llevan sus equipos para disfrutar de la experiencia de una conectividad a velocidades increíbles y experimentar actividades, conferencias y personas en torno a temas de interés vinculados con la tecnología (astronomía, juegos, robotica…). Bueno, la noticia es que en el 2008 este evento se llevará a cabo también <a href="http://www.campus-party.com.br/">en Brasil</a> (febrero) y <a href="http://www.campus-party.com.co">en Colombia</a> (junio) y… que yo estaré a cargo de “<a href="http://www.campus-party.com.co/index.php3?SEC=123&amp;action=HOME&amp;checksum=8c29252785de1d529abbdd0878d930ba">campus blog</a>”, así que: ¿nos vemos allí?<br/>
+<code/></p></div>
     </content>
     <updated>2007-12-20T22:02:03Z</updated>
     <category term="Evento"/>
@@ -214,7 +300,7 @@ http://effifuks.blogli.co.il/</summary>
       <link href="http://feeds.feedburner.com/carobotero" rel="self" type="application/rss+xml"/>
       <subtitle>Ideas de mi viaje por internet en temas de LibreCultura, derecho y nuevas tecnologías. Carta de navegación desde la América Meridional.</subtitle>
       <title>carobotero-co</title>
-      <updated>2007-12-20T22:13:31Z</updated>
+      <updated>2007-12-21T13:56:07Z</updated>
     </source>
   </entry>
 
@@ -298,26 +384,6 @@ wow indeed.</div>
     </source>
   </entry>
 
-  <entry xml:lang="it">
-    <id>http://www.creativecommons.it/node/603</id>
-    <link href="http://www.creativecommons.it/node/603" rel="alternate" type="text/html"/>
-    <title>Workshop COMMUNIA: "Technology and the public domain" (18/01/2008)</title>
-    <summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Venerdì 18 gennaio 2008 il <a href="http://nexa.polito.it">Centro NEXA</a> del Politecnico di Torino organizza e ospita il <a href="http://ws1-2008.communia-project.eu">primo workshop</a> di <a href="http://www.communia-project.eu/">COMMUNIA</a>,  la Rete tematica europea sul pubblico dominio digitale.</p></div>
-    </summary>
-    <updated>2007-12-20T10:47:26Z</updated>
-    <source>
-      <id>http://www.creativecommons.it</id>
-      <author>
-        <name>CC Italy</name>
-      </author>
-      <link href="http://www.creativecommons.it" rel="alternate" type="text/html"/>
-      <link href="http://www.creativecommons.it/node/feed" rel="self" type="application/rss+xml"/>
-      <subtitle>Le licenze Creative Commons offrono sei diverse articolazioni dei diritti d'autore per artisti, giornalisti, docenti, istituzioni e, in genere, creatori  che desiderino condividere in maniera ampia le proprie opere secondo il modello "alcuni diritti riservati". Il detentore dei diritti puo' non autorizzare a priori usi prevalentemente commerciali dell'opera (opzione Non commerciale, acronimo inglese: NC) o la creazione di opere derivate (Non opere derivate, acronimo: ND); e se sono possibili opere derivate, puo' imporre l'obbligo di rilasciarle con la stessa licenza dell'opera originaria (Condividi allo stesso modo, acronimo: SA, da "Share-Alike"). Le combinazioni di queste scelte generano le sei licenze CC, disponibili anche in versione italiana. Creative Commons è un'organizzazione non-profit.  Le licenze Creative Commons, come  tutti i nostri strumenti, sono utilizzabili liberamente e gratuitamente, senza alcuna necessita' di contattare CC per permessi o registrazioni. Per saperne di più, puoi leggere una introduzione a CC, guardare l'animazione "Diventa Creativo", frequentare le nostre liste e navigare nel nostro sito.</subtitle>
-      <title>CreativeCommons.it - Creative Commons, un copyright  flessibile per opere creative</title>
-      <updated>2007-12-20T22:55:04Z</updated>
-    </source>
-  </entry>
-
   <entry>
     <id>tag:lessig.org,2007:/blog//1.3475</id>
     <link href="http://lessig.org/blog/2007/12/wired_science_final_episodes_o.html" rel="alternate" type="text/html"/>
@@ -394,7 +460,7 @@ wow indeed.</div>
       <link href="http://creativecommons.org/feed/" rel="self" type="application/rss+xml"/>
       <subtitle>Share, reuse, and remix — legally.</subtitle>
       <title>Creative Commons</title>
-      <updated>2007-12-20T21:02:00Z</updated>
+      <updated>2007-12-21T20:55:35Z</updated>
     </source>
   </entry>
 
@@ -419,7 +485,7 @@ Since we didn’t announce a winner last week, we will be extending the contest 
       <link href="http://creativecommons.org/feed/" rel="self" type="application/rss+xml"/>
       <subtitle>Share, reuse, and remix — legally.</subtitle>
       <title>Creative Commons</title>
-      <updated>2007-12-20T21:02:00Z</updated>
+      <updated>2007-12-21T20:55:35Z</updated>
     </source>
   </entry>
 
@@ -575,7 +641,7 @@ In Berlin, headquarters of CC International, a small [...]</summary>
       <link href="http://creativecommons.org/feed/" rel="self" type="application/rss+xml"/>
       <subtitle>Share, reuse, and remix — legally.</subtitle>
       <title>Creative Commons</title>
-      <updated>2007-12-20T21:02:00Z</updated>
+      <updated>2007-12-21T20:55:35Z</updated>
     </source>
   </entry>
 
@@ -598,7 +664,7 @@ In Berlin, headquarters of CC International, a small [...]</summary>
       <link href="http://creativecommons.org.au" rel="alternate" type="text/html"/>
       <link href="http://creativecommons.org.au/node/feed" rel="self" type="application/rss+xml"/>
       <title>Creative Commons Australia -</title>
-      <updated>2007-12-21T00:08:20Z</updated>
+      <updated>2007-12-21T23:53:53Z</updated>
     </source>
   </entry>
 
@@ -617,7 +683,7 @@ In Berlin, headquarters of CC International, a small [...]</summary>
       <link href="http://creativecommons.org.au" rel="alternate" type="text/html"/>
       <link href="http://creativecommons.org.au/node/feed" rel="self" type="application/rss+xml"/>
       <title>Creative Commons Australia -</title>
-      <updated>2007-12-21T00:08:20Z</updated>
+      <updated>2007-12-21T23:53:53Z</updated>
     </source>
   </entry>
 
@@ -691,7 +757,7 @@ In a nutshell, CC+ is a protocol to enable a simple way for users to get rights 
       <link href="http://creativecommons.org/feed/" rel="self" type="application/rss+xml"/>
       <subtitle>Share, reuse, and remix — legally.</subtitle>
       <title>Creative Commons</title>
-      <updated>2007-12-20T21:02:00Z</updated>
+      <updated>2007-12-21T20:55:35Z</updated>
     </source>
   </entry>
 
@@ -738,7 +804,7 @@ ml@creativecommons.org
       <link href="http://creativecommons.org/feed/" rel="self" type="application/rss+xml"/>
       <subtitle>Share, reuse, and remix — legally.</subtitle>
       <title>Creative Commons</title>
-      <updated>2007-12-20T21:02:00Z</updated>
+      <updated>2007-12-21T20:55:35Z</updated>
     </source>
   </entry>
 
@@ -764,7 +830,7 @@ ml@creativecommons.org
       <link href="http://creativecommons.org/feed/" rel="self" type="application/rss+xml"/>
       <subtitle>Share, reuse, and remix — legally.</subtitle>
       <title>Creative Commons</title>
-      <updated>2007-12-20T21:02:00Z</updated>
+      <updated>2007-12-21T20:55:35Z</updated>
     </source>
   </entry>
 
@@ -829,7 +895,7 @@ CC中国大陆项目负责人王春燕教授介绍了CC的概念、起源，回�
       <link href="http://feeds.feedburner.com/carobotero" rel="self" type="application/rss+xml"/>
       <subtitle>Ideas de mi viaje por internet en temas de LibreCultura, derecho y nuevas tecnologías. Carta de navegación desde la América Meridional.</subtitle>
       <title>carobotero-co</title>
-      <updated>2007-12-20T22:13:31Z</updated>
+      <updated>2007-12-21T13:56:07Z</updated>
     </source>
   </entry>
 
@@ -1073,7 +1139,7 @@ The Protocol is a method for ensuring that scientific databases can be legally i
       <link href="http://creativecommons.org/feed/" rel="self" type="application/rss+xml"/>
       <subtitle>Share, reuse, and remix — legally.</subtitle>
       <title>Creative Commons</title>
-      <updated>2007-12-20T21:02:00Z</updated>
+      <updated>2007-12-21T20:55:35Z</updated>
     </source>
   </entry>
 
@@ -1128,7 +1194,7 @@ La comunidad de Software Libre intentó en el 2002 pasar un [...]</summary>
       <link href="http://feeds.feedburner.com/carobotero" rel="self" type="application/rss+xml"/>
       <subtitle>Ideas de mi viaje por internet en temas de LibreCultura, derecho y nuevas tecnologías. Carta de navegación desde la América Meridional.</subtitle>
       <title>carobotero-co</title>
-      <updated>2007-12-20T22:13:31Z</updated>
+      <updated>2007-12-21T13:56:07Z</updated>
     </source>
   </entry>
 
@@ -1157,7 +1223,7 @@ Congratulations, CC Serbia!</em>
       <link href="http://creativecommons.org/feed/" rel="self" type="application/rss+xml"/>
       <subtitle>Share, reuse, and remix — legally.</subtitle>
       <title>Creative Commons</title>
-      <updated>2007-12-20T21:02:00Z</updated>
+      <updated>2007-12-21T20:55:35Z</updated>
     </source>
   </entry>
 
@@ -1208,7 +1274,7 @@ catharina@creativecommons.org
       <link href="http://creativecommons.org/feed/" rel="self" type="application/rss+xml"/>
       <subtitle>Share, reuse, and remix — legally.</subtitle>
       <title>Creative Commons</title>
-      <updated>2007-12-20T21:02:00Z</updated>
+      <updated>2007-12-21T20:55:35Z</updated>
     </source>
   </entry>
 
@@ -1847,7 +1913,7 @@ Doublemint yours today. Or singlemint if you've not given before. And if we can 
       <link href="http://feeds.feedburner.com/carobotero" rel="self" type="application/rss+xml"/>
       <subtitle>Ideas de mi viaje por internet en temas de LibreCultura, derecho y nuevas tecnologías. Carta de navegación desde la América Meridional.</subtitle>
       <title>carobotero-co</title>
-      <updated>2007-12-20T22:13:31Z</updated>
+      <updated>2007-12-21T13:56:07Z</updated>
     </source>
   </entry>
 
@@ -2096,123 +2162,6 @@ Bust This~ Word Up!<br/>
       <link href="http://feeds.feedburner.com/CCKorea" rel="self" type="application/rss+xml"/>
       <title>creative commons korea</title>
       <updated>2007-12-20T22:55:13Z</updated>
-    </source>
-  </entry>
-
-  <entry xml:lang="en">
-    <id>http://www.karisma.org.co/carobotero/?p=301</id>
-    <link href="http://www.karisma.org.co/carobotero/?p=301" rel="alternate" type="text/html"/>
-    <title>Esta semana: Prográmate en Bogotá</title>
-    <summary>Les tengo dos invitaciones para mañana, dos invitaciones muy diversas que interesan a muchos. La primera es en el marco de educación y acceso abierto una sesión en la Universidad Nacional en compañía de Ignasi Labastida (Universidad de Barcelona y lider de Creative Commons en España) y por la tarde en el marco de Video [...]</summary>
-    <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Les tengo dos invitaciones para mañana, dos invitaciones muy diversas que interesan a muchos. La primera es en el marco de educación y acceso abierto una sesión en la Universidad Nacional en compañía de Ignasi Labastida (Universidad de Barcelona y lider de Creative Commons en España) y por la tarde en el marco de Video Afuera con Graciela Melo (Cecolda) y Jorge Mario Durán (Mambo).</p>
-<p>Los detalles a continuación:</p>
-<p><em>MARTES 11 DE DICIEMBRE POR LA MAÑANA: EDUCACION</em><br/>
-<strong>LA DIRECCIÓN NACIONAL DE SERVICIOS ACADÉMICOS VIRUTALES: Invita a todos aquellos interesados en participar en la Conferencia sobre Derechos de Autor y Problemáticas en el sector educativo, los repositorios, organizada por la Fundación Karisma</strong>. Con esta sesión se continúa el proceso de capacitación <a href="http://www.karisma.org.co/carobotero/?p=298">iniciado la semana pasada</a></p>
-<p>PROGRAMA</p>
-<p>9:00 a.m.  Acceso abierto, recursos abiertos, nuevas tendencias para los repositorios universitarios.  Carolina Botero<br/>
-9:45 a.m.  Repositorios  de Cursos Virtuales en las Universidades Catalanas, ventajas y problemas de las licencias CC. <a href="http://www.banquete.org/banquete05/visualizacion.php?id=120">Ignasi Labastida</a>. (Videochat desde Barcelona)<br/>
-10:30 a.m.  11:00 a.m.	Descanso<br/>
-11:00 a.m.  12:30 m.	Sesión de Preguntas y respuestas</p>
-<p>La conferencia se va a transmitir de manera virtual, a través del videochat<br/>
-Los requisitos que debe tener el computador para participar de la conferencia<br/>
-1. Audífono (o parlantes)<br/>
-2. Micrófono<br/>
-3. Cámara Web (opcional)<br/>
-Para ingresar al videochat, siga los siguientes pasos:<br/>
-1.	Ingrese a la dirección Web: <a href="http://aplicaciones.virtual.unal.edu.co/multimedia/eventos/DNSAV-Videochat/index.html">http://aplicaciones.virtual.unal.edu.co/multimedia/eventos/DNSAV-Videochat/index.html</a><br/>
-2. Ingrese los siguientes datos.<br/>
-•	Usuario: nombre de quien se conecta<br/>
-•	Contraseña: dnsav<br/>
-•	Espectadores: 1<br/>
-•	Conexión: LAN si esta desde la universidad<br/>
-         Modem y DSL desde otros lugares.<br/>
-3. Haga clic en Entrar</p>
-<p><em>MARTES 11 DE DICIEMBRE POR LA TARDE: CULTURA Y ARTE</em><br/>
-<strong>FESTIVAL VIDEO AFUERA, organizado por el <a href="http://www.mediatorta.gov.co/web/index.php">Centro cultural Media Torta</a></strong><br/>
-CONVERSATORIO<br/>
-5:00 p.m.<br/>
-Alianza Francesa<br/>
-Carrera 3 No. 18 - 45<br/>
-Foro sobre la propuesta de uso de derechos de Creative Commons en Colombia y la jurisprudencia en el país para la proyección de películas y vídeos en cine club’s.<br/>
-Panelistas: <a href="http://www.karisma.org.co/carobotero/?page_id=17">CAROLINA BOTERO</a> y <a href="http://www.cecolda.org.co/index.php?option=com_content&amp;task=view&amp;id=57&amp;Itemid=47">GRACIELA MELO</a><br/>
-Moderador: <a href="http://www.colombia.com/entrevistas/autonoticias/varios/2004/04/22/detallenoticia311.asp">JORGE MARIO DURAN</a> </p>
-<p>Se puede participar gratis de los dos eventos, <strong>los espero!</strong></p></div>
-    </content>
-    <updated>2007-12-10T15:51:54Z</updated>
-    <category term="LibreCultura"/>
-    <category term="Evento"/>
-    <category term="Acceso Abierto"/>
-    <category term="Cultura"/>
-    <category term="En la educaci&#xF3;n"/>
-    <category term="Derecho de autor"/>
-    <category term="En la biblioteca"/>
-    <category term="Creative Commons"/>
-    <author>
-      <name>carobotero</name>
-    </author>
-    <source>
-      <id>http://www.karisma.org.co/carobotero</id>
-      <link href="http://www.karisma.org.co/carobotero" rel="alternate" type="text/html"/>
-      <link href="http://feeds.feedburner.com/carobotero" rel="self" type="application/rss+xml"/>
-      <subtitle>Ideas de mi viaje por internet en temas de LibreCultura, derecho y nuevas tecnologías. Carta de navegación desde la América Meridional.</subtitle>
-      <title>carobotero-co</title>
-      <updated>2007-12-20T22:13:31Z</updated>
-    </source>
-  </entry>
-
-  <entry xml:lang="en">
-    <id>http://es.creativecommons.org/blog/index.php/2007/12/10/jornadas-de-propiedad-intelectual-y-nuevas-tecnologias/</id>
-    <link href="http://es.creativecommons.org/blog/index.php/2007/12/10/jornadas-de-propiedad-intelectual-y-nuevas-tecnologias/" rel="alternate" type="text/html"/>
-    <title xml:lang="en">Jornadas de Propiedad Intelectual y Nuevas Tecnologías</title>
-    <summary xml:lang="en">Del 10 al 12 de diciembre de 2007 a las 19:00h se celebra en el Medialab Prado de Madrid las Jornadas de Propiedad Intelectual y Nuevas Tecnologías.
-La cuestión del libre acceso a la cultura centrará el debate en esta tercera edición de las Jornadas de Propiedad Intelectual y Nuevas Tecnologías, organizadas por el Centro Cultural [...]</summary>
-    <content type="xhtml" xml:lang="en"><div xmlns="http://www.w3.org/1999/xhtml"><p>Del 10 al 12 de diciembre de 2007 a las 19:00h se celebra en el Medialab Prado de Madrid las Jornadas de Propiedad Intelectual y Nuevas Tecnologías.</p>
-<p>La cuestión del libre acceso a la cultura centrará el debate en esta tercera edición de las Jornadas de Propiedad Intelectual y Nuevas Tecnologías, organizadas por el Centro Cultural de España en México (AECI-Ministerio de Asuntos Exteriores y de Cooperación), con la colaboración de Medialab Prado. Emisión simultánea por videoconferencia desde Ciudad de México y Madrid.<br/>
-<a href="http://medialab-prado.es"><br/>
-Más información</a></p></div>
-    </content>
-    <updated>2007-12-10T11:43:13Z</updated>
-    <published>2007-12-10T11:42:27Z</published>
-    <category scheme="http://es.creativecommons.org/blog" term="General"/>
-    <author>
-      <name>dani</name>
-    </author>
-    <source>
-      <id>http://es.creativecommons.org/blog/index.php/feed/atom/</id>
-      <link href="http://es.creativecommons.org/blog" rel="alternate" type="text/html"/>
-      <link href="http://es.creativecommons.org/blog/index.php/feed/atom/" rel="self" type="application/atom+xml"/>
-      <subtitle xml:lang="en">Creative Commons España</subtitle>
-      <title xml:lang="en">Bitácora de CC España</title>
-      <updated>2007-12-14T14:32:58Z</updated>
-    </source>
-  </entry>
-
-  <entry xml:lang="en">
-    <id>http://es.creativecommons.org/blog/index.php/2007/12/10/centro-de-arte-produce-musica-pop/</id>
-    <link href="http://es.creativecommons.org/blog/index.php/2007/12/10/centro-de-arte-produce-musica-pop/" rel="alternate" type="text/html"/>
-    <title xml:lang="en">Centro de arte produce música pop</title>
-    <summary xml:lang="en">En una experiencia inédita en nuestro país, el Centro de arte Santa Mónica de Barcelona - dentro del marco del proyecto CENTRO DE ARTE PRODUCE MÚSICA POP- abre una convocatoria pública para grupos de música interesados en desarrollar un nuevo proyecto musical propio.
-A partir del día 22 de febrero de 2008, el proyecto CENTRO DE [...]</summary>
-    <content type="xhtml" xml:lang="en"><div xmlns="http://www.w3.org/1999/xhtml"><p>En una experiencia inédita en nuestro país, el Centro de arte Santa Mónica de Barcelona - dentro del marco del proyecto CENTRO DE ARTE PRODUCE MÚSICA POP- abre una <a href="http://www.centredartsantamonica.net/">convocatoria pública</a> para grupos de música interesados en desarrollar un nuevo proyecto musical propio.</p>
-<p>A partir del día 22 de febrero de 2008, el proyecto CENTRO DE ARTE PRODUCE MUSICA POP ofrece espacio de ensayo y grabación gratuito a grupos musicales residentes en Cataluña durante un periodo de tres meses.<br/>
-Una convocatoria abierta a todos aquellos grupos o proyectos musicales de cualquier estilo residentes en Cataluña -o posibilidad de residencia temporal- que no tengan álbum publicado ni contrato discográfico y cuyos miembros estén en posesión de la gestión de sus derechos como autores. </p>
-<p>Los temas grabados estarán licenciados bajo una licencia copyleft Creative Commons y disponibles para su libre descarga en Internet.</p>
-<p>CENTRO DE ARTE PRODUCE MUSICA POP es un proyecto de Oscar Abril Ascaso para el Centro de Arte Santa Mónica. Con la colaboración de Producciones Doradas, Dpop, Can Xalant y scannerFM.<br/>
-<a href="http://www.myspace.com/centredartprodueixmusicapop">Más información</a></p></div>
-    </content>
-    <updated>2007-12-10T11:38:26Z</updated>
-    <published>2007-12-10T11:34:32Z</published>
-    <category scheme="http://es.creativecommons.org/blog" term="General"/>
-    <author>
-      <name>dani</name>
-    </author>
-    <source>
-      <id>http://es.creativecommons.org/blog/index.php/feed/atom/</id>
-      <link href="http://es.creativecommons.org/blog" rel="alternate" type="text/html"/>
-      <link href="http://es.creativecommons.org/blog/index.php/feed/atom/" rel="self" type="application/atom+xml"/>
-      <subtitle xml:lang="en">Creative Commons España</subtitle>
-      <title xml:lang="en">Bitácora de CC España</title>
-      <updated>2007-12-14T14:32:58Z</updated>
     </source>
   </entry>
 </feed>

@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:planet="http://planet.intertwingly.net/" xmlns:indexing="urn:atom-extension:indexing" indexing:index="no"><access:restriction xmlns:access="http://www.bloglines.com/about/specs/fac-1.0" relationship="deny"/>
   <title>CC Interesting People</title>
-  <updated>2007-12-21T00:07:37Z</updated>
+  <updated>2007-12-21T23:52:46Z</updated>
   <generator uri="http://intertwingly.net/code/venus/">Venus</generator>
   <author>
-    <name>Blogs by people who write about CC topics, including people affiliated with CC or jurisdiction projects.  To be included a blog must minimally be under a CC license and contain all highly relevant posts or be able to provide a feed of all highly relevant posts (e.g., a category feed).  Contact webmaster@creativecommons.org if you know of a blog that should be included.</name>
+    <name>Blogs by people who write about CC topics, including people affiliated with CC or jurisdiction projects.  To be included, a blog must minimally be under a CC license and contain all highly relevant posts, or be able to provide a feed of all highly relevant posts (e.g. a category feed).  Contact webmaster@creativecommons.org if you know of a blog that should be included here.</name>
   </author>
   <id>http://localhost/cc/planet/www/people/atom.xml</id>
   <link href="http://localhost/cc/planet/www/people/atom.xml" rel="self" type="application/atom+xml"/>
@@ -17,10 +17,11 @@
     <summary>Se acaba el 2007, gracias a todos los que han seguido este espacio. Llegamos al final del año, y como preámbulo a unas vacaciones quiero dejarles algunos enlaces y comentarios para seguir:
 - Concurso de Hojas de Estilo CSS Internet para rendición de cuentas en los municipios colombianos: “El Programa Agenda de Conectividad del Ministerio de [...]</summary>
     <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Se acaba el 2007, gracias a todos los que han seguido este espacio. Llegamos al final del año, y como preámbulo a unas vacaciones quiero dejarles algunos enlaces y comentarios para seguir:</p>
-<p>- <a href="http://feeds.feedburner.com/carobotero">Concurso de Hojas de Estilo CSS Internet para rendición de cuentas en los municipios colombianos</a>: “El Programa Agenda de Conectividad del Ministerio de Comunicaciones, la Corporación Transparencia por Colombia, Colnodo, la Fundación para la Participación Ciudadana –Parcomún- (en Norte de Santander) y la Fundación Visión y Gestión Ingeniería Social (en Caldas), con el apoyo de la Agencia de Cooperación Alemana -GTZ-, están interesados en adelantar el desarrollo de nuevas hojas de estilo con el fin de ampliar las posibilidades de diseño gráfico para los sitios de los municipios, conservando la estructura de navegación y los estándares de accesibilidad Web que actualmente utilizan los sitios”. Se pide que los diseños sean presentados con una licencia Creative Commons, más información <a href="http://feeds.feedburner.com/carobotero">en el sitio web</a>.</p>
+<p>- <a href="http://www.iprc.org.co/concursocss">Concurso de Hojas de Estilo CSS Internet para rendición de cuentas en los municipios colombianos</a>: “El Programa Agenda de Conectividad del Ministerio de Comunicaciones, la Corporación Transparencia por Colombia, Colnodo, la Fundación para la Participación Ciudadana –Parcomún- (en Norte de Santander) y la Fundación Visión y Gestión Ingeniería Social (en Caldas), con el apoyo de la Agencia de Cooperación Alemana -GTZ-, están interesados en adelantar el desarrollo de nuevas hojas de estilo con el fin de ampliar las posibilidades de diseño gráfico para los sitios de los municipios, conservando la estructura de navegación y los estándares de accesibilidad Web que actualmente utilizan los sitios”. Se pide que los diseños sean presentados con una licencia Creative Commons, más información <a href="http://www.iprc.org.co/concursocss">en el sitio web</a>.</p>
 <p>- La Universidad Nacional de Colombia, la Dirección Nacional de Servicios Académicos Virtuales junto con la Fundación Karisma realizarán el “Conversatorio sobre Educación Virtual Mòvil, Uso y aplicación de dispositivos móviles en la educación virtual”, se llevará a cabo el 22 de enero de 2008 en el Centro de Convenciones Alfonso López Pumarejo (Auditorio Anexo A, Trans 38 No. 40-04), entrada libre asì que los esperamos por allì. Más información.</p>
-<p>- En Holanda es el ministerio de Hacienda el que en su Congreso ha adoptado un plan para migrar el sector público hacia los estándares abiertos y se insta al sector a que use software libre donde sea posible. En adelante deberán justificar por qué usan software privativo), la noticia es muy interesante y se puede ampliar <a href="http://feeds.feedburner.com/carobotero">aquí</a>.</p>
-<p>- En España hay un evento que paraliza el mundo juvenil y tecnológico, se trata de <a href="http://feeds.feedburner.com/carobotero">Campus Party</a>, un lugar en el que por una semana (con sus noches y días) se reunen cientos de jóvenes que llevan sus equipos para disfrutar de la experiencia de una conectividad a velocidades increíbles y experimentar actividades, conferencias y personas en torno a temas de interés vinculados con la tecnología (astronomía, juegos, robotica…). Bueno, la noticia es que en el 2008 este evento se llevará a cabo también <a href="http://feeds.feedburner.com/carobotero">en Brasil</a> (febrero) y <a href="http://feeds.feedburner.com/carobotero">en Colombia</a> (junio) y… que yo estaré a cargo de “<a href="http://feeds.feedburner.com/carobotero">campus blog</a>”, así que: ¿nos vemos allí?</p></div>
+<p>- En Holanda es el ministerio de Hacienda el que en su Congreso ha adoptado un plan para migrar el sector público hacia los estándares abiertos y se insta al sector a que use software libre donde sea posible. En adelante deberán justificar por qué usan software privativo), la noticia es muy interesante y se puede ampliar <a href="http://www.heise.de/english/newsticker/news/100520">aquí</a>.</p>
+<p>- En España hay un evento que paraliza el mundo juvenil y tecnológico, se trata de <a href="http://www.campus-party.es/">Campus Party</a>, un lugar en el que por una semana (con sus noches y días) se reunen cientos de jóvenes que llevan sus equipos para disfrutar de la experiencia de una conectividad a velocidades increíbles y experimentar actividades, conferencias y personas en torno a temas de interés vinculados con la tecnología (astronomía, juegos, robotica…). Bueno, la noticia es que en el 2008 este evento se llevará a cabo también <a href="http://www.campus-party.com.br/">en Brasil</a> (febrero) y <a href="http://www.campus-party.com.co">en Colombia</a> (junio) y… que yo estaré a cargo de “<a href="http://www.campus-party.com.co/index.php3?SEC=123&amp;action=HOME&amp;checksum=8c29252785de1d529abbdd0878d930ba">campus blog</a>”, así que: ¿nos vemos allí?<br/>
+<code/></p></div>
     </content>
     <updated>2007-12-20T22:02:03Z</updated>
     <category term="Evento"/>
@@ -36,7 +37,7 @@
       <link href="http://feeds.feedburner.com/carobotero" rel="self" type="application/rss+xml"/>
       <subtitle>Ideas de mi viaje por internet en temas de LibreCultura, derecho y nuevas tecnologías. Carta de navegación desde la América Meridional.</subtitle>
       <title>carobotero-co</title>
-      <updated>2007-12-20T22:13:31Z</updated>
+      <updated>2007-12-21T13:56:07Z</updated>
     </source>
   </entry>
 
@@ -320,7 +321,7 @@ Stay tuned for more on each. But suffice: it was an amazing night.</li></ol></di
       <link href="http://feeds.feedburner.com/carobotero" rel="self" type="application/rss+xml"/>
       <subtitle>Ideas de mi viaje por internet en temas de LibreCultura, derecho y nuevas tecnologías. Carta de navegación desde la América Meridional.</subtitle>
       <title>carobotero-co</title>
-      <updated>2007-12-20T22:13:31Z</updated>
+      <updated>2007-12-21T13:56:07Z</updated>
     </source>
   </entry>
 
@@ -345,7 +346,7 @@ La comunidad de Software Libre intentó en el 2002 pasar un [...]</summary>
       <link href="http://feeds.feedburner.com/carobotero" rel="self" type="application/rss+xml"/>
       <subtitle>Ideas de mi viaje por internet en temas de LibreCultura, derecho y nuevas tecnologías. Carta de navegación desde la América Meridional.</subtitle>
       <title>carobotero-co</title>
-      <updated>2007-12-20T22:13:31Z</updated>
+      <updated>2007-12-21T13:56:07Z</updated>
     </source>
   </entry>
 
@@ -530,7 +531,7 @@ Doublemint yours today. Or singlemint if you've not given before. And if we can 
       <link href="http://feeds.feedburner.com/carobotero" rel="self" type="application/rss+xml"/>
       <subtitle>Ideas de mi viaje por internet en temas de LibreCultura, derecho y nuevas tecnologías. Carta de navegación desde la América Meridional.</subtitle>
       <title>carobotero-co</title>
-      <updated>2007-12-20T22:13:31Z</updated>
+      <updated>2007-12-21T13:56:07Z</updated>
     </source>
   </entry>
 
@@ -647,7 +648,7 @@ Moderador: <a href="http://www.colombia.com/entrevistas/autonoticias/varios/2004
       <link href="http://feeds.feedburner.com/carobotero" rel="self" type="application/rss+xml"/>
       <subtitle>Ideas de mi viaje por internet en temas de LibreCultura, derecho y nuevas tecnologías. Carta de navegación desde la América Meridional.</subtitle>
       <title>carobotero-co</title>
-      <updated>2007-12-20T22:13:31Z</updated>
+      <updated>2007-12-21T13:56:07Z</updated>
     </source>
   </entry>
 
@@ -679,7 +680,7 @@ Ilustrar artículos en medios comerciales con licencias Creative Commons, el cas
       <link href="http://feeds.feedburner.com/carobotero" rel="self" type="application/rss+xml"/>
       <subtitle>Ideas de mi viaje por internet en temas de LibreCultura, derecho y nuevas tecnologías. Carta de navegación desde la América Meridional.</subtitle>
       <title>carobotero-co</title>
-      <updated>2007-12-20T22:13:31Z</updated>
+      <updated>2007-12-21T13:56:07Z</updated>
     </source>
   </entry>
 
@@ -984,7 +985,7 @@ iCommons is having an <a href="http://icommons.org/auction">auction</a> to build
       <link href="http://feeds.feedburner.com/carobotero" rel="self" type="application/rss+xml"/>
       <subtitle>Ideas de mi viaje por internet en temas de LibreCultura, derecho y nuevas tecnologías. Carta de navegación desde la América Meridional.</subtitle>
       <title>carobotero-co</title>
-      <updated>2007-12-20T22:13:31Z</updated>
+      <updated>2007-12-21T13:56:07Z</updated>
     </source>
   </entry>
 
@@ -1184,7 +1185,7 @@ Conexión: LAN si esta desde la universidad, Modem y DSL desde otros lugares.<br
       <link href="http://feeds.feedburner.com/carobotero" rel="self" type="application/rss+xml"/>
       <subtitle>Ideas de mi viaje por internet en temas de LibreCultura, derecho y nuevas tecnologías. Carta de navegación desde la América Meridional.</subtitle>
       <title>carobotero-co</title>
-      <updated>2007-12-20T22:13:31Z</updated>
+      <updated>2007-12-21T13:56:07Z</updated>
     </source>
   </entry>
 
@@ -1211,7 +1212,7 @@ Conexión: LAN si esta desde la universidad, Modem y DSL desde otros lugares.<br
       <link href="http://feeds.feedburner.com/carobotero" rel="self" type="application/rss+xml"/>
       <subtitle>Ideas de mi viaje por internet en temas de LibreCultura, derecho y nuevas tecnologías. Carta de navegación desde la América Meridional.</subtitle>
       <title>carobotero-co</title>
-      <updated>2007-12-20T22:13:31Z</updated>
+      <updated>2007-12-21T13:56:07Z</updated>
     </source>
   </entry>
 
@@ -1497,7 +1498,7 @@ For German speakers (and last week, my 4 year old informed me I was not a German
       <link href="http://feeds.feedburner.com/carobotero" rel="self" type="application/rss+xml"/>
       <subtitle>Ideas de mi viaje por internet en temas de LibreCultura, derecho y nuevas tecnologías. Carta de navegación desde la América Meridional.</subtitle>
       <title>carobotero-co</title>
-      <updated>2007-12-20T22:13:31Z</updated>
+      <updated>2007-12-21T13:56:07Z</updated>
     </source>
   </entry>
 
