@@ -65,12 +65,12 @@ def main():
     # Locate the cache directory and look for the file where a serialized list
     # of URI->description mappings may or may not exist
     planet_cache_dir= planet.config.cache_directory()
-    cc_cache_path = os.path.join(planet_cache_dir, 'creativecommons')
-    log.debug('CC cache directory is ' + cc_cache_path)
-    if not os.path.exists(cc_cache_path):
-        log.debug('CC cache directory does not exist.  Trying to create it ...')
-        os.makedirs(cc_cache_path)
-    map_path = os.path.join(cc_cache_path, 'license_mappings')
+    cache_path = os.path.join(planet_cache_dir, 'license_mappings')
+    log.debug('Cache directory is ' + cache_path)
+    if not os.path.exists(cache_path):
+         log.debug('Cache directory does not exist.  Trying to create it ...')
+         os.makedirs(cache_path)
+    map_path = os.path.join(cache_path, 'license.maps')
     log.debug('License name map cache file is ' + map_path)
 
     # If cc_license_cache is not empty, it should contain a dict of
@@ -91,10 +91,6 @@ def main():
     # Find every anchor tag that has rel="license"
     log.debug('Extracting license-related anchor tags from the parse tree.')
     anchors = soup.findAll(name="a", attrs={"rel": "license"})
-
-    # Step through each anchor and if it's a Creative Commons license, then
-    # lookup more specific data about the license that should be used to
-    # describe the license.
     for anchor in anchors:
         log.debug('Processing license URL ' + anchor['href'])
         
@@ -106,11 +102,11 @@ def main():
             lic_title = lic_text
             log.debug('Found name in cache: ' + lic_text)
         else:
-            # Try to fetch the license text from the CC API
+            # Try to fetch the license name from the license URL
             log.debug('URL NOT found in cache.  Attempting lookup.')
             lic_text =  get_license_text(anchor['href'])
             if lic_text:
-                # Re-set the value of this mapping, just in case it changed
+                # Cache the license name
                 license_maps[anchor['href']] = lic_text
                 log.debug('License name lookup succeded. Cached result.')
                 lic_title = lic_text

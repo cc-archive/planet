@@ -3,11 +3,19 @@
 ## configs.
 
 [Planet]
-name = Creative Commons Planet: Us, jurisdictions, and people
+name = CC, Jurisdictions, People
 #link = http://planet.creativecommons.org/
 link = http://localhost/cc/planet/www/
-owner_name = Asheesh Laroia
-owner_email = asheesh@creativecommons.org
+
+# I am hijacking this variable.  Apparently you can't arbitrarily add custom
+# variables to the [Planet] section (though you can to a feed).  Since this
+# actually a Planet of Planets we need a different title for every Planet, yet
+# we use the same template for all of them.  These Planet-level variables are
+# made available to the template directly, outside of the Channels and Items
+# arrays.  I'm implementing this ugly hack because it seems better than
+# implementing some ugly hack on the Planet Venus code itself.  Nathan Kinkade
+# 2007-12-20
+owner_name = 3 Planets combined: CC blog, CC jurisdiction projects, and interesting people.
 
 cache_directory = /var/www/cc/planet/cache/
 feed_timeout = 20

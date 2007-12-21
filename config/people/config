@@ -1,9 +1,18 @@
 [Planet]
-name = CC People blogs
+name = CC Interesting People
 #link = http://planet.creativecommons.org/people/
 link = http://localhost/cc/planet/www/people/
-owner_name = Asheesh Laroia
-owner_email = asheesh@creativecommons.org
+
+# WARNING: Ugly hack alert.
+# I am hijacking this variable.  Apparently you can't arbitrarily add custom
+# variables to the [Planet] section (though you can to a feed).  Since this
+# actually is Planet of Planets we need a different title for every Planet, yet
+# we use the same template for all of them.  These Planet-level variables are
+# made available to the template directly, outside of the Channels and Items
+# arrays.  I'm implementing this ugly hack because it seems better than
+# implementing some ugly hack on the Planet Venus code itself.  Nathan Kinkade
+# 2007-12-20
+owner_name = Blogs by people who write about CC topics, including people affiliated with CC or jurisdiction projects.  To be included, a blog must minimally be under a CC license and contain all highly relevant posts, or be able to provide a feed of all highly relevant posts (e.g. a category feed).  Contact webmaster@creativecommons.org if you know of a blog that should be included here.
 
 #cache_directory = /web/planet.creativecommons.org/cache/
 cache_directory = /var/www/cc/planet/cache/
@@ -11,7 +20,7 @@ feed_timeout = 20
 
 output_theme = cc 
 #output_dir = /web/planet.creativecommons.org/www/people/
-output_dir = /var/www/cc/planet/people/
+output_dir = /var/www/cc/planet/www/people/
 items_per_page = 60
 
 [index.html.tmpl]

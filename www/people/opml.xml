@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <opml version="1.1">
   <head>
-    <title>CC People blogs</title>
-    <dateModified>Thu, 06 Dec 2007 18:43:15 GMT</dateModified>
-    <ownerName>Asheesh Laroia</ownerName>
-    <ownerEmail>asheesh@creativecommons.org</ownerEmail>
+    <title>CC Interesting People</title>
+    <dateModified>Fri, 21 Dec 2007 00:07:37 GMT</dateModified>
+    <ownerName>Blogs by people who write about CC topics, including people affiliated with CC or jurisdiction projects.  To be included a blog must minimally be under a CC license and contain all highly relevant posts or be able to provide a feed of all highly relevant posts (e.g., a category feed).  Contact webmaster@creativecommons.org if you know of a blog that should be included.</ownerName>
+    <ownerEmail/>
   </head>
   <body>
     <outline type="rss" text="Joi Ito" title="Joi Ito's Web" xmlUrl="http://joi.ito.com/atom.xml"/>

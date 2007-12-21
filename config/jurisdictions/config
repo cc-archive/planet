@@ -2,8 +2,16 @@
 name = CC jurisdiction project blogs
 #link = http://planet.creativecommons.org/jurisdictions/
 link = http://localhost/cc/planet/www/jurisdictions/
-owner_name = Asheesh Laroia
-owner_email = asheesh@creativecommons.org
+
+# I am hijacking this variable.  Apparently you can't arbitrarily add custom
+# variables to the [Planet] section (though you can to a feed).  Since this
+# actually a Planet of Planets we need a different title for every Planet, yet
+# we use the same template for all of them.  These Planet-level variables are
+# made available to the template directly, outside of the Channels and Items
+# arrays.  I'm implementing this ugly hack because it seems better than
+# implementing some ugly hack on the Planet Venus code itself.  Nathan Kinkade
+# 2007-12-20
+owner_name = CC jurisdiction project blogs
 
 #cache_directory = /web/planet.creativecommons.org/cache/
 cache_directory = /var/www/cc/planet/cache/
@@ -50,7 +58,10 @@ name = CC China Mainland
 country_code = cn
 default_license = http://creativecommons.org/licenses/by/2.5/cn/
 
-[http://creativecommons.poligran.edu.co/index.php?option=com_rss&feed=ATOM0.3&no_html=1]
+# According to Carolina Botero the plogran.edu.co URL was only valid during the
+# launch of CC Colombia back in 2006.  Nathan Kinkade 2007-12-20
+#[http://creativecommons.poligran.edu.co/index.php?option=com_rss&feed=ATOM0.3&no_html=1]
+[http://co.creativecommons.org/feed]
 name = CC Colombia
 country_code = co
 default_license = http://creativecommons.org/licenses/by-sa/2.5/co/
