@@ -1,7 +1,8 @@
 [Planet]
 name = CC jurisdiction project blogs
-#link = http://planet.creativecommons.org/jurisdictions/
-link = http://localhost/cc/planet/www/jurisdictions/
+link = http://planet.creativecommons.org/jurisdictions/
+
+cache_directory = /var/www/planet.creativecommons.org/cache/
 
 # I am hijacking this variable.  Apparently you can't arbitrarily add custom
 # variables to the [Planet] section (though you can to a feed).  Since this
@@ -13,13 +14,10 @@ link = http://localhost/cc/planet/www/jurisdictions/
 # 2007-12-20
 owner_name = CC jurisdiction project blogs
 
-#cache_directory = /web/planet.creativecommons.org/cache/
-cache_directory = /var/www/cc/planet/cache/
 feed_timeout = 20
 
 output_theme = cc 
-#output_dir = /web/planet.creativecommons.org/www/jurisdictions/
-output_dir = /var/www/cc/planet/www/jurisdictions/
+output_dir = /var/www/planet.creativecommons.org/www/jurisdictions/
 items_per_page = 60
 
 [index.html.tmpl]
@@ -58,13 +56,16 @@ name = CC China Mainland
 country_code = cn
 default_license = http://creativecommons.org/licenses/by/2.5/cn/
 
-# According to Carolina Botero the plogran.edu.co URL was only valid during the
-# launch of CC Colombia back in 2006.  Nathan Kinkade 2007-12-20
+# I exchanged emails with Carolina Botero of CC Colombia and she informed me that the
+# poligran.edu.co site was only valid during their launch.  We already have her personal
+# blog under config/people/config.  In the meantime, though not used very much, the
+# "official" Colombia blog is the one we have provided via the CC Techblog and wordpress-mu.
+# I have added it here.  Nathan Kinkade 2007-12-17.
 #[http://creativecommons.poligran.edu.co/index.php?option=com_rss&feed=ATOM0.3&no_html=1]
 [http://co.creativecommons.org/feed]
 name = CC Colombia
 country_code = co
-default_license = http://creativecommons.org/licenses/by-sa/2.5/co/
+default_license = http://creativecommons.org/licenses/by/2.5/co/
 
 # http://creativecommons.fi/ajankohtaista/ = finland but no feed?
 
@@ -101,6 +102,13 @@ default_license = http://creativecommons.org/licenses/by/2.1/jp/
 name = CC Korea
 country_code = kr
 default_license = http://creativecommons.org/licenses/by/2.0/kr/
+
+# Added by Nathan Kinkade on 2007-12-10 per correspondence with Michelle Thorne
+# and Mike Linksvayer.
+[http://cc.org.mk/index.php?option=com_rss&feed=ATOM0.3&no_html=1]
+name = CC Macedonia
+country_code = mk
+default_license = http://creativecommons.org/licenses/by/2.5/mk/
 
 [http://creativecommons.org.mx/feed/]
 name = CC Mexico

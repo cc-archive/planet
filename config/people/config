@@ -1,7 +1,8 @@
 [Planet]
 name = CC Interesting People
-#link = http://planet.creativecommons.org/people/
-link = http://localhost/cc/planet/www/people/
+link = http://planet.creativecommons.org/people/
+
+cache_directory = /var/www/planet.creativecommons.org/cache/
 
 # WARNING: Ugly hack alert.
 # I am hijacking this variable.  Apparently you can't arbitrarily add custom
@@ -14,13 +15,10 @@ link = http://localhost/cc/planet/www/people/
 # 2007-12-20
 owner_name = Blogs by people who write about CC topics, including people affiliated with CC or jurisdiction projects.  To be included, a blog must minimally be under a CC license and contain all highly relevant posts, or be able to provide a feed of all highly relevant posts (e.g. a category feed).  Contact webmaster@creativecommons.org if you know of a blog that should be included here.
 
-#cache_directory = /web/planet.creativecommons.org/cache/
-cache_directory = /var/www/cc/planet/cache/
 feed_timeout = 20
 
 output_theme = cc 
-#output_dir = /web/planet.creativecommons.org/www/people/
-output_dir = /var/www/cc/planet/www/people/
+output_dir = /var/www/planet.creativecommons.org/www/people/
 items_per_page = 60
 
 [index.html.tmpl]
@@ -53,4 +51,3 @@ default_license = http://creativecommons.org/licenses/by/2.5/au/
 [http://www.karisma.org.co/carobotero/?feed=atom]
 name = Carolina Botero
 default_license = http://creativecommons.org/licenses/by-nc-sa/2.5/co/
-

@@ -4,8 +4,9 @@
 
 [Planet]
 name = CC, Jurisdictions, People
-#link = http://planet.creativecommons.org/
-link = http://localhost/cc/planet/www/
+link = http://planet.creativecommons.org/
+
+cache_directory = /var/www/planet.creativecommons.org/cache/
 
 # I am hijacking this variable.  Apparently you can't arbitrarily add custom
 # variables to the [Planet] section (though you can to a feed).  Since this
@@ -17,13 +18,14 @@ link = http://localhost/cc/planet/www/
 # 2007-12-20
 owner_name = 3 Planets combined: CC blog, CC jurisdiction projects, and interesting people.
 
-cache_directory = /var/www/cc/planet/cache/
 feed_timeout = 20
 
 output_theme = cc 
-output_dir = /var/www/cc/planet/www/
+output_dir = /var/www/planet.creativecommons.org/www/
 items_per_page = 60
 
+# Run the populated template through a plugin that will apply pretty names
+# to the licenses.
 [index.html.tmpl]
 filters = get_license_name.plugin
 
