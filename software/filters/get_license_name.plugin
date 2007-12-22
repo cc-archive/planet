@@ -50,11 +50,12 @@ def get_license_text(license_url):
         log.debug('Encountered an IOError while trying to fetch RDFa data')
         return None
     else:
-        ns_title = 'http://purl.org/dc/elements/1.1/title'
-        if ns_title in lic_triples[license_url]:
-            text = lic_triples[license_url][ns_title][0]
-            log.debug('Found license name ' + text)
-            return text
+        if license_url in lic_triples:
+            ns_title = 'http://purl.org/dc/elements/1.1/title'
+            if ns_title in lic_triples[license_url]:
+                text = lic_triples[license_url][ns_title][0]
+                log.debug('Found license name ' + text)
+                return text
         else:
             # Return something generic if no real license text is found
             log.debug('License name NOT found.')
