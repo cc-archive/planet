@@ -12,6 +12,9 @@
 	<title><TMPL_VAR channel_name ESCAPE="HTML"><TMPL_IF title>: <TMPL_VAR title_plain ESCAPE="HTML"></TMPL_IF></title>
 	<guid isPermaLink="<TMPL_VAR guid_isPermaLink>"><TMPL_VAR id ESCAPE="HTML"></guid>
 	<link><TMPL_VAR link ESCAPE="HTML"></link>
+        <TMPL_IF channel_country_code>
+		<category><TMPL_VAR channel_country_code ESCAPE="HTML"></category>
+        </TMPL_IF>
 	<TMPL_IF content>
 	<description><TMPL_VAR content ESCAPE="HTML"></description>
 	</TMPL_IF>
