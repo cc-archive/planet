@@ -16,7 +16,7 @@ cache_directory = /var/www/planet.creativecommons.org/cache/
 # arrays.  I'm implementing this ugly hack because it seems better than
 # implementing some ugly hack on the Planet Venus code itself.  Nathan Kinkade
 # 2007-12-20
-owner_name = 3 Planets combined: CC blog, CC jurisdiction projects, and interesting people.
+owner_name = 3 Planets combined: CC blogs, CC jurisdiction projects, and interesting people.
 
 feed_timeout = 20
 

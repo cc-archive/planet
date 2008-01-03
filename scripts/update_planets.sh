@@ -1,7 +1,6 @@
 #!/bin/sh
 
-#cd /web/planet.creativecommons.org/software
-cd /var/www/cc/planet/software
+cd /var/www/planet.creativecommons.org/software
 
 # Update the easy planets
 python planet.py ../config/people/config
