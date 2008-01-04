@@ -51,3 +51,15 @@ default_license = http://creativecommons.org/licenses/by/2.5/au/
 [http://www.karisma.org.co/carobotero/?feed=atom]
 name = Carolina Botero
 default_license = http://creativecommons.org/licenses/by-nc-sa/2.5/co/
+
+[http://suse.groenbaek.net/openlife/category/it/creative-commons/feed/]
+name = Martin Von Haller Groenbaek
+default_license = http://creativecommons.org/licenses/by/1.0/
+
+[http://yergler.net/blog/category/cc/feed/]
+name = Nathan Yergler
+default_license = http://creativecommons.org/licenses/by-sa/3.0/us/
+
+[http://rejon.org/tag/creativecommons/feed/]
+name = Jon Phillips
+default_license = http://creativecommons.org/licenses/by/2.5/
