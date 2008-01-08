@@ -1,11 +1,10 @@
 [Planet]
 name = CC jurisdiction project blogs
 link = http://planet.creativecommons.org/jurisdictions/
-
 cache_directory = /var/www/planet.creativecommons.org/cache/
 
 # I am hijacking this variable.  Apparently you can't arbitrarily add custom
-# variables to the [Planet] section (though you can to a feed).  Since this
+# variables to the [Planet] section (though you can to a feed).  Since this is
 # actually a Planet of Planets we need a different title for every Planet, yet
 # we use the same template for all of them.  These Planet-level variables are
 # made available to the template directly, outside of the Channels and Items
@@ -15,7 +14,6 @@ cache_directory = /var/www/planet.creativecommons.org/cache/
 owner_name = CC jurisdiction project blogs
 
 feed_timeout = 20
-
 output_theme = cc 
 output_dir = /var/www/planet.creativecommons.org/www/jurisdictions/
 items_per_page = 60
@@ -28,72 +26,140 @@ filters = get_license_name.plugin
 facewidth = 65
 faceheight = 85
 
-## Let's get some blogz
+##----------------------------##
+#  JURISDICTION BLOG ENTRIES   #
+##----------------------------##
 
+#
+# Argentina
+#
+[http://www.bienescomunes.org/feed/]
+name = CC Argentina
+country_code = ar
+default_license = http://creativecommons.org/licenses/by-sa/2.5/ar/
+
+#
+# Australia
+#
 [http://creativecommons.org.au/node/feed]
 name = CC Australia
 country_code = au
 default_license = http://creativecommons.org/licenses/by-sa/2.1/au/
 
-# http://www.creativecommons.at/ = Austria, but no feed?
+#
+# Brazil
+#
+[http://www.creativecommons.org.br/index2.php?option=com_rss&feed=ATOM&no_html=1]
+name = CC Brazil
+country_code = br
+default_license = http://creativecommons.org/licenses/by/2.0/br/
 
-# http://www.creativecommons.org.br/ = Brazil, but no feed?
-
-# http://cc.isoc.bg/ = Bulgaria, but no feed?
-
+#
+# Canada
+#
 [http://creativecommons.ca/blog/feed/]
 name = CC Canada
 country_code = ca
 default_license = http://creativecommons.org/licenses/by/2.5/ca/
 
+#
+# Catalonia (Spain)
+#
+# NOTE: Not really a country (yet), but has it's own blog
+[http://cat.creativecommons.org/blog/wp-rss.php]
+name = CC Catalonia
+country_code = es-ca
+default_license = http://creativecommons.org/licenses/by/2.5/es/deed.ca
+
+#
+# Chile
+#
 [http://creativecommons.cl/feed/]
 name = CC Chile
 country_code = cl
 default_license = http://creativecommons.org/licenses/by-nc-sa/2.0/cl/
 
+#
+# China - Mainland
+#
 [http://cn.creativecommons.org/index.php/feed/]
 name = CC China Mainland
 country_code = cn
 default_license = http://creativecommons.org/licenses/by/2.5/cn/
 
+#
+# Colombia
+#
 # I exchanged emails with Carolina Botero of CC Colombia and she informed me that the
 # poligran.edu.co site was only valid during their launch.  We already have her personal
 # blog under config/people/config.  In the meantime, though not used very much, the
 # "official" Colombia blog is the one we have provided via the CC Techblog and wordpress-mu.
 # I have added it here.  Nathan Kinkade 2007-12-17.
 #[http://creativecommons.poligran.edu.co/index.php?option=com_rss&feed=ATOM0.3&no_html=1]
-[http://co.creativecommons.org/feed]
+[http://co.creativecommons.org/feed/]
 name = CC Colombia
 country_code = co
 default_license = http://creativecommons.org/licenses/by/2.5/co/
 
-# http://creativecommons.fi/ajankohtaista/ = finland but no feed?
-
+#
+# France
+#
 [http://fr.creativecommons.org/weblog/atom.php]
 name = CC France
 country_code = fr
 default_license = http://creativecommons.org/licenses/by-sa/2.0/fr/
 
-# http://de.creativecommons.org/ = Germany but no feed?
+#
+# Hong Kong
+#
+[http://cchk.wetpaint.com/rss2_0/pageReport/updated]
+name = CC Hong Kong
+country_code = hk
+# default_license = ?
 
+#
+# Hungary
+#
+[http://creativecommons.hu/civi/?q=node/feed]
+name = CC Hungary
+country_code = hu
+default_license = http://creativecommons.org/licenses/by-sa/2.5/hu/
+
+#
+# India
+#
+[http://cc-india.org/?q=rss.xml]
+name = CC India
+country_code = in
+# default_license = ?
+
+#
+# Israel
+#
 [http://creativecommons.org.il/blog/wp-rss.php]
 name = CC Israel
 country_code = il
 default_license = http://creativecommons.org/licenses/by-sa/2.5/il/
 
-# http://cc-india.org/index.php?q=node/27 = India but no feed?
-
+#
+# Italy
+#
 [http://www.creativecommons.it/node/feed]
 name = CC Italy
 country_code = it
 default_license = http://creativecommons.org/licenses/by-sa/2.5/it/
 
+#
+# Japan
+#
 [http://www.creativecommons.jp/news/feeds/news/index.xml]
 name = CC Japan
 country_code = jp
 default_license = http://creativecommons.org/licenses/by/2.1/jp/
 
-
+#
+# Korea
+#
 #[http://www.creativecommons.or.kr/blog/index.xml]
 # It appears that the URL for the Korea blog feed has changed to the following.
 # I'm leaving the old one commented out above this comment for the sake of
@@ -103,60 +169,119 @@ name = CC Korea
 country_code = kr
 default_license = http://creativecommons.org/licenses/by/2.0/kr/
 
+#
+# Luxembourg
+#
+[http://blog.luxcommons.lu/?feed=atom]
+name = CC Luxembourg
+country_code = lu
+default_license = 
+
+#
+# Macedonia
+#
 # Added by Nathan Kinkade on 2007-12-10 per correspondence with Michelle Thorne
 # and Mike Linksvayer.
-[http://cc.org.mk/index.php?option=com_rss&feed=ATOM0.3&no_html=1]
+[http://cc.org.mk/index.php?option=com_rss&feed=RSS2.0&no_html=1]
 name = CC Macedonia
 country_code = mk
 default_license = http://creativecommons.org/licenses/by/2.5/mk/
 
-[http://creativecommons.org.mx/feed/]
+#
+# Mexico
+#
+[http://creativecommons.org.mx/feed/rss/]
 name = CC Mexico
 country_code = mx
 default_license = http://creativecommons.org/licenses/by/2.5/mx/
 
+#
+# Netherlands
+#
 [http://creativecommons.nl/feed/]
 name = CC Netherlands
 country_code = nl
 default_license = http://creativecommons.org/licenses/by/3.0/nl/
 
+#
+# Peru
+#
 [http://pe.creativecommons.org/index.php/feed/]
 name = CC Peru
 country_code = pe
 default_license = http://creativecommons.org/licenses/by/2.5/
 
-# http://pt.creativecommons.org/ is dot PT but no feed?
+#
+# Phillipines
+#
+[http://www.philippinecommons.org/feed/rss/]
+name = CC Philippines
+country_code = ph
+# default_license = ?
 
-# http://creativecommons.si/ is SI but no feed?
-
+#
+# Poland
+#
 [http://creativecommons.pl/feed/atom/]
 name = CC Poland
 country_code = pl
 default_license = http://creativecommons.org/licenses/by/2.5/pl/
 
+#
+# Puerto Rico
+#
+# NOTE: WAITING APPROVAL FROM CATHARINA TO ADD THIS BLOG
+#[http://www.creativecommons.pr/?feed=atom]
+#name = CC Puerto Rico
+#country_code = pr
+#default_license = http://creativecommons.org/licenses/by/2.5/
+
+#
+# Serbia
+#
+# NOTE: WAITING APPROVAL FROM CATHARINA TO ADD THIS BLOG
+#[http://www.creativecommons.org.yu/?q=rss.xml]
+#name = CC Serbia
+#country_code = rs
+#default_license = http://creativecommons.org/licenses/by/2.5/
+
+#
+# Slovenia
+#
+# NOTE: WAITING APPROVAL FROM CATHARINA TO ADD THIS BLOG
+#[http://creativecommons.si/blog/feed/]
+#name = CC Slovenia
+#country_code = si
+#default_license = http://creativecommons.org/licenses/by/2.5/
+
+#
+# South Africa
+#
 [http://za.creativecommons.org/feed/atom/]
 name = CC South Africa
 country_code = za
 default_license = http://creativecommons.org/licenses/by/2.5/
 
+#
+# Spain
+#
 [http://es.creativecommons.org/blog/index.php/feed/atom/]
 name = CC Spain
 country_code = es
 default_license = http://creativecommons.org/licenses/by/2.1/es/
 
+#
+# Switzerland
+#
 [http://www.creativecommons.ch/weblog/feed/atom/]
 name = CC Switzerland
 country_code = ch
 default_license = http://creativecommons.org/licenses/by/2.5/ch/
 
+#
+# Taiwan
+#
 [http://creativecommons.org.tw/node/feed]
 name = CC Taiwan
 country_code = tw
 default_license = http://creativecommons.org/licenses/by-sa/2.0/tw/
-
-# http://www.creativecommons.org.uk/blog/ is UK but no feed?
-
-# Alex: Catalan stuff
-# [http://cat.creativecommons.org/blog/wp-rss.php]
-# name = CC Catalan
-# country_code = cat
