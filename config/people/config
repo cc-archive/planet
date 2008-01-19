@@ -63,3 +63,7 @@ default_license = http://creativecommons.org/licenses/by-sa/3.0/us/
 [http://rejon.org/tag/creativecommons/feed/]
 name = Jon Phillips
 default_license = http://creativecommons.org/licenses/by/2.5/
+
+[http://hoikoinoi.wordpress.com/tag/cc/feed/]
+name = Giorgos Cheliotis
+default_license = http://creativecommons.org/licenses/by/3.0/
