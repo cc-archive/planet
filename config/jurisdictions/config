@@ -49,7 +49,7 @@ default_license = http://creativecommons.org/licenses/by-sa/2.1/au/
 #
 # Brazil
 #
-[http://www.creativecommons.org.br/index2.php?option=com_rss&feed=ATOM&no_html=1]
+[http://www.creativecommons.org.br/index2.php?option=com_rss&feed=RSS2.0&no_html=1]
 name = CC Brazil
 country_code = br
 default_license = http://creativecommons.org/licenses/by/2.0/br/
@@ -112,9 +112,9 @@ default_license = http://creativecommons.org/licenses/by-sa/2.0/fr/
 #
 # Hong Kong
 #
-[http://cchk.wetpaint.com/rss2_0/pageReport/updated]
-name = CC Hong Kong
-country_code = hk
+#[http://cchk.wetpaint.com/rss2_0/pageReport/updated]
+#name = CC Hong Kong
+#country_code = hk
 # default_license = ?
 
 #
@@ -175,7 +175,7 @@ default_license = http://creativecommons.org/licenses/by/2.0/kr/
 [http://blog.luxcommons.lu/?feed=atom]
 name = CC Luxembourg
 country_code = lu
-default_license = 
+default_license = http://creativecommons.org/licenses/by/3.0/lu/
 
 #
 # Macedonia
@@ -228,31 +228,20 @@ country_code = pl
 default_license = http://creativecommons.org/licenses/by/2.5/pl/
 
 #
-# Puerto Rico
-#
-# NOTE: WAITING APPROVAL FROM CATHARINA TO ADD THIS BLOG
-#[http://www.creativecommons.pr/?feed=atom]
-#name = CC Puerto Rico
-#country_code = pr
-#default_license = http://creativecommons.org/licenses/by/2.5/
-
-#
 # Serbia
 #
-# NOTE: WAITING APPROVAL FROM CATHARINA TO ADD THIS BLOG
-#[http://www.creativecommons.org.yu/?q=rss.xml]
-#name = CC Serbia
-#country_code = rs
-#default_license = http://creativecommons.org/licenses/by/2.5/
+[http://www.creativecommons.org.yu/?q=rss.xml]
+name = CC Serbia
+country_code = rs
+default_license = http://creativecommons.org/licenses/by/3.0/rs/
 
 #
 # Slovenia
 #
-# NOTE: WAITING APPROVAL FROM CATHARINA TO ADD THIS BLOG
-#[http://creativecommons.si/blog/feed/]
-#name = CC Slovenia
-#country_code = si
-#default_license = http://creativecommons.org/licenses/by/2.5/
+[http://creativecommons.si/blog/feed/]
+name = CC Slovenia
+country_code = si
+default_license = http://creativecommons.org/licenses/by/2.5/
 
 #
 # South Africa
@@ -269,6 +258,14 @@ default_license = http://creativecommons.org/licenses/by/2.5/
 name = CC Spain
 country_code = es
 default_license = http://creativecommons.org/licenses/by/2.1/es/
+
+#
+# Sweden
+#
+[http://www.creativecommons.se/?feed=atom]
+name = CC Sweden
+country_code = se
+default_license = http://creativecommons.org/licenses/by/2.5/se/
 
 #
 # Switzerland
