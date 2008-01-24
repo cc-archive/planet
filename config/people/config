@@ -67,3 +67,15 @@ default_license = http://creativecommons.org/licenses/by/2.5/
 [http://hoikoinoi.wordpress.com/tag/cc/feed/]
 name = Giorgos Cheliotis
 default_license = http://creativecommons.org/licenses/by/3.0/
+
+[http://www.opencontentlawyer.com/category/creative-commons/feed/]
+name = Jordan Hatcher
+default_license = http://creativecommons.org/licenses/by/2.5/scotland/
+
+[http://blog.bobchao.net/feeds/posts/default/-/Creative%20Commons]
+name = Bob Chao (柏強)
+default_license = http://creativecommons.org/licenses/by-nc-sa/2.5/tw/
+
+[http://netzpolitik.org/category/creative-commons/feed]
+name = Markus Beckedahl
+default_license = http://creativecommons.org/licenses/by-nc-sa/2.0/de/
