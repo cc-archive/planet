@@ -1,9 +1,9 @@
 # NOTE:
-## This is a config SNIPPET - it gets appended to the affiliate and people
+## This is a config SNIPPET - it gets appended to the affiliate and community
 ## configs.
 
 [Planet]
-name = CC, Jurisdictions, People
+name = CC, Jurisdictions, Community
 link = http://planet.creativecommons.org/
 
 cache_directory = /var/www/planet.creativecommons.org/cache/
@@ -16,7 +16,7 @@ cache_directory = /var/www/planet.creativecommons.org/cache/
 # arrays.  I'm implementing this ugly hack because it seems better than
 # implementing some ugly hack on the Planet Venus code itself.  Nathan Kinkade
 # 2007-12-20
-owner_name = 3 Planets combined: CC blogs, CC jurisdiction projects, and interesting people.
+owner_name = 3 Planets combined: CC blogs, CC jurisdiction projects, and CC community.
 
 feed_timeout = 20
 

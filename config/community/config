@@ -1,6 +1,6 @@
 [Planet]
-name = CC Interesting People
-link = http://planet.creativecommons.org/people/
+name = CC Community
+link = http://planet.creativecommons.org/community/
 
 cache_directory = /var/www/planet.creativecommons.org/cache/
 
@@ -11,14 +11,14 @@ cache_directory = /var/www/planet.creativecommons.org/cache/
 # we use the same template for all of them.  These Planet-level variables are
 # made available to the template directly, outside of the Channels and Items
 # arrays.  I'm implementing this ugly hack because it seems better than
-# implementing some ugly hack on the Planet Venus code itself.  Nathan Kinkade
-# 2007-12-20
-owner_name = Blogs by people who write about CC topics, including people affiliated with CC or jurisdiction projects.  To be included, a blog must minimally be under a CC license and contain all highly relevant posts, or be able to provide a feed of all highly relevant posts (e.g. a category feed).  Contact webmaster@creativecommons.org if you know of a blog that should be included here.
+# implementing some ugly hack on the Planet Venus code itself.
+# (nkinkade 2007-12-20)
+owner_name = Blogs from the CC community at large that focus on CC topics, including people affiliated with CC or jurisdiction projects.  To be included, a blog must minimally be under a CC license and contain all highly relevant posts, or be able to provide a feed of all highly relevant posts (e.g. a category feed).  Contact webmaster@creativecommons.org if you know of a blog that should be included here.
 
 feed_timeout = 20
 
 output_theme = cc 
-output_dir = /var/www/planet.creativecommons.org/www/people/
+output_dir = /var/www/planet.creativecommons.org/www/community/
 items_per_page = 60
 
 [index.html.tmpl]
@@ -79,3 +79,11 @@ default_license = http://creativecommons.org/licenses/by-nc-sa/2.5/tw/
 [http://netzpolitik.org/category/creative-commons/feed]
 name = Markus Beckedahl
 default_license = http://creativecommons.org/licenses/by-nc-sa/2.0/de/
+
+[http://www.quemarlasnaves.net/category/creativecommons/feed]
+name = Claudio Ruiz
+default_license = http://creativecommons.org/licenses/by-sa/2.0/cl/
+
+[http://www.derechosdigitales.org/category/principal/derecho-de-autor/creative-commons/feed]
+name = Derechos Digitales
+default_license = http://creativecommons.org/licenses/by-sa/2.0/cl/
