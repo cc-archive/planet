@@ -69,6 +69,7 @@ h1, h2, h3 { line-height: 120%; font-family: Georgia, serif; }
 h1 { font-size: 180%; }
 h2 { margin-top: 25px; line-height: 140%; margin-bottom: 12px; font-size: 175% !important; }
 h3 { font-size: 150% !important; margin-top: 18px; }
+h3.subhead { font-family: verdana, sans; font-size:90% !important; font-weight: normal; line-height:1.25em !important; margin-bottom: 15px;}
 h4, .jurisdiction a:link { color: #773; font-size: 105%; font-weight: bold;}
 .jurisdictions h4 { display: inline; }
 a, a:link { text-decoration: none; color: #00b; }
