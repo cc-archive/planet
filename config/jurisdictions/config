@@ -254,7 +254,7 @@ default_license = http://creativecommons.org/licenses/by/2.5/
 #
 # Spain
 #
-[http://es.creativecommons.org/blog/index.php/feed/atom/]
+[http://es.creativecommons.org/index.php/feed/atom/]
 name = CC Spain
 country_code = es
 default_license = http://creativecommons.org/licenses/by/2.1/es/
