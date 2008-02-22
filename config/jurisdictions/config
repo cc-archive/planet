@@ -13,7 +13,6 @@ cache_directory = /var/www/planet.creativecommons.org/cache/
 # 2007-12-20
 owner_name = CC jurisdiction project blogs
 
-feed_timeout = 20
 output_theme = cc 
 output_dir = /var/www/planet.creativecommons.org/www/jurisdictions/
 items_per_page = 60
