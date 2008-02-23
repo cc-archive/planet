@@ -16,7 +16,7 @@ cache_directory = /var/www/planet.creativecommons.org/cache/
 owner_name = Blogs by people who write about CC topics, including people affiliated with CC or jurisdiction projects.  To be included, a blog must minimally be under a CC license and contain all highly relevant posts, or be able to provide a feed of all highly relevant posts (e.g. a category feed).  Contact webmaster@creativecommons.org if you know of a blog that should be included here.
 
 output_theme = cc 
-output_dir = /var/www/planet.creativecommons.org/community/
+output_dir = /var/www/planet.creativecommons.org/www/community/
 items_per_page = 60
 
 [index.html.tmpl]
