@@ -1,5 +1,5 @@
 [Planet]
-name = CC Interesting People
+name = CC Community Blogs
 link = http://planet.creativecommons.org/community/
 
 cache_directory = /var/www/planet.creativecommons.org/cache/
@@ -13,7 +13,7 @@ cache_directory = /var/www/planet.creativecommons.org/cache/
 # arrays.  I'm implementing this ugly hack because it seems better than
 # implementing some ugly hack on the Planet Venus code itself.  Nathan Kinkade
 # 2007-12-20
-owner_name = Blogs by people or organizations who write about CC topics, including people affiliated with CC or jurisdiction projects.  To be included, a blog must minimally be under a CC license and contain all highly relevant posts, or be able to provide a feed of all highly relevant posts (e.g. a category feed).  Contact webmaster@creativecommons.org if you know of a blog that should be included here.
+owner_name = This page aggregates blogs by people or organizations who write about CC topics, including people affiliated with CC or jurisdiction projects.  To be included, a blog must minimally be under a CC <a href="http://creativecommons.org/license/">license</a> and contain all highly relevant posts, or be able to provide a feed of all highly relevant posts (e.g. a category feed).  Contact webmaster@creativecommons.org if you know of a blog that should be included here. Opinions are those of individual bloggers.
 
 output_theme = cc 
 output_dir = /var/www/planet.creativecommons.org/www/community/
@@ -100,3 +100,9 @@ default_license = http://creativecommons.org/licenses/by-nc-sa/2.5/tw/
 [http://netzpolitik.org/category/creative-commons/feed]
 name = Markus Beckedahl
 default_license = http://creativecommons.org/licenses/by-nc-sa/2.0/de/
+
+[http://rconversation.blogs.com/rconversation/index.rdf]
+name = Rebecca MacKinnon
+default_license = http://creativecommons.org/licenses/by/3.0/
+filters = filter_categories.py
+filter_categories = Creative Commons

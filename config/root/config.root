@@ -3,7 +3,7 @@
 ## configs.
 
 [Planet]
-name = CC, Jurisdictions, Community
+name = Planet Creative Commons
 link = http://planet.creativecommons.org/
 
 cache_directory = /var/www/planet.creativecommons.org/cache/
@@ -16,7 +16,7 @@ cache_directory = /var/www/planet.creativecommons.org/cache/
 # arrays.  I'm implementing this ugly hack because it seems better than
 # implementing some ugly hack on the Planet Venus code itself.  Nathan Kinkade
 # 2007-12-20
-owner_name = 3 Planets combined: CC blogs, CC jurisdiction projects, and CC community.
+owner_name = This page aggregates blogs from Creative Commons, <a href="http://creativecommons.org/international/">CC jurisdiction projects</a>, and the CC community. Opinions are those of individual bloggers.
 
 feed_timeout = 20
 

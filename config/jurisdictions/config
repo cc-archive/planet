@@ -1,5 +1,5 @@
 [Planet]
-name = CC jurisdiction project blogs
+name = CC Jurisdiction Project Blogs
 link = http://planet.creativecommons.org/jurisdictions/
 cache_directory = /var/www/planet.creativecommons.org/cache/
 
@@ -11,7 +11,7 @@ cache_directory = /var/www/planet.creativecommons.org/cache/
 # arrays.  I'm implementing this ugly hack because it seems better than
 # implementing some ugly hack on the Planet Venus code itself.  Nathan Kinkade
 # 2007-12-20
-owner_name = CC jurisdiction project blogs
+owner_name = This page aggregates blogs published by <a href="http://creativecommons.org/international">CC jurisdiction projects</a>. Opinions are those of individual bloggers.
 
 output_theme = cc 
 output_dir = /var/www/planet.creativecommons.org/www/jurisdictions/
