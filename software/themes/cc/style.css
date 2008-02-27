@@ -23,7 +23,7 @@ body { background-color: #fff; color: #333; font: 12px verdana, sans-serif !impo
 
   html>body #header-main .logo span {
     display: block;
-    width: 196px;
+    width: 275px;
     height: 69px; 
     background: url('/images/planet-title.png') no-repeat top left;
   }
