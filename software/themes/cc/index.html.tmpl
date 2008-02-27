@@ -19,19 +19,19 @@
     <div id="header-main" class="box">
         <span class="publish">
             <a href="http://creativecommons.org/license/" class="cc-actions">
-                <span class="img"><img src="/images/license-8.png" border="0" class="publish" /></span>
+                <span class="img"><img src="http://creativecommons.org/images/license-8.png" border="0" class="publish" /></span>
                 <span class="option">License</span>Your Work
             </a>
         </span>
         <span class="find">
             <a href="http://search.creativecommons.org/" class="cc-actions">
-                <span class="img"><img src="/images/find-8.png" border="0"/></span>
+                <span class="img"><img src="http://creativecommons.org/images/find-8.png" border="0"/></span>
                 <span class="option">Search</span>CC Licensed Work
             </a>
         </span>
         <span class="logo">
             <a href="/">
-                <span><img src="/images/cc-title-8.png" alt="creative commons" id="cc-title" border="0"/></span>
+                <span><img src="/images/planet-title-8.png" alt="planet creative commons" id="planet-title" border="0"/></span>
             </a>
         </span>
     </div>
@@ -94,7 +94,11 @@
             </TMPL_IF>
             <TMPL_IF channel_country_code>
             <a href="http://creativecommons.org/international/<TMPL_VAR channel_country_code>">
+	        <TMPL_IF channel_flag_code>
+                <img class="country" src="http://creativecommons.org/images/international/<TMPL_VAR channel_flag_code ESCAPE="HTML">.png" alt="" />
+		<TMPL_ELSE>
                 <img class="country" src="http://creativecommons.org/images/international/<TMPL_VAR channel_country_code ESCAPE="HTML">.png" alt="" />
+		</TMPL_IF>
             </a>
             </TMPL_IF>
             <TMPL_IF title>

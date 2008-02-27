@@ -25,7 +25,7 @@ body { background-color: #fff; color: #333; font: 12px verdana, sans-serif !impo
     display: block;
     width: 196px;
     height: 69px; 
-    background: url('http://creativecommons.org/images/cc-title.png') no-repeat top left;
+    background: url('/images/planet-title.png') no-repeat top left;
   }
   html>body #header-main .logo span img {
     display: none;
