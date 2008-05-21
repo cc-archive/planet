@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:ccplanet="urn:cc:planet">
 
 <channel>
 	<title><TMPL_VAR name></title>
@@ -13,10 +13,12 @@
 	<guid isPermaLink="<TMPL_VAR guid_isPermaLink>"><TMPL_VAR id ESCAPE="HTML"></guid>
 	<link><TMPL_VAR link ESCAPE="HTML"></link>
         <TMPL_IF channel_country_code>
-        <category><TMPL_VAR channel_country_code ESCAPE="HTML"></category>
+        <ccplanet:country_code><TMPL_VAR channel_country_code ESCAPE="HTML"></ccplanet:country_code>
         </TMPL_IF>
         <TMPL_IF channel_flag_code>
-        <category>flag_code=<TMPL_VAR channel_flag_code ESCAPE="HTML"></category>
+        <ccplanet:flag_code>flag_code=<TMPL_VAR channel_flag_code ESCAPE="HTML"></ccplanet:flag_code>
+        <TMPL_ELSE>
+        <ccplanet:flag_code>flag_code=<TMPL_VAR channel_country_code ESCAPE="HTML"></ccplanet:flag_code>
         </TMPL_IF>
 	<TMPL_IF content>
 	<description><TMPL_VAR content ESCAPE="HTML"></description>
