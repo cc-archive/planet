@@ -106,11 +106,15 @@
             </TMPL_IF>
             <h4 class="meta">
                 <a href="<TMPL_VAR channel_link ESCAPE="HTML">" title="<TMPL_VAR channel_title_plain ESCAPE="HTML">"><TMPL_VAR channel_name></a>, <TMPL_VAR date>
+                ### The <span> id of "license_url" is used by the Planet Venus
+                ### plugin get_license_name.plugin to be able to pick out the
+                ### the true license URL for the entry, even if the entry may
+                ### contain other <a> tags with rel="license"
                 <TMPL_IF license>
-                    &nbsp;<span style="font-weight: normal; font-size: x-small; color:#000000;"> License: <TMPL_VAR license></span>
+                    &nbsp;<span id="license_url" style="font-weight: normal; font-size: x-small; color:#000000;"> License: <TMPL_VAR license></span>
                 <TMPL_ELSE>
                     <TMPL_IF default_license>
-                        &nbsp;<span style="font-weight: normal; font-size: x-small; color:#000000;"> License: <TMPL_VAR default_license></span>
+                        &nbsp;<span id="license_url" style="font-weight: normal; font-size: x-small; color:#000000;"> License: <TMPL_VAR default_license></span>
                     </TMPL_IF>
                 </TMPL_IF>
             </h4>

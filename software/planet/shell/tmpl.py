@@ -174,9 +174,13 @@ def tmpl_mapper(source, rules):
             # in the feed itself.
             if node:
                 if rule[0] == 'license' or rule[0] == 'default_license':
-                    output[rule[0]] = '<a about="%s" rel="license" \
-                        href="%s" title="License information">License</a>' \
-                        % (source.link, node)
+		    try:
+                        output[rule[0]] = '<a about="%s" rel="license" \
+                            href="%s" title="License information">License</a>' \
+                            % (source.link, node)
+                    except Exception, e:
+		        print "ERROR: ", e
+			print "Source id: ", source.id
                 else:
                     output[rule[0]] = rule[1](node)
 

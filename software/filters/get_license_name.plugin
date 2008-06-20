@@ -94,8 +94,16 @@ def main():
     anchors = soup.findAll(name="a", attrs={"rel": "license"})
     for anchor in anchors:
         log.debug('Processing license URL ' + anchor['href'])
+
+        # First check to make sure that this is THE license URL
+        # and not just some license URL that might happen to be
+        # in the HTML content somewhere.  This is determined by
+        # the id of the enclosing <span> being "license_url"
+        if anchor.parent.has_key("id"):
+            if not anchor.parent["id"] == "license_url":
+                continue
         
-        # First check to see if the URI has already been mapped to a
+        # Check to see if the URI has already been mapped to a
         # human-readable name.  If so, use the cached copy, if not, look it
         # up
         if anchor['href'] in license_maps:
