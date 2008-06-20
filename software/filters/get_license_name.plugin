@@ -99,7 +99,9 @@ def main():
         # and not just some license URL that might happen to be
         # in the HTML content somewhere.  This is determined by
         # the id of the enclosing <span> being "license_url"
-        if anchor.parent.has_key("id"):
+        if not anchor.parent.has_key("id"):
+            continue
+        else:
             if not anchor.parent["id"] == "license_url":
                 continue
         
