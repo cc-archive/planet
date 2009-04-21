@@ -22,6 +22,7 @@ it, looking for an appropriate title.
 import sys
 import os
 import pickle
+import urllib
 import urllib2
 import urlparse
 from xml.dom import minidom
@@ -41,6 +42,10 @@ default_title = "License information"
 def get_license_text(license_url):
     """Try to fetch license name associcated with the passed URL."""
     log.debug('Entered function get_license_text()')
+
+    # some blog plugins erroneously urlquote the license URL
+    license_url = urllib.unquote(license_url)
+
     try:
         # Try to fetch some data about this license
         log.debug('Trying to fetch URL ' + license_url)
