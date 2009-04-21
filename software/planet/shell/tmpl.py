@@ -1,6 +1,7 @@
 from xml.sax.saxutils import escape
 import sgmllib, time, os, sys, new, urlparse, re
 from planet import config, feedparser
+import urllib
 import htmltmpl
 
 voids=feedparser._BaseHTMLProcessor.elements_no_end_tag
@@ -177,7 +178,7 @@ def tmpl_mapper(source, rules):
 		    try:
                         output[rule[0]] = '<a about="%s" rel="license" \
                             href="%s" title="License information">License</a>' \
-                            % (source.link, node)
+                            % (source.link, urllib.unquote(node))
                     except Exception, e:
 		        print "ERROR: ", e
 			print "Source id: ", source.id
