@@ -103,21 +103,21 @@
                 </TMPL_IF>
                 </TMPL_IF>
               </h4>
-              
+
               <div class="content"<TMPL_IF content_language> lang="<TMPL_VAR content_language>"</TMPL_IF>>
                 <TMPL_VAR content>
               </div>
 
-              <TMPL_IF __LAST__>
-              ### End <div class="channelgroup">
-              </div>
-              ### End <div class="daygroup">
-              </div>
-              </TMPL_IF>
-              </TMPL_LOOP>
             </div>
+
+            <TMPL_IF __LAST__>
+            ### End <div class="channelgroup">
           </div>
+          ### End <div class="daygroup">
         </div>
+        </TMPL_IF>
+        </TMPL_LOOP>
+        
       </div>
       <div id="sidebar" class="content-box-right">
         <div class="sideitem">
