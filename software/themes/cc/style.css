@@ -116,11 +116,12 @@ img.mugshot {
 
 #headerLogo h1 {
 	position: absolute;
-	height: 35px;
-	width: 142px;
-	background-image: url(http://creativecommons.org/wp-content/themes/cc5/images/cc-logo-small.png);
+	height: 69px;
+	width: 275px;
+	background-image: url(http://planet.creativecommons.org/images/planet-title.png);
 	margin-top: 0;
-	top: 10px;
+	top: -8px;
+	left: -28px;
 }
 
 #headerLogo h1 span {
