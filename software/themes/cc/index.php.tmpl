@@ -3,9 +3,7 @@ function cc_progress_total() {
   $campaign_total = file_get_contents('http://creativecommons.org/includes/total.txt');
 
   print $campaign_total;
-}
-
-?>
+}>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
@@ -140,7 +138,7 @@ function cc_progress_total() {
     				</div>
     				<div class="results">
     					<a href="https://support.creativecommons.org/donate">
-    						<?php cc_progress_total() ?> / $500,000 by&nbsp;Dec&nbsp;31 
+    						<?php cc_progress_total() > / $500,000 by&nbsp;Dec&nbsp;31 
     						<br/>
     						<em>Help us reach our goal!</em>
     					</a>
