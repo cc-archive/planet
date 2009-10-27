@@ -6,7 +6,7 @@
 name = CC, Jurisdictions, Community
 link = http://planet.creativecommons.org/
 
-cache_directory = /Users/bse/Sites/planet/trunk/cache/
+cache_directory = /var/www/planet.creativecommons.org/cache/
 
 # I am hijacking this variable.  Apparently you can't arbitrarily add custom
 # variables to the [Planet] section (though you can to a feed).  Since this
@@ -21,7 +21,7 @@ owner_name = 3 Planets combined: CC blogs, CC jurisdiction projects, and CC comm
 feed_timeout = 20
 
 output_theme = cc 
-output_dir = /Users/bse/Sites/planet/trunk/www/
+output_dir = /var/www/planet.creativecommons.org/www/
 items_per_page = 60
 
 # Run the populated template through a plugin that will apply pretty names
