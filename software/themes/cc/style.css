@@ -64,6 +64,12 @@ img.mugshot {
 	margin-bottom: 10px;
 }
 
+img.country {
+	border: 1px solid #ccc;
+	float: right;
+	margin-top: 3px;
+}
+
 .alignleft {
         float: left;
         margin-right: 10px;
